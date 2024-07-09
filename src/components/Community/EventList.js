@@ -9,7 +9,7 @@ const EventList = ({images,speed}) => {
           {images.map(({ id, image,link }) => (
             <a href={link}>
             <div className="homeImagetwo" key={id}>
-              <Image  src={image} alt={id} />
+              <Image className='galleryImageMain' src={image} alt={id} />
             </div>
             </a>
           ))}
@@ -18,7 +18,7 @@ const EventList = ({images,speed}) => {
           {images.map(({ id, image, link }) => (
             <a href={link}>
             <div className="homeImagetwo" key={id}>
-              <Image  src={image} alt={id} />
+              <Image className='galleryImageMain' src={image} alt={id} />
             </div>
             </a>
           ))}
@@ -27,7 +27,7 @@ const EventList = ({images,speed}) => {
           {images.map(({ id, image, link }) => (
             <a href={link}>
             <div className="homeImagetwo" key={id}>
-              <Image  src={image} alt={id} />
+              <Image className='galleryImageMain' src={image} alt={id} />
             </div>
             </a>
           ))}

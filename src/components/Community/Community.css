@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
   }
-  .homeImagetwo>img {
+  .galleryImageMain {
       max-width: 400px;
       height: 20rem;
       padding: 0 15px;
@@ -39,9 +39,9 @@
   }
   
   @media screen and (max-width:450px) {
-      .homeImagetwo>img {
-          max-width: 400px;
-          height: 8rem;
+      .galleryImageMain {
+          max-width: 250px;
+          height: 6rem;
           padding: 0 15px;
           object-fit: cover;
           
