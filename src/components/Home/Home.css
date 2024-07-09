@@ -44,7 +44,7 @@ section {
     .mainHomeImage {
         max-width: 100px;
         height: 3.2rem;
-        padding: 0 5px;
+        padding: 0 15px;
         object-fit: cover;
         filter: grayscale(100%);
     }
