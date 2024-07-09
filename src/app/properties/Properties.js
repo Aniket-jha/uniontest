@@ -1,11 +1,14 @@
+"use client"
 import Footer from '@/components/Layout/Footer'
 import NavbarTwo from '@/components/Layout/Navbar'
 import PropertiesList from '@/components/Properties/PropertiesList'
+import { ThemeProvider } from '@material-tailwind/react'
 import React, { Suspense } from 'react'
 
 const PropertiesPage = () => {
   return (
     <div>
+      <ThemeProvider>
         <NavbarTwo />
         <div className='lg:pt-[120px] pt-[60px]'>
         <div className='lg:px-12 px-4 lg:pb-12 pb-4' >
@@ -21,6 +24,7 @@ const PropertiesPage = () => {
        
         <Footer />
         </div>
+        </ThemeProvider>
     </div>
   )
 }
