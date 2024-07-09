@@ -42,9 +42,9 @@ section {
    
 
     .mainHomeImage {
-        max-width: 130px;
-        height: 3.7rem;
-        padding: 0 15px;
+        max-width: 100px;
+        height: 3.2rem;
+        padding: 0 5px;
         object-fit: cover;
         filter: grayscale(100%);
     }
