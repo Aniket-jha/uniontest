@@ -58,16 +58,6 @@ export default function NavbarTwo() {
         color="blue-gray"
         className="p-1 font-[NeueMedium] tracking-wider text-[17px]"
       >
-        <Link href="/dailyStays" className="flex items-center">
-         Daily Stays
-        </Link>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-[NeueMedium] tracking-wider text-[17px]"
-      >
         <Link href="/ourstory" className="flex items-center">
          Our Story
         </Link>

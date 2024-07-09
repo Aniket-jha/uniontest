@@ -15,7 +15,7 @@ const Home = () => {
     <div>
        
         <NavbarTwo />
-        <div>
+        <div className='lg:pt-[120px] pt-[60px]'>
     <Suspense fallback={<p>Loading video...</p>}>
        <HomeBanner/>
        </Suspense>

@@ -24,9 +24,7 @@ const Footer = () => {
                         <Link href="/properties"><p> Properties</p></Link>
                         <Link href="/community"><p> Community</p></Link>
                         <Link href="/ourstory"><p> Our Story</p></Link>
-                        <Link href="/ourstory"><p> Daily Stays</p></Link>
                         <Link href="/blogs"><p> Our Blogs</p></Link>
-                        <Link href="/articles"><p> PR Articles</p></Link>
                     </div>
                 </div>
                 <div>
