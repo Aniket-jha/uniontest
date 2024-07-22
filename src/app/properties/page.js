@@ -49,12 +49,12 @@ export const metadata = {
     },
   },
   icons: {
-    icon: './favicon.png',
-    shortcut: './favicon.png',
-    apple: './favicon.png',
+    icon: '../favicon.png',
+    shortcut: '../favicon.png',
+    apple: '../favicon.png',
     other: {
       rel: 'apple-touch-icon-precomposed',
-      url: './favicon.png',
+      url: '../favicon.png',
     },
   },
 }
