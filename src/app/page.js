@@ -22,12 +22,12 @@ export const metadata = {
     siteName: 'Our Community - Union Living',
     images: [
       {
-        url: 'https://unionliving.in/static/media/southsideCover.333f52fcee4f2a038e2e.webp', // Must be an absolute URL
+        url: 'https://unionliving.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FterraCover.0deefea6.webp&w=1920&q=75', // Must be an absolute URL
         width: 800,
         height: 600,
       },
       {
-        url: 'https://unionliving.in/static/media/southsideCover.333f52fcee4f2a038e2e.webp', // Must be an absolute URL
+        url: 'https://unionliving.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FterraCover.0deefea6.webp&w=1920&q=75', // Must be an absolute URL
         width: 1800,
         height: 1600,
         alt: 'My custom alt',

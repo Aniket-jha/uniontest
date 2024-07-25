@@ -21,12 +21,12 @@ export const metadata = {
     siteName: 'Our Community - Union Living',
     images: [
       {
-        url: 'https://unionliving.in/static/media/image8.4917fc89523541aee8fb.webp', // Must be an absolute URL
+        url: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FUntitled%20design%20-%202024-05-05T200534.051.png?alt=media&token=d183a637-d266-429b-b1e8-97103d46d61d', // Must be an absolute URL
         width: 800,
         height: 600,
       },
       {
-        url: 'https://unionliving.in/static/media/image8.4917fc89523541aee8fb.webp', // Must be an absolute URL
+        url: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FUntitled%20design%20-%202024-05-05T200534.051.png?alt=media&token=d183a637-d266-429b-b1e8-97103d46d61d', // Must be an absolute URL
         width: 1800,
         height: 1600,
         alt: 'My custom alt',

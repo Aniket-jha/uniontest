@@ -21,12 +21,12 @@ export const metadata = {
     siteName: 'Our Story - Union Living',
     images: [
       {
-        url: 'https://unionliving.in/static/media/DSC09531-min.960ed9643ad4786afd8f.webp', // Must be an absolute URL
+        url: 'https://www.unionliving.in/_next/static/media/aboutBanner.5aaa722e.png', // Must be an absolute URL
         width: 800,
         height: 600,
       },
       {
-        url: 'https://unionliving.in/static/media/DSC09531-min.960ed9643ad4786afd8f.webp', // Must be an absolute URL
+        url: 'https://www.unionliving.in/_next/static/media/aboutBanner.5aaa722e.png', // Must be an absolute URL
         width: 1800,
         height: 1600,
         alt: 'My custom alt',
