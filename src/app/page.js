@@ -1,7 +1,6 @@
 
 import Home from "./pages/Home";
 
-
 export const metadata = {
   title: "Home - Union Living",
   description: "Experience a modern way of living in Mumbai, Pune, and Navi Mumbai with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.",
