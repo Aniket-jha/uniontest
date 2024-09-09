@@ -22,12 +22,12 @@ export const metadata = {
     siteName: 'Our Community - Union Living',
     images: [
       {
-        url: './favicon.png', // Must be an absolute URL
+        url: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff', // Must be an absolute URL
         width: 800,
         height: 600,
       },
       {
-        url: './favicon.png', // Must be an absolute URL
+        url: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff', // Must be an absolute URL
         width: 1800,
         height: 1600,
         alt: 'My custom alt',
@@ -50,12 +50,12 @@ export const metadata = {
     },
   },
   icons: {
-    icon: './favicon.png',
-    shortcut: './favicon.png',
-    apple: './favicon.png',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff',
+    shortcut: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff',
+    apple: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff',
     other: {
       rel: 'apple-touch-icon-precomposed',
-      url: './favicon.png',
+      url: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff',
     },
   },
 }
