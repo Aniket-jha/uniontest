@@ -7,6 +7,7 @@ export const metadata = {
   keywords: ['Coliving in Mumbai', 'Coliving in Pune', 'Coliving in Thane','Coliving in Navi Mumbai', "Premium Co-living",'Best Coliving','Hostels in Mumbai','Hostels in Juhu','Hotels in Santacruz','Affordable Living','Community Living','Modern Coliving'],
   referrer: 'origin-when-cross-origin',
   metadataBase: new URL('https://unionliving.in/ourstory'),
+  verification: { google: "-Qqdvwt11OxvDUo_HJptghQFYevF1HJGQ8ggpmmNRE4" },
   alternates: {
     canonical: '/',
     languages: {

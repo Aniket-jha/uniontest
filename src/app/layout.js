@@ -9,6 +9,7 @@ export const metadata = {
   keywords: ['Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   referrer: 'origin-when-cross-origin',
   metadataBase: new URL('https://unionliving.in'),
+  verification: { google: "-Qqdvwt11OxvDUo_HJptghQFYevF1HJGQ8ggpmmNRE4" },
   alternates: {
     canonical: '/',
     languages: {
