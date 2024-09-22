@@ -9,7 +9,7 @@ export const metadata = {
   metadataBase: new URL('https://unionliving.in/properties'),
   verification: { google: "-Qqdvwt11OxvDUo_HJptghQFYevF1HJGQ8ggpmmNRE4" },
   alternates: {
-    canonical: '/',
+    canonical: '/properties',
     languages: {
       'en-US': '/en-US',
       'de-DE': '/de-DE',
