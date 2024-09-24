@@ -74,7 +74,7 @@ export const propertyListData = [
         ],
         price:"Rs. 39,999",
         location:"Mahalaxmi",
-        link:"https://Southside.unionliving.in",
+        link:"https://southside.unionliving.in",
         subtTitleDetail:"",
         titleDetail:"",
         contentDetail:"",
@@ -407,7 +407,7 @@ export const propertyListData = [
     {
         name:"Abode",
         coverImage:AbodeCoverImage,
-        link:"https://form.jotform.com/241691749314462",
+        link:"https://abode.unionliving.in/",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         price:"Rs. 7,999",
         images:[
