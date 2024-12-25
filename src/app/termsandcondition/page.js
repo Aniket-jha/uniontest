@@ -1,4 +1,3 @@
-"use client"
 import React from 'react'
 import Footer from '../../components/Layout/Footer'
 import NavbarTwo from '@/components/Layout/Navbar'
