@@ -2,7 +2,7 @@
 import CommunityPage from './CommunityPage'
 
 export const metadata = {
-  title: "Union Living",
+ title: "Union Living",
   description: "Experience a modern way of living in Mumbai, Pune, and Navi Mumbai with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.",
   keywords: ['Union Coliving','Union Living','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   
