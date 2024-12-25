@@ -15,7 +15,7 @@ export default async function sitemap() {
    querySnapshot.forEach((doc) => (
    posts.push(
     {
-      url: `https://www.unionliving.in/blogs/${doc.id}`,
+      url: `https://unionliving.in/blogs/${doc.id}`,
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.5,
@@ -25,49 +25,49 @@ export default async function sitemap() {
   
   return [
     {
-      url: 'https://www.unionliving.in',
+      url: 'https://unionliving.in',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 1,
     },
     {
-      url: 'https://www.unionliving.in/properties',
+      url: 'https://unionliving.in/properties/',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 1,
     },
     {
-      url: 'https://www.unionliving.in/blogs',
+      url: 'https://unionliving.in/blogs/',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://www.unionliving.in/ourstory',
+      url: 'https://unionliving.in/ourstory',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.7,
     },
     {
-      url: 'https://www.unionliving.in/community',
+      url: 'https://unionliving.in/community/',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.5,
     },
     {
-      url: 'https://www.unionliving.in/onboardingpolicy',
+      url: 'https://unionliving.in/onboardingpolicy/',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.3,
     },
     {
-      url: 'https://www.unionliving.in/termsandcondition',
+      url: 'https://unionliving.in/termsandcondition/',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.3,
     },
     {
-      url: 'https://www.unionliving.in/privacy-policy',
+      url: 'https://unionliving.in/privacy-policy/',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.3,
