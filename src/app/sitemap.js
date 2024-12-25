@@ -9,19 +9,19 @@ const fetchBlogs = async () =>{
 
 
 export default async function sitemap() {
-  const q = query(collection(db, "blogs")) 
-  const querySnapshot = await getDocs(q);
-  const posts = []
-   querySnapshot.forEach((doc) => (
-   posts.push(
-    {
-      url: `https://unionliving.in/blogs/${doc.id}`,
-      lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 0.5,
-    }
-   ) 
-  ));
+  // const q = query(collection(db, "blogs")) 
+  // const querySnapshot = await getDocs(q);
+  // const posts = []
+  //  querySnapshot.forEach((doc) => (
+  //  posts.push(
+  //   {
+  //     url: `https://unionliving.in/blogs/${doc.id}`,
+  //     lastModified: new Date(),
+  //     changeFrequency: 'yearly',
+  //     priority: 0.5,
+  //   }
+  //  ) 
+  // ));
   
   return [
     {
@@ -72,6 +72,6 @@ export default async function sitemap() {
       changeFrequency: 'weekly',
       priority: 0.3,
     },
-    ...posts
+    // ...posts
   ]
 }

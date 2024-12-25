@@ -2,60 +2,41 @@
 import CommunityPage from './CommunityPage'
 
 export const metadata = {
-  title: "Our Community - Union Living",
-  description: "At Union, you stay with friends that stay for life. The Backbone of Our Coliving is Our Community and Community Events. We have the Best Community Living in Mumbai, Pune, Thane, and Navi Mumbai.",
-  keywords: ['Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
-  referrer: 'origin-when-cross-origin',
-  metadataBase: new URL('https://unionliving.in/community'),
-  verification: { google: "-Qqdvwt11OxvDUo_HJptghQFYevF1HJGQ8ggpmmNRE4" },
-  alternates: {
-    canonical: '/community',
-    languages: {
-      'en-US': '/en-US',
-      'de-DE': '/de-DE',
-    },
-  },
+  title: "Union Living",
+  description: "Experience a modern way of living in Mumbai, Pune, and Navi Mumbai with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.",
+  keywords: ['Union Coliving','Union Living','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
+  
+
+ 
   openGraph: {
-    title: 'Our Community - Union Living',
-    description: 'At Union, you stay with friends that stay for life. The Backbone of Our Coliving is Our Community and Community Events. We have the Best Community Living in Mumbai, Pune, Thane, and Navi Mumbai.',
-    url: 'https://unionliving.in/community',
-    siteName: 'Our Community - Union Living',
+    title: 'Union Living',
+    description: 'Experience a modern way of living in Mumbai, Pune, and Navi Mumbai with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.',
+    url: 'https://unionliving.in',
+    siteName: 'Union Living',
     images: [
       {
-        url: '../favicon.png', // Must be an absolute URL
+        url: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff', // Must be an absolute URL
         width: 800,
         height: 600,
+        alt: 'Union Living',
       },
       {
-        url: '../favicon.png', // Must be an absolute URL
+        url: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff', // Must be an absolute URL
         width: 1800,
         height: 1600,
-        alt: 'My custom alt',
+        alt: 'Union Living',
       },
     ],
-    locale: 'en_US',
-    type: 'website',
+  
   },
-  robots: {
-    index: false,
-    follow: true,
-    nocache: true,
-    googleBot: {
-      index: true,
-      follow: false,
-      noimageindex: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
+ 
   icons: {
-    icon: '../favicon.png',
-    shortcut: '../favicon.png',
-    apple: '../favicon.png',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff',
+    shortcut: './favicon.png',
+    apple: './favicon.png',
     other: {
       rel: 'apple-touch-icon-precomposed',
-      url: '../favicon.png',
+      url: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff',
     },
   },
 }
