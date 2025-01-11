@@ -72,7 +72,7 @@ export const propertyListData = [
         images:[
             SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage
         ],
-        price:"Rs. 39,999",
+        price:"Rs. 49,999",
         location:"Mahalaxmi",
         link:"https://southside.unionliving.in",
         subtTitleDetail:"",
@@ -166,7 +166,7 @@ export const propertyListData = [
             TerraMainImage,TerraOneImage,TerraTwoImage,TerraThreeImage,TerraFourImage
         ],
         location:"Juhu",
-        price:"Rs. 29,999",
+        price:"Rs. 45,000",
         subtTitleDetail:"",
         titleDetail:"",
         contentDetail:"",
@@ -245,7 +245,7 @@ export const propertyListData = [
     {
         name:"Varsity",
         coverImage:VarsityCoverImage,
-        price:"Rs. 39,999",
+        price:"Rs. 45,000",
         subtTitleDetail:"",
         titleDetail:"",
         contentDetail:"",
@@ -317,7 +317,7 @@ export const propertyListData = [
         coverImage:CasaCoverImage,
         link:"https://casa.unionliving.in",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
-        price:"Rs. 24,999",
+        price:"Rs. 35,000",
         images:[
             CasaMainImage,CasaOneImage,CasaTwoImage,CasaThreeImage,CasaFourImage
         ],
@@ -348,7 +348,7 @@ export const propertyListData = [
         coverImage:HamletCoverImage,
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         link:"https://Hamlet.unionliving.in",
-        price:"Rs. 19,999",
+        price:"Rs. 39,999",
         images:[
             HamletMainImage,HamletOneImage,HamletTwoImage,HamletThreeImage,HamletFourImage,HamletFiveImage,HamletSixImage
         ],
@@ -444,7 +444,7 @@ export const propertyListData = [
         images:[
             ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
         ],
-        price:"Rs.14,999",
+        price:"Rs.28,000",
         location:"CBD Belapur, Navi Mumbai",
         content:"The first chapter that introduces you and your dreams to the world, that’s Chapter 1 in Belapur, the first marquee property by Union. Well-furnished and entirely equipped, it’s a few steps away from multiple leisure spots such as BSE, Mcdonalds, Starbucks, DMart, etc. A humongous terrace lets you learn, work, chill, enjoy, party and also host friends. Begin your new chapter in Chapter 1 while living in a clean and green environment.  ",
         map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
