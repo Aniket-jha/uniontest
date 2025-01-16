@@ -352,7 +352,7 @@ export const propertyListData = [
         images:[
             HamletMainImage,HamletOneImage,HamletTwoImage,HamletThreeImage,HamletFourImage,HamletFiveImage,HamletSixImage
         ],
-        location:"Balewadi, Pune",
+        location:"Baner, Pune",
         content:"Hamlet is an exclusive concept driven home situated in the bustling and hilly area of Baner. This fully furnished space is Pune’s finest built to suit property that hosts professionals working in employment hubs like Panchshil Business Park (Phase 1 & 2) and many others at a short distance. At Hamlet, the architecture of every corner is unmatched. Along with the generous sized bedrooms and a fitness studio, the grand terrace organises activities, workshops, and other events. A luxurious experience that comforts you after a long day at work, that’s Hamlet.",
         map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15129.867506521172!2d73.7784034!3d18.5529787!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bff4afa8145f%3A0x6d7da05eef0c7ce1!2sHamlet%20by%20Union%20Co-%20Living!5e0!3m2!1sen!2sin!4v1685953729979!5m2!1sen!2sin",
         youtubeId:"NDidnxhwT0M",
