@@ -15,7 +15,7 @@ const CommunityPage = () => {
         <NavbarTwo />
         <div className='lg:pt-[120px] pt-[60px]'>
         <CommunityBanner />
-      <UpcomingEvents />
+      {/* <UpcomingEvents /> */}
        <Category />
        <EventGallery />
         <Footer />
