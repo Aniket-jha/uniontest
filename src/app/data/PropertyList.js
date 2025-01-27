@@ -64,6 +64,7 @@ import SouthsideTwinImage from "../../asset/southsideImage/twin-min.webp"
 import SouthsideLuxImage from "../../asset/southsideImage/twinLux-min.webp"
 import SouthsidePrivateBaseImage from "../../asset/southsideImage/p1.webp"
 import SouthsidePrivateBigImage from "../../asset/southsideImage/p2.webp"
+import HouseofKPCover from "../../asset/houseofkp/coverImage.png"
 export const propertyListData = [
    
     {
@@ -465,6 +466,39 @@ export const propertyListData = [
                 content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
                 image:ChapterOneOneImage
             },
+            
+        ]
+    },
+    {
+        name:"House of KP",
+        coverImage:HouseofKPCover,
+        link:"",
+        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
+        images:[
+            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
+        ],
+        price:"Coming Soon",
+        location:"Koregaon Park, Pune",
+        content:"Get ready for a fresh, innovative take on community living. House of KP is an upcoming union living property in the vibrant heart of Koregaon Park, designed for those who want more than just a place to stay – it’s a place to connect, collaborate, and thrive.",
+        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
+        youtubeId:"sP_tmYSOWPE",
+        rooms:[
+            {
+                title:"Private",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneTwoImage
+            },
+            {
+                title:"Twin",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneCoverImage
+            },
+            {
+                title:"Triple",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneOneImage
+            },
+            
         ]
     },
 ]
