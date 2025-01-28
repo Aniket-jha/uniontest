@@ -65,6 +65,7 @@ import SouthsideLuxImage from "../../asset/southsideImage/twinLux-min.webp"
 import SouthsidePrivateBaseImage from "../../asset/southsideImage/p1.webp"
 import SouthsidePrivateBigImage from "../../asset/southsideImage/p2.webp"
 import HouseofKPCover from "../../asset/houseofkp/coverImage.png"
+import Housemate from "../../asset/housemate/WhatsApp Image 2025-01-28 at 19.24.36.jpeg"
 export const propertyListData = [
    
     {
@@ -75,7 +76,7 @@ export const propertyListData = [
         ],
         price:"Rs. 49,999",
         location:"Mahalaxmi",
-        link:"https://southside.unionliving.in",
+        link:"/property/southside",
         subtTitleDetail:"",
         titleDetail:"",
         contentDetail:"",
@@ -480,6 +481,38 @@ export const propertyListData = [
         price:"Coming Soon",
         location:"Koregaon Park, Pune",
         content:"Get ready for a fresh, innovative take on community living. House of KP is an upcoming union living property in the vibrant heart of Koregaon Park, designed for those who want more than just a place to stay – it’s a place to connect, collaborate, and thrive.",
+        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
+        youtubeId:"sP_tmYSOWPE",
+        rooms:[
+            {
+                title:"Private",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneTwoImage
+            },
+            {
+                title:"Twin",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneCoverImage
+            },
+            {
+                title:"Triple",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneOneImage
+            },
+            
+        ]
+    },
+    {
+        name:"Housemate",
+        coverImage:Housemate,
+        link:"",
+        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
+        images:[
+            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
+        ],
+        price:"Coming Soon",
+        location:"kharadi, Pune",
+        content:"Introducing Housemate, the latest addition to the Union Living portfolio, coming soon in the thriving locality of Kharadi, Pune. ",
         map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
         youtubeId:"sP_tmYSOWPE",
         rooms:[

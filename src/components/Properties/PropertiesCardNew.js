@@ -15,6 +15,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import PlaceholderImage from "../../asset/propertyCover/placeholder.png"
 import Image from 'next/image';
+import Link from 'next/link';
 const PropertiesCardNew = ({property}) => {
   return (
     <div className='min-h-[500px] '  >

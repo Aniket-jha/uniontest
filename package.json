@@ -18,7 +18,8 @@
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "react-lazy-load-image-component": "^1.6.2",
-    "swiper": "^8.4.5"
+    "swiper": "^8.4.5",
+    "yet-another-react-lightbox": "^3.21.7"
   },
   "devDependencies": {
     "next-sitemap": "^4.2.3",
