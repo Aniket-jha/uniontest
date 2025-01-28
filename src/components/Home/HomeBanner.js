@@ -6,7 +6,7 @@ const HomeBanner = ({homeContent}) => {
     <div className='relative' >
     <div className=' overflow-hidden'>
     <video className=' z-[-1]  h-auto w-full' playsInline={true}   loop="true" autoplay="autoplay" muted>
-            <source src="https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Funion.mp4?alt=media&token=34b90072-ae3f-4365-acc7-0486b65d532e" type="video/mp4" />
+            <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/files%2Funion.webm?alt=media&token=06d11556-dba6-4825-b973-9f84421ee27a" type="video/mp4" />
         </video>
       
         </div>
