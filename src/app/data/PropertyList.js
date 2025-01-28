@@ -76,7 +76,7 @@ export const propertyListData = [
         ],
         price:"Rs. 49,999",
         location:"Mahalaxmi",
-        link:"/property/southside",
+        link:"https://southside.unionliving.in/",
         subtTitleDetail:"",
         titleDetail:"",
         contentDetail:"",
