@@ -8,7 +8,7 @@ import SwiperCore, {
   A11y,
   Autoplay,
   EffectCoverflow
-} from "swiper";
+} from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
 import 'swiper/css/effect-coverflow';

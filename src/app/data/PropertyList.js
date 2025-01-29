@@ -65,7 +65,7 @@ import SouthsideLuxImage from "../../asset/southsideImage/twinLux-min.webp"
 import SouthsidePrivateBaseImage from "../../asset/southsideImage/p1.webp"
 import SouthsidePrivateBigImage from "../../asset/southsideImage/p2.webp"
 import HouseofKPCover from "../../asset/houseofkp/coverImage.png"
-import Housemate from "../../asset/housemate/WhatsApp Image 2025-01-28 at 19.24.36.jpeg"
+import Housemate from "../../asset/housemate/cover.webp"
 export const propertyListData = [
    
     {
@@ -76,7 +76,7 @@ export const propertyListData = [
         ],
         price:"Rs. 49,999",
         location:"Mahalaxmi",
-        link:"https://southside.unionliving.in/",
+        link:"/property/southside",
         subtTitleDetail:"",
         titleDetail:"",
         contentDetail:"",
@@ -177,7 +177,7 @@ export const propertyListData = [
         map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15079.663821938235!2d72.8389376!3d19.1113426!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c93fc7fa60af%3A0x71920bbde6e70ed6!2sTerra%20by%20Union%20Living!5e0!3m2!1sen!2sin!4v1717177015017!5m2!1sen!2sin",
         youtubeId:"6sp1mbovvYY",
         youtubeURL:"https://www.youtube.com/shorts/6sp1mbovvYY",
-        link:"https://terra.unionliving.in",
+        link:"/property/terra",
         brochure:"https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FTerra%20by%20Union%20Digital.pdf?alt=media&token=648c8804-cddf-4b51-a5fc-f635cb68a211",
         rooms:[
             {
@@ -251,7 +251,7 @@ export const propertyListData = [
         subtTitleDetail:"",
         titleDetail:"",
         contentDetail:"",
-        link:"https://varsity.unionliving.in/",
+        link:"/property/varsity",
         propertyDescriptionTitle:"https://form.jotform.com/240653157769062",
         images:[
             VarsityMainImage,VarsityOneImage,VarsityTwoImage,VarsityThreeImage,VarsityFourImage
@@ -315,9 +315,42 @@ export const propertyListData = [
     ]
     },
     {
+        name:"Housemate",
+        coverImage:Housemate,
+        link:"/property/housemate",
+        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
+        images:[
+            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
+        ],
+        price:"Rs.30,000",
+        location:"kharadi, Pune",
+        content:"Introducing Housemate, the latest addition to the Union Living portfolio, coming soon in the thriving locality of Kharadi, Pune. ",
+        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
+        youtubeId:"sP_tmYSOWPE",
+        rooms:[
+            {
+                title:"Private",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneTwoImage
+            },
+            {
+                title:"Twin",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneCoverImage
+            },
+            {
+                title:"Triple",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneOneImage
+            },
+            
+        ]
+    },
+   
+    {
         name:"Casa",
         coverImage:CasaCoverImage,
-        link:"https://casa.unionliving.in",
+        link:"/property/casa",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         price:"Rs. 35,000",
         images:[
@@ -349,7 +382,7 @@ export const propertyListData = [
         name:"Hamlet",
         coverImage:HamletCoverImage,
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
-        link:"https://Hamlet.unionliving.in",
+        link:"/property/hamlet",
         price:"Rs. 39,999",
         images:[
             HamletMainImage,HamletOneImage,HamletTwoImage,HamletThreeImage,HamletFourImage,HamletFiveImage,HamletSixImage
@@ -376,7 +409,7 @@ export const propertyListData = [
     {
         name:"Bayside",
         coverImage:BaysideCoverImage,
-        link:"https://bayside.unionliving.in",
+        link:"/property/bayside",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         price:"Rs. 19,999",
         images:[
@@ -409,7 +442,7 @@ export const propertyListData = [
     {
         name:"Abode",
         coverImage:AbodeCoverImage,
-        link:"https://abode.unionliving.in/",
+        link:"/property/abode",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         price:"Rs. 7,999",
         images:[
@@ -441,7 +474,7 @@ export const propertyListData = [
     {
         name:"Chapter 1",
         coverImage:ChapterOneCoverImage,
-        link:"https://chapter1.unionliving.in",
+        link:"/property/chapter1",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         images:[
             ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
@@ -502,36 +535,5 @@ export const propertyListData = [
             
         ]
     },
-    {
-        name:"Housemate",
-        coverImage:Housemate,
-        link:"",
-        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
-        images:[
-            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
-        ],
-        price:"Coming Soon",
-        location:"kharadi, Pune",
-        content:"Introducing Housemate, the latest addition to the Union Living portfolio, coming soon in the thriving locality of Kharadi, Pune. ",
-        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
-        youtubeId:"sP_tmYSOWPE",
-        rooms:[
-            {
-                title:"Private",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneTwoImage
-            },
-            {
-                title:"Twin",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneCoverImage
-            },
-            {
-                title:"Triple",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneOneImage
-            },
-            
-        ]
-    },
+    
 ]

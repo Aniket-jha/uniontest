@@ -21,10 +21,14 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import "./main.css"
 import { HiArrowLongRight } from "react-icons/hi2";
 import { RiDoorOpenLine } from "react-icons/ri";
-
+import NextJsImage from './NextjsImage';
+import Image from 'next/image';
 const Banner = ({images,name,location}) => {
   const [open, setOpen] = useState(false);
   console.log(images[0])
+  const galleryImages=[
+  
+]
   return (
     <div className='mx-4 lg:mx-12 md:mt-0 my-0' id="photos">
     <div>
@@ -46,28 +50,18 @@ const Banner = ({images,name,location}) => {
       <div className='grid   lg:grid-cols-4 mt-2 lg:mt-6  gap-2 lg:gap-[12px] grid-cols-2 ' >
       
         <div className='col-span-2 relative  ' >
-          
-          <picture  >
-            <source srcSet={images[0]} type="image/webp" />
-           {/* Fallback for browsers that do not support WebP */}
-            <source srcSet={images[0]} type="image/jpeg" /> 
-            <LazyLoadImage src={images[0]}
-   width="100%" height="100%"
-   className='rounded-lg'
-    PlaceholderSrc={PlaceholderImage}
-    effect="blur"
-/>
-  
-        </picture>
+        <Image  width="100%" className='rounded-lg' src={images[0]} />
+         
         <div className='absolute top-[5%]  right-[3%] lg:top-[5%] lg:right-[3%]  z-[109]' >
         
 
-        {/* <Lightbox
+        <Lightbox
           open={open}
           plugins={[Captions, Fullscreen, Slideshow, Thumbnails, Video, Zoom]}
           close={() => setOpen(false)}
-          slides={galleryImages}
-        /> */}
+          slides={images}
+          render={{ slide: NextJsImage }}
+        />
          <button className='bg-white text-[0.6rem] lg:text-[0.9rem] flex items-center justify-center gap-3 font-[NeueMedium] rounded-lg px-3 lg:px-4 py-2 lg:py-3' type="button" onClick={() => setOpen(true)}>
         <FaRegImages className='lg:text-[1.4rem] text-[1rem] '  />  See all photos
         </button>
@@ -76,57 +70,13 @@ const Banner = ({images,name,location}) => {
        
       
         <div className='' >
-        <picture className=''>
-            <source srcSet={images[0]} type="image/webp" />
-           {/* Fallback for browsers that do not support WebP */}
-            <source srcSet={images[0]} type="image/jpeg" /> 
-            <LazyLoadImage src={images[0]}
-  width="100%" 
-   className='rounded-lg mb-1'
-    PlaceholderSrc={PlaceholderImage}
-    effect="blur"
-/>
-  
-        </picture>
-        <picture>
-            <source srcSet={images[0]} type="image/webp" />
-           {/* Fallback for browsers that do not support WebP */}
-            <source srcSet={images[0]} type="image/jpeg" /> 
-            <LazyLoadImage src={images[0]}
-   width="100%" 
-   className='rounded-lg '
-    PlaceholderSrc={PlaceholderImage}
-    effect="blur"
-/>
-  
-        </picture>
+        <Image  width="100%" className='rounded-lg mb-[.7rem]' src={images[1]} />
+        <Image  width="100%" className='rounded-lg ' src={images[2]} />
         
         </div>
         <div>
-        <picture >
-            <source srcSet={images[0]} type="image/webp" />
-           {/* Fallback for browsers that do not support WebP */}
-            <source srcSet={images[0]} type="image/jpeg" /> 
-            <LazyLoadImage src={images[0]}
-  width="100%" 
-   className='rounded-lg mb-1'
-    PlaceholderSrc={PlaceholderImage}
-    effect="blur"
-/>
-  
-        </picture>
-        <picture>
-            <source srcSet={images[0]} type="image/webp" />
-           {/* Fallback for browsers that do not support WebP */}
-            <source srcSet={images[0]} type="image/jpeg" /> 
-            <LazyLoadImage src={images[0]}
-   width="100%" 
-   className='rounded-lg'
-    PlaceholderSrc={PlaceholderImage}
-    effect="blur"
-/>
-  
-        </picture>
+        <Image  width="100%" className='rounded-lg mb-[.7rem]' src={images[3]} />
+        <Image  width="100%" className='rounded-lg ' src={images[4]} />
          
         </div>
        
