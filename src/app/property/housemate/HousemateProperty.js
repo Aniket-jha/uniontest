@@ -20,6 +20,7 @@ import SouthsideElevenImage from "../../../asset/housemate/11_6_11zon.webp"
 import SouthsideTwelveImage from "../../../asset/housemate/12_7_11zon.webp"
 import SouthsideThirteenImage from "../../../asset/housemate/13_8_11zon.webp"
 import SouthsideFourteenImage from "../../../asset/housemate/14_9_11zon.webp"
+import SouthsideFifteenImage from "../../../asset/housemate/15_11zon.webp"
 import SouthsideTwinImage from "../../../asset/housemate/twin.webp"
 import SouthsidePrivateImage from "../../../asset/housemate/private.webp"
 import Details from '@/components/property/Details'
@@ -32,7 +33,7 @@ import TestimonialTwo from '@/components/Home/Testimonial.js'
 import BottomNavConstant from '@/components/property/BottomFixed'
 
 const HousemateProperty = () => {
-    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage,SouthsideFiveImage,SouthsideSixImage,SouthsideSevenImage,SouthsideEightImage,SouthsideNineImage,SouthsideTenImage,SouthsideElevenImage,SouthsideTwelveImage,SouthsideThirteenImage,SouthsideFourteenImage]
+    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage,SouthsideFiveImage,SouthsideSixImage,SouthsideSevenImage,SouthsideEightImage,SouthsideNineImage,SouthsideTenImage,SouthsideElevenImage,SouthsideTwelveImage,SouthsideThirteenImage,SouthsideFourteenImage,SouthsideFifteenImage]
     const galleryImages=[
             
         {

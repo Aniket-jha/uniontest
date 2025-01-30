@@ -65,7 +65,7 @@ import SouthsideLuxImage from "../../asset/southsideImage/twinLux-min.webp"
 import SouthsidePrivateBaseImage from "../../asset/southsideImage/p1.webp"
 import SouthsidePrivateBigImage from "../../asset/southsideImage/p2.webp"
 import HouseofKPCover from "../../asset/houseofkp/coverImage.png"
-import Housemate from "../../asset/housemate/coverImage.webp"
+import Housemate from "../../asset/housemate/coverimage_11zon.webp"
 export const propertyListData = [
    
     {
