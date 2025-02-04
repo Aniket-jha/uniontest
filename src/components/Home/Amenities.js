@@ -17,7 +17,7 @@ const Amenities = ({homeContent}) => {
           <Image className="w-[200px]" src={Room} alt="" />
           </div>
           <div className="my-2">
-            <h3 className="2xl:text-[1.7rem] xl:text-[1.4rem] lg:text-[1.1rem] text-[1.6rem]  text-[#272727] font-[650]">
+            <h3 className="2xl:text-[1.7rem] xl:text-[1.4rem] font-[NeueBold] lg:text-[1.1rem] text-[1.6rem]  text-[#272727] font-[650]">
          Fully Furnished
             </h3>
           </div>

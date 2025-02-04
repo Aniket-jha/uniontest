@@ -70,6 +70,7 @@ export default function NavbarTwo() {
       <div className="  grid grid-cols-5 justify-between items-center text-blue-gray-900">
        <Link className="col-span-1" href="/">
         <Image className="w-[120px]" src={Logo} alt="" />
+        <h1 className="text-white opacity-5 text-center text-[.5rem]" >Top Luxurious Co-Living Spaces </h1>
        </Link>
         <div className="hidden lg:block  col-span-3 ">{navList}</div>
        <div className="col-span-3 hidden md:col-span-1 md:flex items-center justify-end " >
