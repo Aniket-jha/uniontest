@@ -10,7 +10,7 @@ const LeftAndRight = ({ homeContent }) => {
   return (
     <div className=" px-4 py-8 lg:px-16 mx-4 my-16 rounded-xl bg-[#ebe3d6] lg:py-24">
       <div className="flex items-center justify-center">
-        <h1 className="lg:text-5xl text-[#272727] text-2xl my-6 font-[700] font-[Neue Haas Grotesk Display Pro]  mx-3 lg:mx-6 mb-8 lg:mb-20 mt-6  leading-[1.2] text-center  ">
+        <h2 className="lg:text-5xl text-[#272727] text-2xl my-6 font-[700] font-[Neue Haas Grotesk Display Pro]  mx-3 lg:mx-6 mb-8 lg:mb-20 mt-6  leading-[1.2] text-center  ">
           There's Never Been a{" "}
           <span className=" rounded-xl px-6 lg:mt-4 py-0 block lg:w-[650px]  ">
             <span
@@ -25,11 +25,11 @@ const LeftAndRight = ({ homeContent }) => {
               Better time to move
             </span>
           </span>
-        </h1>
+        </h2>
       </div>
       <div className="py-4 lg:px-8 flex items-center flex-col lg:flex-row justify-center">
         <div className=" lg:mx-4 mx-2">
-          <h1 className="lg:text-[2.8rem] w-full  text-[#272727] text-2xl font-[700] font-[NeueBold] lg:mx-12  leading-[1.1]  lg:w-[650px] ">
+          <h2 className="lg:text-[2.8rem] w-full  text-[#272727] text-2xl font-[700] font-[NeueBold] lg:mx-12  leading-[1.1]  lg:w-[650px] ">
            We Have Taken the 
             <span className="  ">
               {" "}
@@ -45,7 +45,7 @@ const LeftAndRight = ({ homeContent }) => {
                 Guesswork Out of the Picture
               </span>
             </span>
-          </h1>
+          </h2>
           <p className="lg:text-[1.2rem] text-md lg:w-[650px] font-[NeueRegular] text-justify text-[#252525] mt-6 lg:mx-12 ">
           Settling in can be overwhelming. With big & little things
         already taken care of, you will be at ease throughout.
@@ -77,7 +77,7 @@ const LeftAndRight = ({ homeContent }) => {
             </div>
           
           <div className="lg:ml-24  mx-2 ">
-            <h1 className="lg:text-[2.8rem] text-2xl text-[#272727] font-[700] font-[NeueBold] lg:mx-12  leading-[1.1]  lg:w-[650px] ">
+            <h2 className="lg:text-[2.8rem] text-2xl text-[#272727] font-[700] font-[NeueBold] lg:mx-12  leading-[1.1]  lg:w-[650px] ">
             What’s missing is you.
               <span className="   ">
                 <p
@@ -92,7 +92,7 @@ const LeftAndRight = ({ homeContent }) => {
                  Everything else is ready.
                 </p>
               </span>{" "}
-            </h1>
+            </h2>
             <p className="lg:text-[1.2rem] text-md font-[NeueRegular] lg:w-[650px] text-justify text-[#252525] mt-6 lg:mx-12 ">
             Settling in can be overwhelming. With big & little things already taken care of, you will be at ease throughout. 
             </p>
@@ -101,7 +101,7 @@ const LeftAndRight = ({ homeContent }) => {
       </div>
       <div className="py-6 lg:px-4 flex items-center flex-col lg:flex-row justify-center">
         <div className="mx-2 lg:mr-12">
-          <h1 className="lg:text-[2.8rem] text-2xl font-[700] font-[NeueBold] lg:mx-12 text-[#272727]  leading-[1.1]  lg:w-[650px] ">
+          <h2 className="lg:text-[2.8rem] text-2xl font-[700] font-[NeueBold] lg:mx-12 text-[#272727]  leading-[1.1]  lg:w-[650px] ">
             {" "}
             <span
               style={{
@@ -115,7 +115,7 @@ const LeftAndRight = ({ homeContent }) => {
               Pay rent,
             </span>{" "}
             manage your lease, and stay updated in a few clicks
-          </h1>
+          </h2>
           <p className="lg:text-[1.2rem] font-[NeueRegular] text-md lg:w-[650px] text-justify text-[#252525] mt-6 lg:mx-12 ">
           No more splitting bills. Everyone pays and manages their stay directly through the app.
           </p>
@@ -146,7 +146,7 @@ const LeftAndRight = ({ homeContent }) => {
             </div>
        
           <div className="lg:mr-[16px] mx-2  ">
-            <h1 className="lg:text-[2.8rem] text-2xl font-[700] text-[#272727]  font-[Neue Haas Grotesk Display Pro] lg:mx-12  leading-[1.1]  lg:w-[600px] ">
+            <h2 className="lg:text-[2.8rem] text-2xl font-[700] text-[#272727]  font-[Neue Haas Grotesk Display Pro] lg:mx-12  leading-[1.1]  lg:w-[600px] ">
             A responsive team
               <span
                 style={{
@@ -160,7 +160,7 @@ const LeftAndRight = ({ homeContent }) => {
                 is always looking out
               </span>{" "}
               for you.
-            </h1>
+            </h2>
             <p className="lg:text-[1.2rem] text-md lg:w-[600px] text-justify text-[#252525] mt-6 lg:mx-12 ">
             Unexpected needs pop up anytime, and cannot be postponed. A team will always respond and attend to each of them.
             </p>
