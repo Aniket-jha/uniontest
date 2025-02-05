@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { GoogleTagManager } from '@next/third-parties/google'
+import Hotjar from "@hotjar/browser";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -43,9 +44,15 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  const siteId = 5292476;
+  const hotjarVersion = 6;
+
+      Hotjar.init(siteId, hotjarVersion);
+  
   return (
     <html lang="en">
-      
+     
+
       <link rel="icon" href="./favicon.png" sizes="any" />
       <link
   rel="apple-touch-icon"

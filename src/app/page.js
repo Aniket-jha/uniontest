@@ -1,5 +1,6 @@
 
 import Home from "./pages/Home";
+import Hotjar from "@hotjar/browser";
 
 export const metadata = {
   title: "Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living",
@@ -40,6 +41,10 @@ export const metadata = {
   },
 }
 export default function Main() {
+
+
+     
+  
   return (
     <main className="">
      

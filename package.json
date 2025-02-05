@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hotjar/browser": "^1.0.9",
     "@material-tailwind/react": "^2.1.8",
     "@next/third-parties": "^14.0.5-canary.59",
     "firebase": "^10.12.3",
