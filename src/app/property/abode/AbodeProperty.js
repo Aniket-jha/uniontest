@@ -87,7 +87,7 @@ const AbodeProperty = () => {
      <Featured />
      <Roomstwo rooms={rooms}  />
      <WhatSection />
-     <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15088.513519318227!2d73.0090248!3d19.0140638!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3712075aad084b0f!2sBayside%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673696674457!5m2!1sen!2sine" />
+     <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15138.861724580498!2d73.8515089!3d18.4512253!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x59f788787b859109!2sAbode%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673683559577!5m2!1sen!2sin" />
      <Event />
     <TestimonialTwo />
     <BottomNavConstant name="Abode"  price="Rs. 7,999"  />

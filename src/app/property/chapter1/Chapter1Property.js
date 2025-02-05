@@ -80,7 +80,7 @@ const Chapter1Property = () => {
      <Featured />
      <Rooms rooms={rooms}  />
      <WhatSection />
-     <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15088.513519318227!2d73.0090248!3d19.0140638!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3712075aad084b0f!2sBayside%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673696674457!5m2!1sen!2sine" />
+     <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15088.784048897862!2d73.0302992!3d19.0110825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3dde9c5be97%3A0xc877a9113d600ddc!2sChapter%201%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1718741621357!5m2!1sen!2sin" />
      <Event />
     <TestimonialTwo />
     <BottomNavConstant name="Chapter 1"  price="Rs.28,000"  />
