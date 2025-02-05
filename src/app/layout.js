@@ -49,9 +49,9 @@ export default function RootLayout({ children }) {
   
   return (
     <html lang="en">
-     <Script id="HotJarAnalytics"
-     strategy="afterInteractive" 
-     dangerouslySetInnerHTML={`(function(h,o,t,j,a,r){
+     <Script id="HotJarAnalytics" >
+      {
+        `(function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
         h._hjSettings={hjid:5292476,hjsv:6};
         a=o.getElementsByTagName('head')[0];
@@ -59,7 +59,9 @@ export default function RootLayout({ children }) {
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=')`}
-      />
+      
+     </Script>
+    
 
       <link rel="icon" href="./favicon.png" sizes="any" />
       <link
