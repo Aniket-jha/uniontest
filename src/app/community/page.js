@@ -1,15 +1,16 @@
 
+import Head from 'next/head'
 import CommunityPage from './CommunityPage'
 
 export const metadata = {
-  title: "Community | Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living",
-  description: "Experience a modern way of living in Mumbai, Pune, and Navi Mumbai with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.",
+  title: "Union Living Community, Social Events & More",
+  description: "Experience a vibrant co-living community with luxury co-living spaces. Enjoy weekly events, artistic sessions, fitness activities, and much more. Live easy, live united at Union Living.",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
 
   openGraph: {
-    title: 'Community | Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living',
-    description: 'Experience a modern way of living in Mumbai, Pune, and Navi Mumbai with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.',
-    url: 'https://unionliving.in',
+    title: 'Union Living Community, Social Events & More',
+    description: 'Experience a vibrant co-living community with luxury co-living spaces. Enjoy weekly events, artistic sessions, fitness activities, and much more. Live easy, live united at Union Living.',
+    url: 'https://unionliving.in/community/',
     siteName: 'Union Living',
     images: [
       {
@@ -26,6 +27,9 @@ export const metadata = {
     ],
   
   },
+  alternates: {
+    canonical: 'https://unionliving.in/community/',
+  },
  
   icons: {
     icon: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff',
@@ -41,6 +45,9 @@ export const metadata = {
 const Community= () => {
   return (
     <div>
+      <Head>
+      <meta name="robots" content="follow, index" />
+      </Head>
        
             <CommunityPage />
       

@@ -6,7 +6,7 @@ const OurVision = ({vision}) => {
     <div className="py-6 lg:mx-16 mx-3  items-center  lg:py-12  gap-y-12 lg:gap-16   lg:grid grid-cols-5 grid-flow-col  ">
  
       <div className=" col-span-2 ">
-       <Image className="" src={Modern} alt="" />
+       <Image className="" src={Modern} alt="Co-Living Spaces in Mumbai - Premium Amenities, Modern Living, Community-Focused" />
        
       </div>
       

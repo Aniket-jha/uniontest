@@ -81,13 +81,13 @@ const EventGallery = ({community}) => {
   return (
     <div className='lg:pt-6  lg:mb-0 pb-6 lg:mx-0'>
          <div>
-        <h1 className=" font-bold text-[#272727] text-2xl lg:text-5xl font-[NeueBold]">
+        <h2 className=" font-bold text-[#272727] text-2xl lg:text-5xl font-[NeueBold]">
           <span className=" mx-1  rounded-xl px-4  mt-2 py-2  lg:w-[460px]  ">
            <h4
             
             className="py-2  px-2 inline"
           >   #Event Gallery </h4></span> 
-        </h1>
+        </h2>
       </div>
       <div className="lg:mt-12 mt-6 lg:mb-0 my-6">
       <EventList images={imagesOne} speed={20000} />

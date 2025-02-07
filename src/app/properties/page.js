@@ -1,14 +1,15 @@
 
+import Head from 'next/head'
 import PropertiesPage from './Properties'
 
 export const metadata = {
-  title: "Properties | Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living",
-  description: "Experience a modern way of living in Mumbai, Pune, and Navi Mumbai with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.",
+  title: "Find Your Perfect Luxury Co-Living Space in Mumbai, Pune, and Navi Mumbai | Union Living",
+  description: "Find luxurious co-living spaces in Mumbai, Pune, and Navi Mumbai with modern amenities. Fully furnished rooms, ideal for students and working professionals. Check our properties.",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
 
   openGraph: {
-    title: 'Properties | Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living',
-    description: 'Experience a modern way of living in Mumbai, Pune, and Navi Mumbai with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.',
+    title: 'Find Your Perfect Luxury Co-Living Space in Mumbai, Pune, and Navi Mumbai | Union Living',
+    description: 'Find luxurious co-living spaces in Mumbai, Pune, and Navi Mumbai with modern amenities. Fully furnished rooms, ideal for students and working professionals. Check our properties.',
     url: 'https://unionliving.in',
     siteName: 'Union Living',
     images: [
@@ -26,6 +27,9 @@ export const metadata = {
     ],
   
   },
+  alternates: {
+    canonical: 'https://unionliving.in/',
+  },
   
  
   icons: {
@@ -41,8 +45,13 @@ export const metadata = {
 
 const Properties = () => {
   return (
-   
+    <>
+    <Head>
+    <meta name="robots" content="follow, index" />
+
+    </Head>
     <PropertiesPage />
+    </>
    
   )
 }

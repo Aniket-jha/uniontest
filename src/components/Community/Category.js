@@ -10,7 +10,7 @@ const Category = ({community}) => {
   return (
     <div >
         <div className=' py-8  lg:py-12 text-center '>
-            <h1 className='font-[NeueBold]  xl:text-4xl text-2xl xl:pb-4 pb-4 '  >Enjoy community events every week</h1>
+            <h2 className='font-[NeueBold]  xl:text-4xl text-2xl xl:pb-4 pb-4 '  >Enjoy community events every week</h2>
             <div className='lg:px-12 px-4 py-6 flex gap-6 lg:gap-12 flex-wrap items-center justify-center' >
         
                     <div className='2xl:w-[400px] xl:w-[350px]  ' >
