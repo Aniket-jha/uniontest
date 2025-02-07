@@ -9,7 +9,7 @@ const PrivacyPolicyMain = () => {
     <NavbarTwo/>
       <div className='lg:pt-[120px] pt-[60px]'>
    <div className='px-4 py-3 lg:px-12 lg:py-12' >
- <h1 className='font-[NeueBold] text-[1.5rem]' >  Privacy Policy</h1>
+ <h1 className='font-[NeueBold] text-[1.5rem]' >  Privacy Policy - Union Living </h1>
  <br/>
  <p className='font-[NeueRegular]' >
 This Privacy Policy expresses our firm commitment to aid our users better understand what information we collect about them and what may happen to that information.

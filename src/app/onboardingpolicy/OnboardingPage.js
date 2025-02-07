@@ -8,7 +8,7 @@ const OnboardingPage = () => {
     <div>
     <NavbarTwo/>
     <div className='mx-12 lg:pt-[120px] pt-[60px]'>
-    <h1 className='font-bold text-3xl my-6 text-[#272727] '>ON-BOARDING POLICY</h1>
+    <h1 className='font-bold text-3xl my-6 text-[#272727] '>Union Living On-boarding Policy </h1>
         <p>
             ● No customer would be allowed to onboard without the complete payment of the Rent, on-boarding charges and the Security Deposit Amount and KYC process completion.
             <br/>
@@ -45,7 +45,7 @@ Timely payments
 <br/>
 ● Refunds would be processed within 30 working days post exit from the property, provided you have submitted your bank account details correctly and completely.
 <br/><br/>
-<h1 className='text-left font-bold text-3xl text-[#272727]'>NOTICE EXTENSION/CANCELLATION POLICY</h1>
+<h2 className='text-left font-bold text-3xl text-[#272727]'>NOTICE EXTENSION/CANCELLATION POLICY</h2>
 <br/><br/>
 ● A cancellation or extension request can be raised on the third-party mobile application, if desired.
 <br/>
@@ -71,7 +71,7 @@ Timely payments
 <br/>
 ● Food charges can be part of the Monthly Rent or it can be incremental to Monthly Rent if it is on a subscription basis. Please refer to www.unionliving.in to get the details about it for the property you belong to.
 <br/><br/>
-<h1 className='text-left font-bold text-3xl text-[#272727]'>ELECTRICITY CHARGES</h1>
+<h2 className='text-left font-bold text-3xl text-[#272727]'>ELECTRICITY CHARGES</h2>
 <br/><br/>
 ● Electricity charges can be covered as a part of the Monthly Rent or it can be incremental to the Monthly Rent. Please refer to www.unionliving.in to get the details about it for the property you belong to or connect with respective team members.
 <br/>

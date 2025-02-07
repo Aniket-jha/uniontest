@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: 'Find Your Perfect Luxury Co-Living Space in Mumbai, Pune, and Navi Mumbai | Union Living',
     description: 'Find luxurious co-living spaces in Mumbai, Pune, and Navi Mumbai with modern amenities. Fully furnished rooms, ideal for students and working professionals. Check our properties.',
-    url: 'https://unionliving.in',
+    url: 'https://unionliving.in/properties/',
     siteName: 'Union Living',
     images: [
       {
@@ -28,7 +28,7 @@ export const metadata = {
   
   },
   alternates: {
-    canonical: 'https://unionliving.in/',
+    canonical: 'https://unionliving.in/properties/',
   },
   
  

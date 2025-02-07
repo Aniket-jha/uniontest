@@ -8,7 +8,7 @@ const HomeBanner = ({homeContent}) => {
     <video className=' z-[-1]  h-auto w-full' playsInline={true}   loop="true" autoplay="autoplay" muted>
             <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/files%2Funion.webm?alt=media&token=06d11556-dba6-4825-b973-9f84421ee27a" type="video/mp4" />
         </video>
-      
+        <h1 className="text-white z-[-1] opacity-5 text-center text-[.5rem]" >Top Luxurious Co-Living Spaces </h1>
         </div>
       
         <div className='absolute left-0 bottom-0 flex items-center justify-center flex-col right-0 m-auto w-full text-center z-[3] top-[10px] lg:top-[-205px]'>
