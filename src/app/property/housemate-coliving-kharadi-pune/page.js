@@ -1,17 +1,18 @@
 import React from 'react'
-import AbodeProperty from './AbodeProperty'
+import HousemateProperty from './HousemateProperty'
+import Head from 'next/head'
 
 export const metadata = {
-  title: "Abode By Union | Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living",
-  description: "Experience a modern way of living in Pune with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.",
+  title: "Top Luxury Coliving PG in Kharadi | Best Coliving Spaces in Pune for Boys, Girls and Couples",
+  description: "Explore premium PG in Kharadi and coliving spaces in Pune with modern amenities. Affordable, comfortable shared living in Kharadi. Book your room in the best coliving PG now!",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   verification: {
     google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
   },
   openGraph: {
-    title: 'Abode | Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living',
-    description: 'Experience a modern way of living in Pune with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.',
-    url: 'https://unionliving.in/property/abode',
+    title: "Top Luxury Coliving PG in Kharadi | Best Coliving Spaces in Pune for Boys, Girls and Couples",
+    description: "Explore premium PG in Kharadi and coliving spaces in Pune with modern amenities. Affordable, comfortable shared living in Kharadi. Book your room in the best coliving PG now!",
+    url: 'https://unionliving.in/property/housemate-coliving-kharadi-pune/',
     siteName: 'Union Living',
     images: [
       {
@@ -28,6 +29,9 @@ export const metadata = {
     ],
   
   },
+  alternates: {
+    canonical: 'https://unionliving.in/property/housemate-coliving-kharadi-pune/',
+  },
  
   icons: {
     icon: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff',
@@ -39,11 +43,13 @@ export const metadata = {
     },
   },
 }
-
 const page = () => {
   return (
     <div>
-        <AbodeProperty />
+      <Head>
+      <meta name="robots" content="follow, index" />
+      </Head>
+        <HousemateProperty />
     </div>
   )
 }

@@ -1,17 +1,18 @@
 import React from 'react'
-import CasaProperty from './CasaProperty'
+import HamletProperty from './HamletProperty'
+import Head from 'next/head'
 
 export const metadata = {
-  title: "Casa By Union | Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living",
-  description: "Experience a modern way of living in Mumbai with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.",
+  title: "Best Coliving PG in Baner Pune | Premium Coliving Spaces for Male, Female and Couples",
+  description: "Find the best coliving PG in Baner, Pune. Modern amenities, safe spaces for males and females. Ideal coliving spaces in Baner for students & working professionals.",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   verification: {
     google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
   },
   openGraph: {
-    title: 'Casa By Union | Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living',
-    description: 'Experience a modern way of living in Mumbai with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.',
-    url: 'https://unionliving.in/property/casa',
+    title: "Best Coliving PG in Baner Pune | Premium Coliving Spaces for Male, Female and Couples",
+  description: "Find the best coliving PG in Baner, Pune. Modern amenities, safe spaces for males and females. Ideal coliving spaces in Baner for students & working professionals.",
+    url: 'https://unionliving.in/property/hamlet-coliving-baner-pune/',
     siteName: 'Union Living',
     images: [
       {
@@ -23,10 +24,13 @@ export const metadata = {
         url: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff', // Must be an absolute URL
         width: 1800,
         height: 1600,
-        alt: 'My custom alt',
+        alt: 'hamlet',
       },
     ],
   
+  },
+  alternates: {
+    canonical: 'https://unionliving.in/property/hamlet-coliving-baner-pune/',
   },
  
   icons: {
@@ -43,7 +47,10 @@ export const metadata = {
 const page = () => {
   return (
     <div>
-        <CasaProperty />
+      <Head>
+      <meta name="robots" content="follow, index" />
+      </Head>
+        <HamletProperty />
     </div>
   )
 }

@@ -1,17 +1,18 @@
 import React from 'react'
-import BaysideProperty from './BaysideProperty'
+import Chapter1Property from './Chapter1Property'
+import Head from 'next/head'
 
 export const metadata = {
-  title: "Bayside By Union | Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living",
-  description: "Experience a modern way of living in Navi Mumbai with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.",
+  title: "Prime CoLiving Spaces in CBD, Navi Mumbai | Luxury Coliving in Navi Mumbai | Chapter 1 By Union Living",
+  description: "Discover luxury coliving spaces at Chapter 1 by Union Living in CBD, Navi Mumbai. Fully furnished rooms with top-notch amenities, perfect for college students and working professionals. Experience a vibrant community today!",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   verification: {
     google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
   },
   openGraph: {
-    title: 'Bayside By Union | Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living',
-    description: 'Experience a modern way of living in Navi Mumbai with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.',
-    url: 'https://unionliving.in/property/bayside',
+    title: "Prime CoLiving Spaces in CBD, Navi Mumbai | Luxury Coliving in Navi Mumbai | Chapter 1 By Union Living",
+    description: "Discover luxury coliving spaces at Chapter 1 by Union Living in CBD, Navi Mumbai. Fully furnished rooms with top-notch amenities, perfect for college students and working professionals. Experience a vibrant community today!",
+    url: 'https://unionliving.in/property/chapter1-coliving-cbd-belapur/',
     siteName: 'Union Living',
     images: [
       {
@@ -28,6 +29,9 @@ export const metadata = {
     ],
   
   },
+  alternates: {
+    canonical: 'https://unionliving.in/property/chapter1-coliving-cbd-belapur/',
+  },
  
   icons: {
     icon: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff',
@@ -43,7 +47,10 @@ export const metadata = {
 const page = () => {
   return (
     <div>
-        <BaysideProperty />
+      <Head>
+      <meta name="robots" content="follow, index" />
+      </Head>
+        <Chapter1Property />
     </div>
   )
 }

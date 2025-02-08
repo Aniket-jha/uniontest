@@ -1,17 +1,17 @@
 import React from 'react'
-import HousemateProperty from './HousemateProperty'
-
+import SouthsideProperty from './SouthsideProperty'
+import Head from 'next/head'
 export const metadata = {
-  title: "Housemate By Union | Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living",
-  description: "Experience a modern way of living in Pune with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.",
+  title: "PG in Mahalaxmi | Coliving PG in Mumbai | Southside Luxury Coliving Space",
+  description: "Explore a premium PG in Mahalaxmi with modern amenities. Ideal coliving space in Mumbai for young professionals. Experience Southside, your perfect community living. Click here to get more details.",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   verification: {
     google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
   },
   openGraph: {
-    title: 'Housemate By Union | Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living',
-    description: 'Experience a modern way of living in Pune with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.',
-    url: 'https://unionliving.in/property/housemate',
+    title: "PG in Mahalaxmi | Coliving PG in Mumbai | Southside Luxury Coliving Space",
+    description: "Explore a premium PG in Mahalaxmi with modern amenities. Ideal coliving space in Mumbai for young professionals. Experience Southside, your perfect community living. Click here to get more details.",
+    url: 'https://unionliving.in/property/southside-coliving-mahalaxmi/',
     siteName: 'Union Living',
     images: [
       {
@@ -23,11 +23,15 @@ export const metadata = {
         url: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff', // Must be an absolute URL
         width: 1800,
         height: 1600,
-        alt: 'My custom alt',
+        alt: 'Southside',
       },
     ],
   
   },
+  alternates: {
+    canonical: 'https://unionliving.in/property/southside-coliving-mahalaxmi/',
+  },
+  
  
   icons: {
     icon: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff',
@@ -39,10 +43,14 @@ export const metadata = {
     },
   },
 }
+
 const page = () => {
   return (
     <div>
-        <HousemateProperty />
+      <Head>
+      <meta name="robots" content="follow, index" />
+      </Head>
+        <SouthsideProperty />
     </div>
   )
 }

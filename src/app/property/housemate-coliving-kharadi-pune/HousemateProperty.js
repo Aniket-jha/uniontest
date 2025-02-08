@@ -81,7 +81,7 @@ const HousemateProperty = () => {
     <ThemeProvider>
       <NavbarTwo />
       <div className='lg:pt-[120px] pt-[60px]'>
-     <Banner galleryImages={galleryImages} name="Housemate" location="Kharadi, Pune" images={images} />
+     <Banner galleryImages={galleryImages} name="Housemate: Best Coliving PG Spaces in Kharadi" location="Kharadi, Pune" images={images} />
    <Details subtitle="New & Spacious Coliving Spaces in Pune" title="Modern, Comfortable, and Affordable Shared Living for Housemates in Pune" description="Housemate by Union Living offers a fresh take on coliving in Pune with newly built, spacious accommodations designed for comfort and community. Perfectly suited for young professionals, students, and anyone seeking an affordable, vibrant living environment, Housemate blends modern amenities with a shared lifestyle. " />
      <Featured />
      <Rooms rooms={rooms}  />

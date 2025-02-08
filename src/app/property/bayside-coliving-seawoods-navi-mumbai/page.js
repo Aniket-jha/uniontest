@@ -1,17 +1,18 @@
 import React from 'react'
-import Chapter1Property from './Chapter1Property'
+import BaysideProperty from './BaysideProperty'
+import Head from 'next/head'
 
 export const metadata = {
-  title: "Chapter 1 By Union | Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living",
-  description: "Experience a modern way of living in Navi Mumbai with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.",
+  title: "Comfortable Coliving Spaces for Male & Female in Navi Mumbai | PG in Seawoods - Bayside by Union Living",
+  description: "Explore modern coliving spaces at Bayside by Union Living in Seawoods, Navi Mumbai. Fully furnished rooms and premium amenities for students and professionals.",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   verification: {
     google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
   },
   openGraph: {
-    title: 'Chapter 1 By Union | Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living',
-    description: 'Experience a modern way of living in Navi Mumbai with our coliving spaces! Fully furnished rooms and high-quality facilities designed for college students and office employees.',
-    url: 'https://unionliving.in/property/chapter1',
+    title: "Comfortable Coliving Spaces for Male & Female in Navi Mumbai | PG in Seawoods - Bayside by Union Living",
+  description: "Explore modern coliving spaces at Bayside by Union Living in Seawoods, Navi Mumbai. Fully furnished rooms and premium amenities for students and professionals.",
+    url: 'https://unionliving.in/property/bayside-coliving-seawoods-navi-mumbai/',
     siteName: 'Union Living',
     images: [
       {
@@ -28,6 +29,9 @@ export const metadata = {
     ],
   
   },
+  alternates: {
+    canonical: 'https://unionliving.in/property/bayside-coliving-seawoods-navi-mumbai/',
+  },
  
   icons: {
     icon: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff',
@@ -43,7 +47,10 @@ export const metadata = {
 const page = () => {
   return (
     <div>
-        <Chapter1Property />
+      <Head>
+      <meta name="robots" content="follow, index" />
+      </Head>
+        <BaysideProperty />
     </div>
   )
 }

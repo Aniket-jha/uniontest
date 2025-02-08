@@ -76,7 +76,7 @@ export const propertyListData = [
         ],
         price:"Rs. 49,999",
         location:"Mahalaxmi",
-        link:"/property/southside",
+        link:"/property/southside-coliving-mahalaxmi",
         subtTitleDetail:"",
         titleDetail:"",
         contentDetail:"",
@@ -177,7 +177,7 @@ export const propertyListData = [
         map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15079.663821938235!2d72.8389376!3d19.1113426!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c93fc7fa60af%3A0x71920bbde6e70ed6!2sTerra%20by%20Union%20Living!5e0!3m2!1sen!2sin!4v1717177015017!5m2!1sen!2sin",
         youtubeId:"6sp1mbovvYY",
         youtubeURL:"https://www.youtube.com/shorts/6sp1mbovvYY",
-        link:"/property/terra",
+        link:"/property/terra-coliving-juhu",
         brochure:"https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FTerra%20by%20Union%20Digital.pdf?alt=media&token=648c8804-cddf-4b51-a5fc-f635cb68a211",
         rooms:[
             {
@@ -251,7 +251,7 @@ export const propertyListData = [
         subtTitleDetail:"",
         titleDetail:"",
         contentDetail:"",
-        link:"/property/varsity",
+        link:"/property/varsity-coliving-juhu-santacruz",
         propertyDescriptionTitle:"https://form.jotform.com/240653157769062",
         images:[
             VarsityMainImage,VarsityOneImage,VarsityTwoImage,VarsityThreeImage,VarsityFourImage
@@ -317,7 +317,7 @@ export const propertyListData = [
     {
         name:"Housemate",
         coverImage:Housemate,
-        link:"/property/housemate",
+        link:"/property/housemate-coliving-kharadi-pune",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         images:[
             ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
@@ -350,7 +350,7 @@ export const propertyListData = [
     {
         name:"Casa",
         coverImage:CasaCoverImage,
-        link:"/property/casa",
+        link:"/property/casa-coliving-andheri-east-mumbai",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         price:"Rs. 35,000",
         images:[
@@ -382,7 +382,7 @@ export const propertyListData = [
         name:"Hamlet",
         coverImage:HamletCoverImage,
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
-        link:"/property/hamlet",
+        link:"/property/hamlet-coliving-baner-pune",
         price:"Rs. 39,999",
         images:[
             HamletMainImage,HamletOneImage,HamletTwoImage,HamletThreeImage,HamletFourImage,HamletFiveImage,HamletSixImage
@@ -409,7 +409,7 @@ export const propertyListData = [
     {
         name:"Bayside",
         coverImage:BaysideCoverImage,
-        link:"/property/bayside",
+        link:"/property/bayside-coliving-seawoods-navi-mumbai",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         price:"Rs. 19,999",
         images:[
@@ -442,7 +442,7 @@ export const propertyListData = [
     {
         name:"Abode",
         coverImage:AbodeCoverImage,
-        link:"/property/abode",
+        link:"/property/abode-coliving-dhankawadi-pune",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         price:"Rs. 7,999",
         images:[
@@ -474,7 +474,7 @@ export const propertyListData = [
     {
         name:"Chapter 1",
         coverImage:ChapterOneCoverImage,
-        link:"/property/chapter1",
+        link:"/property/chapter1-coliving-cbd-belapur",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         images:[
             ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage

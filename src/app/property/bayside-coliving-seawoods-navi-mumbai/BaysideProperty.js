@@ -5,14 +5,13 @@ import PropertiesList from '@/components/Properties/PropertiesList'
 import Banner from '@/components/property/Banner'
 import { ThemeProvider } from '@material-tailwind/react'
 import React, { Suspense } from 'react'
-import SouthsideMainImage from "../../../asset/chapterImages/newImages/mainBanner.webp"
+import SouthsideMainImage from "../../../asset/baysideImages/newImages/BaysideOne.webp"
 import SouthsideOneImage from "../../../asset/baysideImages/newImages/canteen.webp"
-import SouthsideTwoImage from "../../../asset/chapterImages/newImages/chap1.webp"
-import SouthsideThreeImage from "../../../asset/chapterImages/newImages/chap2.webp"
-import SouthsideFourImage from "../../../asset/chapterImages/newImages/chap3.webp"
-import SouthsideTripleImage from "../../../asset/chapterImages/newImages/triple.webp"
-import SouthsideTwinImage from "../../../asset/chapterImages/newImages/twin.webp"
-import SouthsidePrivateImage from "../../../asset/chapterImages/newImages/private.webp"
+import SouthsideTwoImage from "../../../asset/baysideImages/newImages/BaysideTwo.webp"
+import SouthsideThreeImage from "../../../asset/baysideImages/newImages/BaysideThree.webp"
+import SouthsideFourImage from "../../../asset/baysideImages/newImages/BaysideFour.webp"
+import SouthsideTwinImage from "../../../asset/baysideImages/newImages/twin.webp"
+import SouthsidePrivateImage from "../../../asset/baysideImages/newImages/private.webp"
 import Details from '@/components/property/Details'
 import Featured from '@/components/property/Featured'
 import Rooms from '@/components/property/Rooms'
@@ -22,7 +21,7 @@ import Event from '@/components/property/Event'
 import TestimonialTwo from '@/components/Home/Testimonial.js'
 import BottomNavConstant from '@/components/property/BottomFixed'
 
-const Chapter1Property = () => {
+const BaysideProperty = () => {
     const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
     const galleryImages=[
             
@@ -54,11 +53,7 @@ const Chapter1Property = () => {
          
 ]
       const rooms = [
-        {
-            title:"Triple",
-            description:"Comfortable triple sharing room with modern amenities, high-speed Wi-Fi, and ample storage space.",
-            image:SouthsideTripleImage
-          },
+       
         {
           title:"Twin",
           description:"Cozy twin room with modern amenities, perfect for sharing and fostering community connections.",
@@ -75,15 +70,15 @@ const Chapter1Property = () => {
     <ThemeProvider>
       <NavbarTwo />
       <div className='lg:pt-[120px] pt-[60px]'>
-     <Banner galleryImages={galleryImages} name="Chapter 1" location="CBD Belapur" images={images} />
-   <Details subtitle="Prime CoLiving in Navi Mumbai" title="Modern Amenities and a Thriving Community in CBD Belapur" description="Discover exceptional co-living in CBD Belapur with contemporary amenities, high-speed Wi-Fi, and an engaging community, ideal for professionals and students seeking comfort and connection." />
+     <Banner galleryImages={galleryImages} name="Bayside: Premium Coliving PG in Seawoods, Navi Mumbai" location="Seawoods, Navi Mumbai" images={images} />
+   <Details subtitle="Exclusive CoLiving in Navi Mumbai" title="Experience Modern Amenities and a Vibrant Community in Seawoods, Navi Mumbai." description="Discover the perfect blend of comfort and community in Seawoods. Our co-living space offers modern amenities, high-speed Wi-Fi, and engaging events for an unparalleled living experience." />
      <Featured />
      <Rooms rooms={rooms}  />
-     <WhatSection />
-     <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15088.784048897862!2d73.0302992!3d19.0110825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3dde9c5be97%3A0xc877a9113d600ddc!2sChapter%201%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1718741621357!5m2!1sen!2sin" />
+     <WhatSection youtube="https://www.youtube.com/watch?v=pGugbtjs0ik" />
+     <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15088.513519318227!2d73.0090248!3d19.0140638!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3712075aad084b0f!2sBayside%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673696674457!5m2!1sen!2sine" youtube="https://www.youtube.com/embed/pGugbtjs0ik?si=sp-H2rNbxc_dZbA4" />
      <Event />
     <TestimonialTwo />
-    <BottomNavConstant name="Chapter 1"  price="Rs.28,000"  />
+    <BottomNavConstant name="Bayside"  price="Rs. 19,999" youtube="https://www.youtube.com/watch?v=pGugbtjs0ik"  />
       <Footer />
       </div>
       </ThemeProvider>
@@ -91,4 +86,4 @@ const Chapter1Property = () => {
   )
 }
 
-export default Chapter1Property
+export default BaysideProperty
