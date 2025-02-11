@@ -33,7 +33,7 @@ const Banner = ({images,name,location}) => {
     <div className='mx-4 lg:mx-12 md:mt-0 my-0' id="photos">
     <div>
       <div className='flex items-center justify-start gap-2 lg:gap-6 ' >
-      <h2 className='font-[NeueBold] text-[1.2rem]    pr-3 lg:pr-8 border-r-[2px] border-gray-300  lg:text-[2rem]' >{name}</h2>
+      <h1 className='font-[NeueBold] text-[1.2rem]    pr-3 lg:pr-8 border-r-[2px] border-gray-300  lg:text-[2rem]' >{name}</h1>
       <h3 className='font-[NeueMedium] lg:text-[1.5rem] lg:mt-2 flex items-center justify-start gap-2 lg:gap-3  text-[0.8rem]' ><HiOutlineLocationMarker className='lg:text-[1.8rem] mb-1 text-[1.2rem] ' /> {location}</h3>
       </div>
       <div className='flex items-center mt-3 justify-start' >
