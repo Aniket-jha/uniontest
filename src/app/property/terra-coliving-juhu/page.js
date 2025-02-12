@@ -1,6 +1,7 @@
 import React from 'react'
 import TerraProperty from './TerraProperty'
 import Head from 'next/head'
+import { GoogleAnalytics } from '@next/third-parties/google'
 export const metadata = {
   title: "Luxury PG in Juhu - Coliving Space in Juhu, Mumbai | Terra by Union Living",
   description: "Explore Terra, a luxury PG in Juhu with eco-friendly coliving spaces in Mumbai. Modern amenities and a community vibe for students and professionals.",
@@ -51,6 +52,7 @@ const page = () => {
       </Head>
 
              <TerraProperty />
+             <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     </div>
   )
 }

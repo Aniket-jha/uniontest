@@ -1,6 +1,7 @@
 import React from 'react'
 import VarsityProperty from './VarsityProperty'
 import Head from 'next/head'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Coliving PG in Santacruz & Luxury Coliving Spaces in Santacruz Mumbai | Varsity by Union Living",
@@ -51,6 +52,7 @@ const page = () => {
       <meta name="robots" content="follow, index" />
       </Head>
              <VarsityProperty />
+             <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     </div>
   )
 }

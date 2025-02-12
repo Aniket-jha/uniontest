@@ -1,6 +1,7 @@
 import React from 'react'
 import CasaProperty from './CasaProperty'
 import Head from 'next/head'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Luxury Coliving Spaces Andheri East | Best Paying Guest (PG) in Andheri East Mumbai - Casa by Union Living",
@@ -51,6 +52,7 @@ const page = () => {
       <meta name="robots" content="follow, index" />
       </Head>
         <CasaProperty />
+        <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     </div>
   )
 }

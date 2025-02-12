@@ -1,6 +1,7 @@
 import React from 'react'
 import HamletProperty from './HamletProperty'
 import Head from 'next/head'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Best Coliving PG in Baner Pune | Premium Coliving Spaces for Male, Female and Couples",
@@ -51,6 +52,7 @@ const page = () => {
       <meta name="robots" content="follow, index" />
       </Head>
         <HamletProperty />
+        <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     </div>
   )
 }

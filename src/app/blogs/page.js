@@ -1,6 +1,7 @@
 import React from 'react'
 import BlogsPage from './BlogsPage'
 import Head from 'next/head'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Union Living Blogs | Explore Luxury Co-Living & PG Spaces in Mumbai",
@@ -51,6 +52,7 @@ const Blogs = () => {
       </Head>
       
             <BlogsPage />
+            <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
        
     </div>
   )

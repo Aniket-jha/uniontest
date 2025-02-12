@@ -1,6 +1,7 @@
 import React from 'react'
 import Chapter1Property from './Chapter1Property'
 import Head from 'next/head'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Prime CoLiving Spaces in CBD, Navi Mumbai | Luxury Coliving in Navi Mumbai | Chapter 1 By Union Living",
@@ -51,6 +52,7 @@ const page = () => {
       <meta name="robots" content="follow, index" />
       </Head>
         <Chapter1Property />
+        <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     </div>
   )
 }

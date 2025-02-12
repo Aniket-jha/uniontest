@@ -1,5 +1,6 @@
 import React from 'react'
 import PrivacyPolicyMain from './PrivacyPolicyMain'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Privacy Policy - Union Living | Protecting Your Data & Privacy",
@@ -46,7 +47,7 @@ const PrivacyPolicy = () => {
     <div>
 
        <PrivacyPolicyMain />
-     
+       <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     </div>
   )
 }

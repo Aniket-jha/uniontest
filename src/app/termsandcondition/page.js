@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Termsandconditionpage from "./Termsandconditionpage"
+import { GoogleAnalytics } from "@next/third-parties/google"
 
 
 
@@ -53,6 +54,7 @@ const TermsandCondition = () => {
 
       </Head>
       <Termsandconditionpage />
+      <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     </div>
    
   )

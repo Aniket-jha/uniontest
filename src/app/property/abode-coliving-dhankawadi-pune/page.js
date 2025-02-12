@@ -1,6 +1,7 @@
 import React from 'react'
 import AbodeProperty from './AbodeProperty'
 import Head from 'next/head'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Coliving Spaces in Dhankawadi, Pune | Book Premium PG | Abode by Union Living",
@@ -51,6 +52,7 @@ const page = () => {
       <meta name="robots" content="follow, index" />
       </Head>
         <AbodeProperty />
+        <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     </div>
   )
 }

@@ -1,6 +1,7 @@
 
 import Head from 'next/head'
 import AboutPage from './AboutPage'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Union Living Story | Our Mission",
@@ -49,6 +50,7 @@ const About = () => {
        </Head>
      
         <AboutPage />
+        <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
       
     </div>
   )

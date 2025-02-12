@@ -1,6 +1,7 @@
 import React from 'react'
 import BaysideProperty from './BaysideProperty'
 import Head from 'next/head'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Comfortable Coliving Spaces for Male & Female in Navi Mumbai | PG in Seawoods - Bayside by Union Living",
@@ -51,6 +52,7 @@ const page = () => {
       <meta name="robots" content="follow, index" />
       </Head>
         <BaysideProperty />
+        <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     </div>
   )
 }

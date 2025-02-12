@@ -1,6 +1,7 @@
 
 import Head from 'next/head'
 import CommunityPage from './CommunityPage'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Union Living Community, Social Events & More",
@@ -50,7 +51,7 @@ const Community= () => {
       </Head>
        
             <CommunityPage />
-      
+            <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     </div>
   )
 }

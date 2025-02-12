@@ -1,6 +1,5 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { GoogleTagManager } from '@next/third-parties/google'
 import Hotjar from "@hotjar/browser";
 import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
@@ -74,7 +73,7 @@ export default function RootLayout({ children }) {
   sizes="any"
     />
       <body className={inter.className}>{children}</body>
-      <GoogleTagManager gtmId="G-RZN1HJ2RWE" />
+      
     </html>
   );
 }

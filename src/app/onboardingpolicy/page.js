@@ -1,5 +1,6 @@
 import Head from "next/head"
 import OnboardingPage from "./OnboardingPage"
+import { GoogleAnalytics } from "@next/third-parties/google"
 
 
 export const metadata = {
@@ -51,6 +52,7 @@ const Onboarding= () => {
 
       </Head>
        <OnboardingPage />
+       <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     </div>
   
   )

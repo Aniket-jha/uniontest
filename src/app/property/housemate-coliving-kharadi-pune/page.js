@@ -1,6 +1,7 @@
 import React from 'react'
 import HousemateProperty from './HousemateProperty'
 import Head from 'next/head'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Top Luxury Coliving PG in Kharadi | Best Coliving Spaces in Pune for Boys, Girls and Couples",
@@ -50,6 +51,7 @@ const page = () => {
       <meta name="robots" content="follow, index" />
       </Head>
         <HousemateProperty />
+        <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     </div>
   )
 }

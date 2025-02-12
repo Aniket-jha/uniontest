@@ -1,6 +1,7 @@
 
 import Head from 'next/head'
 import PropertiesPage from './Properties'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Find Your Perfect Luxury Co-Living Space in Mumbai, Pune, and Navi Mumbai | Union Living",
@@ -51,6 +52,7 @@ const Properties = () => {
 
     </Head>
     <PropertiesPage />
+    <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     </>
    
   )

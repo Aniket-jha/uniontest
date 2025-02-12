@@ -1,6 +1,7 @@
 import React from 'react'
 import SouthsideProperty from './SouthsideProperty'
 import Head from 'next/head'
+import { GoogleAnalytics } from '@next/third-parties/google'
 export const metadata = {
   title: "PG in Mahalaxmi | Coliving PG in Mumbai | Southside Luxury Coliving Space",
   description: "Explore a premium PG in Mahalaxmi with modern amenities. Ideal coliving space in Mumbai for young professionals. Experience Southside, your perfect community living. Click here to get more details.",
@@ -51,6 +52,7 @@ const page = () => {
       <meta name="robots" content="follow, index" />
       </Head>
         <SouthsideProperty />
+        <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     </div>
   )
 }
