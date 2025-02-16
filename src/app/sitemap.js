@@ -1,5 +1,6 @@
 import { collection, getDocs, query } from "firebase/firestore";
 import { db } from "./firebase.config";
+import { getBlogPosts } from "./firebasefunctions";
 
 const fetchBlogs = async () =>{
   const data = []
@@ -9,19 +10,14 @@ const fetchBlogs = async () =>{
 
 
 export default async function sitemap() {
-  // const q = query(collection(db, "blogs")) 
-  // const querySnapshot = await getDocs(q);
-  // const posts = []
-  //  querySnapshot.forEach((doc) => (
-  //  posts.push(
-  //   {
-  //     url: `https://unionliving.in/blogs/${doc.id}`,
-  //     lastModified: new Date(),
-  //     changeFrequency: 'yearly',
-  //     priority: 0.5,
-  //   }
-  //  ) 
-  // ));
+  const blogPosts = await getBlogPosts()
+
+  const blogEntries = blogPosts.map((post) => ({
+    url: `https://unionliving.in/blog/${post?.slug}`, // Use the slug or ID for the URL
+    lastModified: new Date(post?.createdAt).toISOString(), // Use updatedAt or createdAt
+    changeFrequency: 'weekly', // Adjust as needed
+    priority: 0.8, // Adjust as needed
+  }));
   
   return [
     {
@@ -126,6 +122,6 @@ export default async function sitemap() {
       changeFrequency: 'weekly',
       priority: 0.3,
     },
-    // ...posts
+    ...blogEntries
   ]
 }

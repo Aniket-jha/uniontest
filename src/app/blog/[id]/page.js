@@ -1,41 +1,55 @@
-"use client"
-import { ThemeProvider } from '@material-tailwind/react'
-import React, { useEffect, useState } from 'react'
-import { collection, doc, getDoc, getDocs, query } from 'firebase/firestore'
-import { db } from '../../../app/firebase.config'
+
+
+import { getSinglePost } from '@/app/firebasefunctions';
 import BlogContentMain from './BlogContentMain'
-import { useRouter } from 'next/navigation'
 
-
-
-const BlogContent = ({params}) => {
-  const [blogContent, setBlogContent] = useState({})
+export async function generateMetadata({ params }) {
   
-  const fetchProperty = async () =>{
-    const docRef = doc(db, "blogs", params.id);
-const docSnap = await getDoc(docRef);
-      
-if (docSnap.exists()) {
-  console.log("Document data:", docSnap.data());
-  const data = docSnap.data()
-  setBlogContent(data)
-   
-   
-} else {
-  // docSnap.data() will be undefined in this case
-  console.log("No such document!");
-}
-   }
 
-  useEffect(() => {
-    fetchProperty()
-    console.log(params.id)
-  }, [params.id])
+  // Fetch the blog post data from Firebase
+  const blogPost = await getSinglePost(params?.id);
+
+  if (!blogPost) {
+    return {
+      title: 'Blog Post Not Found',
+      description: 'The blog post you are looking for does not exist.',
+    };
+  }
+
+  // Return dynamic metadata
+  return {
+    title: blogPost?.name,
+    description: blogPost?.introContent.slice(0,120), // Use excerpt or truncate content
+    openGraph: {
+      title: blogPost.title,
+      description: blogPost?.introContent.slice(0,120),
+      images: blogPost.coverImage,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: blogPost?.name,
+      description: blogPost?.introContent.slice(0,120),
+      images: blogPost.coverImage,
+    },
+  };
+}
+
+
+const BlogContent = async ({params}) => {
+  
+
+  // Fetch the blog post data again to pass to the client component
+  const blogPost = await getSinglePost(params?.id);
+
+  if (!blogPost) {
+    return <div>Blog post not found</div>;
+  }
+  
   return (
     <div>
-      <ThemeProvider>
-        <BlogContentMain blogContent={blogContent} />
-      </ThemeProvider>
+      
+        <BlogContentMain blogContent={blogPost} />
+   
     </div>
   )
 }
