@@ -19,7 +19,7 @@ export async function getSinglePost(slug){
 }
 
 export async function getBlogPosts() {
-    const q = query(collection(db, "blogs"),orderBy("createdAt","desc")) 
+    const q = query(collection(db, "blogs")) 
         const querySnapshot = await getDocs(q);
         const posts = []
          querySnapshot.forEach((doc) => {

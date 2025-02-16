@@ -14,7 +14,7 @@ export default async function sitemap() {
 
   const blogEntries = blogPosts.map((post) => ({
     url: `https://unionliving.in/blog/${post?.slug}`, // Use the slug or ID for the URL
-    lastModified: new Date(post?.createdAt).toISOString(), // Use updatedAt or createdAt
+    lastModified: new Date(), // Use updatedAt or createdAt
     changeFrequency: 'weekly', // Adjust as needed
     priority: 0.8, // Adjust as needed
   }));
