@@ -9,7 +9,7 @@ const SingleBlogContent = ({blogContent}) => {
            <img className=' w-full rounded-xl ' src={blogContent?.bannerImage} alt="" />
          
           <div className='border-[1px] rounded-xl border-[#d0d0d0] mt-6  w-[100%] px-4 py-3 lg:px-12 lg:py-12  ' >
-          {blogContent?.name && <h2  className='text-left font-[NeueBold] text-[#3c3c3c] my-6 text-[1.5rem] lg:text-[2.5rem] ' >{blogContent?.name} </h2>}
+          {blogContent?.name && <h1  className='text-left font-[NeueBold] text-[#3c3c3c] my-6 text-[1.5rem] lg:text-[2.5rem] ' >{blogContent?.name} </h1>}
        <p className='' >
         {parse(blogContent?.contentOne)}
         </p>

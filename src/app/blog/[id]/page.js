@@ -25,6 +25,9 @@ export async function generateMetadata({ params }) {
       description: blogPost?.introContent.slice(0,120),
       images: blogPost.coverImage,
     },
+    alternates: {
+      canonical: `https://unionliving.in/blogs/${blogPost?.url}`,
+    },
     twitter: {
       card: 'summary_large_image',
       title: blogPost?.name,

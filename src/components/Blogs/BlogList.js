@@ -22,6 +22,7 @@ const BlogList = () => {
     useEffect(() => {
        fetchAllProperties()
     }, [])
+  
   return (
     <div  className='my-12 mx-12 xl:mx-6  ' >
     <h1   className='font-[NeueBold] text-5xl  text-[#272727] text-center  ' >Welcome to the Union Living Blog    </h1> 
@@ -35,7 +36,7 @@ const BlogList = () => {
       : (<div className='lg:grid grid-cols-3 grid-flow-row gap-6 my-6 xl:my-16 xl:mx-4  ' >
         {blogs && blogs.map((blog)=>(
           <>
-           <Link href={`/blog/${blog.id}`} >
+           <Link href={`/blog/${blog.url}`} >
             <div className='xl:w-[350px] 2xl:w-[400px] w-full xl:mx-8 xl:my-8 my-8 mx-3 ' >
               {blog.coverImage &&  <img className='rounded-lg w-full ' src={blog.coverImage} alt="" />}
           <h3  className='mt-3 font-[NeueMedium] xl:text-[1.6rem]  text-[1.1rem]  ' >{blog?.name}</h3>

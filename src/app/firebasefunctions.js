@@ -1,21 +1,28 @@
-import { collection, doc, getDoc, getDocs, query } from 'firebase/firestore'
+import { collection, doc, getDoc, getDocs, query, where } from 'firebase/firestore'
 import { db } from './firebase.config';
 
 
-export async function getSinglePost(slug){
-    const docRef = doc(db, "blogs", slug);
-    const docSnap = await getDoc(docRef);
-          
-    if (docSnap.exists()) {
-     
-      const data = docSnap.data()
-      return data
-       
-       
-    } else {
-      // docSnap.data() will be undefined in this case
-      console.log("No such document!");
-    }
+export async function getSinglePost(currentUrl){
+   // Reference the 'blogs' collection
+  const blogsRef = collection(db, 'blogs');
+
+  // Create a query to find the document where the 'url' field matches the current URL
+  const q = query(blogsRef, where('url', '==', currentUrl));
+
+  // Execute the query
+  const querySnapshot = await getDocs(q);
+
+  // Check if any documents match the query
+  if (!querySnapshot.empty) {
+    // Return the first matching document's data
+    const docSnap = querySnapshot.docs[0];
+    const data = docSnap.data();
+    return data;
+  } else {
+    // Handle the case where no documents match
+    console.log('No matching document found!');
+    return null; // Return null or throw an error
+  }
 }
 
 export async function getBlogPosts() {

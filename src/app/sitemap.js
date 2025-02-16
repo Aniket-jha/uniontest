@@ -13,7 +13,7 @@ export default async function sitemap() {
   const blogPosts = await getBlogPosts()
 
   const blogEntries = blogPosts.map((post) => ({
-    url: `https://unionliving.in/blog/${post?.id}`, // Use the slug or ID for the URL
+    url: `https://unionliving.in/blog/${post?.url}`, // Use the slug or ID for the URL
     lastModified: new Date(), // Use updatedAt or createdAt
     changeFrequency: 'weekly', // Adjust as needed
     priority: 0.8, // Adjust as needed
