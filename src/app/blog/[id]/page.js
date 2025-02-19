@@ -18,11 +18,11 @@ export async function generateMetadata({ params }) {
 
   // Return dynamic metadata
   return {
-    title: blogPost?.name,
+    title: blogPost?.metatitle ?  blogPost?.metatitle :  blogPost?.name,
     description: blogPost?.introContent.slice(0,120), // Use excerpt or truncate content
     openGraph: {
-      title: blogPost.title,
-      description: blogPost?.introContent.slice(0,120),
+      title: blogPost?.metatitle ?  blogPost?.metatitle :  blogPost?.name,
+      description: blogPost?.metadescription ?  blogPost?.metadescription : blogPost?.introContent.slice(0,120),
       images: blogPost.coverImage,
     },
     alternates: {
@@ -30,8 +30,8 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: blogPost?.name,
-      description: blogPost?.introContent.slice(0,120),
+      title: blogPost?.metatitle ?  blogPost?.metatitle :  blogPost?.name,
+      description: blogPost?.metadescription ?  blogPost?.metadescription : blogPost?.introContent.slice(0,120),
       images: blogPost.coverImage,
     },
   };
