@@ -8,7 +8,7 @@ export async function getSinglePost(currentUrl){
 
   // Create a query to find the document where the 'url' field matches the current URL
   const q = query(blogsRef, where('url', '==', currentUrl));
-
+  console.log(currentUrl)
   // Execute the query
   const querySnapshot = await getDocs(q);
 
@@ -17,6 +17,7 @@ export async function getSinglePost(currentUrl){
     // Return the first matching document's data
     const docSnap = querySnapshot.docs[0];
     const data = docSnap.data();
+    console.log(data)
     return data;
   } else {
     // Handle the case where no documents match
