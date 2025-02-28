@@ -89,7 +89,7 @@ const HousemateProperty = () => {
      <Location map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.1914063280096!2d73.9445731!3d18.5654075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3ce43f61f57%3A0xc2f23b2846c9e109!2sHousemate%20Hotels%20%26%20Restaurant!5e0!3m2!1sen!2sin!4v1738178166872!5m2!1sen!2sin" />
      <Event />
     <TestimonialTwo />
-    <BottomNavConstant name="Housemate"  price="Rs. 30,000" brochure="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/files%2FHousemate%20Hotels%20%26%20Restaurant.pdf?alt=media&token=6ef83b09-6a0f-47ed-930a-c147d6113188"  />
+    <BottomNavConstant name="Housemate"  price="Rs. 30,000" brochure="https://unionliving.in/blog/finding-perfect-chill-zone-co-living"  />
       <Footer />
       </div>
       </ThemeProvider>
