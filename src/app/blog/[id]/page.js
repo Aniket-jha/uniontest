@@ -19,7 +19,7 @@ export async function generateMetadata({ params }) {
   // Return dynamic metadata
   return {
     title: blogPost?.metatitle ?  blogPost?.metatitle :  blogPost?.name,
-    description: blogPost?.introContent.slice(0,120), // Use excerpt or truncate content
+    description: blogPost?.metadescription ?  blogPost?.metadescription : blogPost?.introContent.slice(0,120), // Use excerpt or truncate content
     openGraph: {
       title: blogPost?.metatitle ?  blogPost?.metatitle :  blogPost?.name,
       description: blogPost?.metadescription ?  blogPost?.metadescription : blogPost?.introContent.slice(0,120),
