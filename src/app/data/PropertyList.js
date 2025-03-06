@@ -409,9 +409,9 @@ export const propertyListData = [
     {
         name:"Bayside",
         coverImage:BaysideCoverImage,
-        link:"/property/bayside-coliving-seawoods-navi-mumbai",
+        link:"",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
-        price:"Rs. 19,999",
+        price:"Sold Out",
         images:[
             BaysideMainImage,BaysideOneImage,BaysideTwoImage,BaysideThreeImage,BaysideFourImage
         ],
