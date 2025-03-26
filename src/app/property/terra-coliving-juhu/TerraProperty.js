@@ -83,7 +83,7 @@ const TerraProperty = () => {
         <NavbarTwo />
         <div className='lg:pt-[120px] pt-[60px]'>
        <Banner galleryImages={galleryImages} name="Terra: Luxurious Coliving PG in Juhu, Mumbai" location="Juhu" images={images} />
-     <Details subtitle="Walking Distance from Juhu Colleges" title="Spacious Student Studio Rooms, Close to Action of Juhu." description="Welcome to Terra, your sunlit haven in the heart of Juhu. Experience the perfect blend of comfort and nature with our cozy, terrarium-inspired living spaces. Each room is bathed in natural light, creating a warm and inviting atmosphere. Terra offers a unique, eco-friendly environment that fosters a sense of tranquility and well-being, making it the ideal retreat for students seeking both comfort and inspiration." />
+     <Details subtitle="Walking Distance from Juhu Colleges" title="Spacious Student Studio Rooms, Close to Action of Juhu." description="Welcome to Terra, your sunlit haven in the heart of Juhu. Experience the perfect blend of comfort and nature with our cozy, terrarium-inspired living spaces. Each room is bathed in natural light, creating a warm and inviting atmosphere. Our coliving in Juhu offers a unique, eco-friendly environment that fosters a sense of tranquility and well-being, making it the ideal retreat for students seeking both comfort and inspiration." />
        <Featured />
        <Roomstwo brochure="https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FTerra%20by%20Union%202025.pdf?alt=media&token=9ffb0bc2-26eb-4ee2-b9d9-9a9dc007514c" rooms={rooms} />
        <WhatSection youtube="https://youtu.be/4uAQ2Hr0ku8?si=U_Y4ypNcrFVEW4Ux" />

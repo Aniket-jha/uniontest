@@ -71,7 +71,7 @@ const HamletProperty = () => {
         <NavbarTwo />
         <div className='lg:pt-[120px] pt-[60px]'>
        <Banner galleryImages={galleryImages} name="Hamlet: Premier Coliving PG Coliving in Baner, Pune" location="Baner, Pune" images={images} />
-     <Details subtitle="Where Modern Living Meets Vibrant Community Life" title="Discover Comfort and Community at Pune's Premier Coliving Space" description="Experience the perfect blend of comfort and community at Pune's premier coliving space. Enjoy modern amenities, vibrant social events, and a convenient location, all designed to enhance your living experience. Join us today!" />
+     <Details subtitle="Where Modern Living Meets Vibrant Community Life" title="Discover Comfort and Community at Pune's Premier Coliving Space" description="Experience the perfect blend of comfort and community at Pune's premier coliving spaces in Baner. Enjoy modern amenities, vibrant social events, and a convenient location, all designed to enhance your living experience. Join us today!" />
        <Featured />
        <Rooms rooms={rooms}   />
        <WhatSection youtube="https://www.youtube.com/watch?v=NDidnxhwT0M" />

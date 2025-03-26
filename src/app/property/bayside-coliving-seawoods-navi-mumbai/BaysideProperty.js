@@ -71,7 +71,7 @@ const BaysideProperty = () => {
       <NavbarTwo />
       <div className='lg:pt-[120px] pt-[60px]'>
      <Banner galleryImages={galleryImages} name="Bayside: Premium Coliving PG in Seawoods, Navi Mumbai" location="Seawoods, Navi Mumbai" images={images} />
-   <Details subtitle="Exclusive CoLiving in Navi Mumbai" title="Experience Modern Amenities and a Vibrant Community in Seawoods, Navi Mumbai." description="Discover the perfect blend of comfort and community in Seawoods. Our co-living space offers modern amenities, high-speed Wi-Fi, and engaging events for an unparalleled living experience." />
+   <Details subtitle="Exclusive CoLiving in Navi Mumbai" title="Experience Modern Amenities and a Vibrant Community in Seawoods, Navi Mumbai." description="Discover the perfect blend of comfort and community in Seawoods. Our co living Navi Mumbai space offers modern amenities, high-speed Wi-Fi, and engaging events for an unparalleled living experience." />
      <Featured />
      <Rooms rooms={rooms}  />
      <WhatSection youtube="https://www.youtube.com/watch?v=pGugbtjs0ik" />

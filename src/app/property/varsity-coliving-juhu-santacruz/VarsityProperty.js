@@ -70,7 +70,7 @@ const VarsityProperty = () => {
       <NavbarTwo />
       <div className='lg:pt-[120px] pt-[60px]'>
      <Banner galleryImages={galleryImages} name="Varsity: Best Coliving PG in Santacruz, Mumbai" location="Juhu / Santacruz" images={images} />
-   <Details  subtitle="The Student Social Club" title="At the Junction of Bandra and Juhu, live the Best of Both Worlds." description="Varsity is located in the heart of Mumbai’s most demanding and posh area. Varsity is the perfect solution for students and also for those looking for a co-living experience that combines comfort, convenience and a sense of community. Located in the bustling city of Mumbai, Varsity offers a variety of shared and private spaces that cater to all your needs." />
+   <Details  subtitle="The Student Social Club" title="At the Junction of Bandra and Juhu, live the Best of Both Worlds." description="Varsity is located in the heart of Mumbai’s most demanding and posh area. Varsity is the perfect solution for students and also for those looking for a co-living space in Mumbai that combines comfort, convenience, and a sense of community. Located in the bustling city of Mumbai, Varsity offers a variety of shared and private spaces that cater to all your needs." />
      <Featured />
      <Rooms rooms={rooms} brochure="https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FVarsity%20by%20Union%202025.pdf?alt=media&token=127ee319-e1d2-42f3-8c06-bd029f982aa6" />
      <WhatSection youtube="https://www.youtube.com/watch?v=3euMGmLNcIc&embeds_referring_euri=http%3A%2F%2Flocalhost%3A3000%2F&source_ve_path=MjM4NTE&feature=emb_title"  />

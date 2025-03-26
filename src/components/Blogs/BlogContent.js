@@ -7,7 +7,7 @@ const SingleBlogContent = ({blogContent}) => {
         <div className='flex items-start justify-start flex-col ' >
           
           { blogContent?.bannerImage ? <img className=' w-full rounded-xl ' src={blogContent?.bannerImage} alt={blogContent?.imagealt ? blogContent?.imagealt : blogContent.name} />
-          : (<video className=' z-[-1]  h-auto w-full' playsInline={true}  autoPlay={true} loop={true}>
+          : (<video className=' z-[-1]  h-auto w-full' playsInline={true}  autoPlay={true} muted={true} loop={true}>
           <source src={blogContent?.videourl} type="video/mp4" />
       </video>)
         }

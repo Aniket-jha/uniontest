@@ -70,7 +70,7 @@ const SouthsideProperty = () => {
         <NavbarTwo />
         <div className='lg:pt-[120px] pt-[60px]'>
        <Banner galleryImages={galleryImages} name="Southside: Premier CoLiving PG in Mahalaxmi, Mumbai" location="Mahalaxmi" images={images} />
-     <Details subtitle="Mahalaxmi's Premier CoLiving Space" title="Discover a Lifestyle of Ease and Connection in Our Mahalaxmi CoLiving Space." description="Welcome to our co-living space in Mahalaxmi, a sanctuary where contemporary comfort meets a thriving community atmosphere. Situated in one of Mumbai’s most dynamic neighborhoods, our space offers an unparalleled living experience designed for modern urbanites. Whether you're a young professional, a digital nomad, or simply looking for a place that feels like home, we provide everything you need to live, work, and connect." />
+     <Details subtitle="Mahalaxmi's Premier CoLiving Space" title="Discover a Lifestyle of Ease and Connection in Our Mahalaxmi CoLiving Space." description="Welcome to our co-living space in Mahalaxmi, a sanctuary where contemporary comfort meets a thriving community atmosphere. Situated in one of Mumbai’s most dynamic neighborhoods, our Luxury Co-Living Mumbai space offers an unparalleled living experience designed for modern urbanites. Whether you're a young professional, a digital nomad, or simply looking for a place that feels like home, we provide everything you need to live, work, and connect." />
        <Featured />
        <Rooms rooms={rooms} brochure="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/files%2FSouthside%20by%20Union%20Digital%20(2).pdf?alt=media&token=113cfd63-377c-4aa4-a362-01cdb240478a" />
        <WhatSection youtube="https://youtu.be/YukkDVVWgm0?si=OG8L4_vGW86mRxco" />

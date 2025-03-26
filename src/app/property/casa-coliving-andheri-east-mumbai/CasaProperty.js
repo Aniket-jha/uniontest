@@ -76,7 +76,7 @@ const CasaProperty = () => {
         <NavbarTwo />
         <div className='lg:pt-[120px] pt-[60px]'>
        <Banner galleryImages={galleryImages} name="Casa: Perfect PG Coliving Space in Andheri East " location="Andheri East, Mumbai" images={images} />
-     <Details subtitle="Co-Living Redefined in Andheri" title="Enjoy Premier Amenities and a Thriving Community in Andheri, Mumbai" description="Experience vibrant co-living in Andheri with modern amenities, high-speed Wi-Fi, and a welcoming community, perfect for professionals and students alike." />
+     <Details subtitle="Co-Living Redefined in Andheri" title="Enjoy Premier Amenities and a Thriving Community in Andheri, Mumbai" description="Experience vibrant coliving in Andheri East with modern amenities, high-speed Wi-Fi, and a welcoming community, perfect for professionals and students alike." />
        <Featured />
        <Rooms rooms={rooms} brochure="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/files%2FCASA%20by%20Union.pdf?alt=media&token=bb141ea8-23e8-490a-ba24-03cf70971d10" />
        <WhatSection youtube="https://www.youtube.com/watch?v=sP_tmYSOWPE" />
