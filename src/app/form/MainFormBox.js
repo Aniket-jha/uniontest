@@ -84,6 +84,7 @@ const MainFormBox = () => {
                     workstudyat:''
                 })
                 console.log("done")
+                location.reload()
                
             } catch (error) {
                 console.log(error)
