@@ -20,6 +20,7 @@
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "react-lazy-load-image-component": "^1.6.2",
+    "react-toastify": "^11.0.5",
     "swiper": "^11.0.7",
     "yet-another-react-lightbox": "^3.21.7"
   },

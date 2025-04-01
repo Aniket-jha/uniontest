@@ -63,32 +63,41 @@ const MainFormBox = () => {
             "Value": "Phone"
             }
             ]
-            try {
-                const response = await fetch(`https://api-in21.leadsquared.com/v2/LeadManagement.svc/Lead.CreateOrUpdate?postUpdatedLead=false&accessKey=u$r0346498d5d8a9d49fab725f28c83a03a&secretKey=bf008a0ca47aab2824e794e0e435193da2a473f2`, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Accept': 'application/json'
-                    },
-                    body: JSON.stringify(dataMain)
-                });
-        
-                const result = await response.json();
-                setFormData({
-                    name: '',
-                    email: '',
-                    phone: '',
-                    property:'',
-                    discovery:'',
-                    referralcode:'',
-                    workstudyat:''
-                })
-                console.log("done")
-                location.reload()
-               
-            } catch (error) {
-                console.log(error)
-            }      
+            if(formData.name.length !==0 && formData.email.length !==0 && formData.phone.length !==0 && formData.college.length !== 0 && formData.property.length !== 0 && formData.referralcode.length !== 0){
+                try {
+
+                    const response = await fetch(`https://api-in21.leadsquared.com/v2/LeadManagement.svc/Lead.CreateOrUpdate?postUpdatedLead=false&accessKey=u$r0346498d5d8a9d49fab725f28c83a03a&secretKey=bf008a0ca47aab2824e794e0e435193da2a473f2`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Accept': 'application/json'
+                        },
+                        body: JSON.stringify(dataMain)
+                    });
+            
+                    const result = await response.json();
+                    setFormData({
+                        name: '',
+                        email: '',
+                        phone: '',
+                        property:'',
+                        discovery:'',
+                        referralcode:'',
+                        workstudyat:''
+                    })
+                    console.log("done")
+                    toast.success("Form Submitted Successfully")
+                    setTimeout(location.reload(), 6000)
+                   
+                } catch (error) {
+                    console.log(error)
+                    toast.error("There is some error in submitting")
+                }      
+                
+            }
+            else{
+                toast.error("Please enter all the details")
+            }
             
     }
   return (
