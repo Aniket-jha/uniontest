@@ -67,7 +67,7 @@ import SouthsidePrivateBigImage from "../../asset/southsideImage/p2.webp"
 import HouseofKPCover from "../../asset/houseofkp/coverImage.png"
 import HouseofMundwaCover from "../../asset/propertyCover/houseofmundwa.png"
 import Elv8Cover from "../../asset/propertyCover/Elv8.png"
-import HouseofBalewadiCover from "../../asset/propertyCover/balewadi.png"
+import HouseofBalewadiCover from "../../asset/houseofbalewadi/cover.webp"
 import Housemate from "../../asset/housemate/coverimage_11zon.webp"
 export const propertyListData = [
    
@@ -408,6 +408,38 @@ export const propertyListData = [
            
         ]
     },
+    {
+        name:"House of Balewadi",
+        coverImage:HouseofBalewadiCover,
+        link:"/property/house-of-balewadi",
+        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
+        images:[
+            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
+        ],
+        price:"20000",
+        location:"Balewadi",
+        content:"A dynamic coliving space blending community, innovation, and comfort with shared amenities and modern workspaces.",
+        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
+        youtubeId:"sP_tmYSOWPE",
+        rooms:[
+            {
+                title:"Private",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneTwoImage
+            },
+            {
+                title:"Twin",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneCoverImage
+            },
+            {
+                title:"Triple",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneOneImage
+            },
+            
+        ]
+    },
    
     {
         name:"Bayside",
@@ -602,36 +634,5 @@ export const propertyListData = [
             
         ]
     },
-    {
-        name:"House of Balewadi",
-        coverImage:HouseofBalewadiCover,
-        link:"",
-        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
-        images:[
-            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
-        ],
-        price:"Coming Soon",
-        location:"Balewadi",
-        content:"A dynamic coliving space blending community, innovation, and comfort with shared amenities and modern workspaces.",
-        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
-        youtubeId:"sP_tmYSOWPE",
-        rooms:[
-            {
-                title:"Private",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneTwoImage
-            },
-            {
-                title:"Twin",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneCoverImage
-            },
-            {
-                title:"Triple",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneOneImage
-            },
-            
-        ]
-    },
+    
 ]
