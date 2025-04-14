@@ -4,16 +4,16 @@ import Head from 'next/head'
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
-  title: "Best Coliving PG in Balewadi Pune | Premium Coliving Spaces for Male, Female and Couples",
-  description: "Find the best coliving PG in Balewadi, Pune. Modern amenities, safe spaces for males and females. Ideal coliving spaces in Baner for students & working professionals.",
+  title: "Luxury PG in Balewadi for Male & Female | Best Coliving Spaces in Pune",
+  description: "Looking for the best PG in Balewadi, Pune? Find the best coliving spaces for males & females with modern amenities. Ideal PG for students & professionals.",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   verification: {
     google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
   },
   openGraph: {
-    title: "Best Coliving PG in Balewadi Pune | Premium Coliving Spaces for Male, Female and Couples",
-  description: "Find the best coliving PG in Balewadi, Pune. Modern amenities, safe spaces for males and females. Ideal coliving spaces in Baner for students & working professionals.",
-    url: 'https://unionliving.in/property/hamlet-coliving-baner-pune/',
+    title: "Luxury PG in Balewadi for Male & Female | Best Coliving Spaces in Pune",
+  description: "Looking for the best PG in Balewadi, Pune? Find the best coliving spaces for males & females with modern amenities. Ideal PG for students & professionals.",
+    url: 'https://unionliving.in/property/house-of-balewadi-coliving/',
     siteName: 'Union Living',
     images: [
       {
@@ -31,7 +31,7 @@ export const metadata = {
   
   },
   alternates: {
-    canonical: 'https://unionliving.in/property/hamlet-coliving-baner-pune/',
+    canonical: 'https://unionliving.in/property/house-of-balewadi-coliving/',
   },
  
   icons: {
