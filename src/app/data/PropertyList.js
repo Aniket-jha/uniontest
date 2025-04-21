@@ -381,7 +381,7 @@ export const propertyListData = [
     {
         name:"House of Balewadi",
         coverImage:HouseofBalewadiCover,
-        link:"/property/house-of-balewadi",
+        link:"/property/house-of-balewadi-coliving/",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         images:[
             ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
