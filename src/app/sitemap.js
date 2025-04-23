@@ -99,6 +99,12 @@ export default async function sitemap() {
       priority: 0.8,
     },
     {
+      url: 'https://unionliving.in/property/house-of-balewadi-coliving/',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
       url: 'https://unionliving.in/community/',
       lastModified: new Date(),
       changeFrequency: 'weekly',
