@@ -145,6 +145,7 @@ const MainFormBox = () => {
                         <option value="Chapter 1">Chapter 1, Belapur (Navi Mumbai)</option>
                         <option value="Abode">Abode, Dhankawadi (Pune)</option>
                         <option value="House of Balewadi">House of Balewadi, Balewadi (Pune)</option>
+                        <option value="Zynergy, Chembur (Mumbai)">Zynergy, Chembur (Mumbai)</option>
                              </select>
                     </div>
                     <div className='flex flex-col lg:flex-row gap-4 lg:gap-6 my-4 lg:my-6 w-full items-center justify-center' >
