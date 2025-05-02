@@ -1,5 +1,6 @@
 import React from 'react'
 import RoomCard from './RoomCard'
+import Link from 'next/link'
 
 const Roomstwo = ({rooms,brochure}) => {
   return (
@@ -9,7 +10,10 @@ const Roomstwo = ({rooms,brochure}) => {
                 <div className='mt-4 lg:grid grid-cols-4 grid-flow-col gap-4 xl:gap-6' >
                    {
                     rooms.map((room, index) => (
+                      <Link href="/form">
+                      
                         <RoomCard image={room.image} title={room.title} content={room.description}  />
+                        </Link>
                     ))
                    }
                     

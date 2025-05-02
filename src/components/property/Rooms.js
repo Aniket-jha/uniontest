@@ -1,5 +1,6 @@
 import React from 'react'
 import RoomCard from './RoomCard'
+import Link from 'next/link'
 
 const Rooms = ({rooms,brochure}) => {
     console.log(rooms)
@@ -11,7 +12,9 @@ const Rooms = ({rooms,brochure}) => {
                 <div className='mt-4 lg:grid grid-cols-3 grid-flow-col gap-4 xl:gap-6' >
                    {
                     rooms.map((room, index) => (
+                      <Link href='/form'>
                         <RoomCard image={room.image} title={room.title} content={room.description}  />
+                        </Link>
                     ))
                    }
                     

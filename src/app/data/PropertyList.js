@@ -351,6 +351,7 @@ export const propertyListData = [
             },
         ]
     },
+    
     {
         name:"Hamlet",
         coverImage:HamletCoverImage,
@@ -440,6 +441,38 @@ export const propertyListData = [
                 content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
                 image:BaysideApartment
             },
+        ]
+    },
+    {
+        name:"Zest",
+        coverImage:ZynergyImage,
+        link:"/property/zest-coliving-chembur",
+        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
+        images:[
+            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
+        ],
+        price:"Coming Soon",
+        location:"Chembur",
+        content:"Nestled in a vibrant neighborhood, this modern co-living space offers fully-furnished rooms, high-speed WiFi, and all-inclusive amenities—so you can focus on living your best life. ",
+        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
+        youtubeId:"sP_tmYSOWPE",
+        rooms:[
+            {
+                title:"Private",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneTwoImage
+            },
+            {
+                title:"Twin",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneCoverImage
+            },
+            {
+                title:"Triple",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneOneImage
+            },
+            
         ]
     },
 
@@ -604,37 +637,6 @@ export const propertyListData = [
             
         ]
     },
-    {
-        name:"Zest",
-        coverImage:ZynergyImage,
-        link:"",
-        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
-        images:[
-            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
-        ],
-        price:"Coming Soon",
-        location:"Chembur",
-        content:"Nestled in a vibrant neighborhood, this modern co-living space offers fully-furnished rooms, high-speed WiFi, and all-inclusive amenities—so you can focus on living your best life. ",
-        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
-        youtubeId:"sP_tmYSOWPE",
-        rooms:[
-            {
-                title:"Private",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneTwoImage
-            },
-            {
-                title:"Twin",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneCoverImage
-            },
-            {
-                title:"Triple",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneOneImage
-            },
-            
-        ]
-    },
+   
     
 ]
