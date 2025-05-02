@@ -69,7 +69,8 @@ export default function RootLayout({ children }) {
       />
       <Script id="pid-tracker" strategy="afterInteractive">
         {`
-          pidTracker('77184');
+      pidTracker('77184');
+
         `}
       </Script>
 
