@@ -605,7 +605,7 @@ export const propertyListData = [
         ]
     },
     {
-        name:"Zynergy",
+        name:"Zest",
         coverImage:ZynergyImage,
         link:"",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",

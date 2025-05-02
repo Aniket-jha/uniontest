@@ -144,7 +144,7 @@ const MainFormBox = () => {
                         <option value="Casa">Casa, Andheri (Mumbai)</option>
                         <option value="Chapter 1">Chapter 1, Belapur (Navi Mumbai)</option>
                         <option value="Abode">Abode, Dhankawadi (Pune)</option>
-                        <option value="House of Balewadi">House of Balewadi, Balewadi (Pune)</option>
+           
                         <option value="Zest, Chembur (Mumbai)">Zest, Chembur (Mumbai)</option>
                         <option value="House of Balewadi, Pune">House of Balewadi, Pune</option>
                              </select>

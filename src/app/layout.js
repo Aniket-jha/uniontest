@@ -63,7 +63,15 @@ export default function RootLayout({ children }) {
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=')`}
       
      </Script>
-    
+     <Script
+        src="https://web-in21.mxradon.com/t/Tracker.js"
+        strategy="afterInteractive"
+      />
+      <Script id="pid-tracker" strategy="afterInteractive">
+        {`
+          pidTracker('77184');
+        `}
+      </Script>
 
       <link rel="icon" href="./favicon.png" sizes="any" />
       <link
