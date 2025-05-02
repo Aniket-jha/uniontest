@@ -63,7 +63,17 @@ export default function RootLayout({ children }) {
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=')`}
       
      </Script>
-     <Script
+    
+      <link rel="icon" href="./favicon.png" sizes="any" />
+      <link
+  rel="apple-touch-icon"
+  href="./favicon.png"
+  type="image/png"
+  sizes="any"
+    />
+      <body className={inter.className}>{children}</body>
+      
+      <Script
         src="https://web-in21.mxradon.com/t/Tracker.js"
         strategy="afterInteractive"
       />
@@ -74,15 +84,6 @@ export default function RootLayout({ children }) {
         `}
       </Script>
 
-      <link rel="icon" href="./favicon.png" sizes="any" />
-      <link
-  rel="apple-touch-icon"
-  href="./favicon.png"
-  type="image/png"
-  sizes="any"
-    />
-      <body className={inter.className}>{children}</body>
-      
     </html>
   );
 }
