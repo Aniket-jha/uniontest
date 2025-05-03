@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Hotjar from "@hotjar/browser";
 import Script from "next/script";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -47,6 +48,7 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+ 
   
   
   return (
@@ -61,6 +63,25 @@ export default function RootLayout({ children }) {
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=')`}
+      
+     </Script>
+     <Script id="HotJarAnalytics" >
+      {
+        `!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1424619772031368');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1424619772031368&ev=PageView&noscript=1"
+/></noscript>
+`}
       
      </Script>
     
@@ -79,7 +100,9 @@ export default function RootLayout({ children }) {
       />
       <Script id="pid-tracker" strategy="afterInteractive">
         {`
-      pidTracker('77184');
+         pidTracker('77184');
+
+
 
         `}
       </Script>
