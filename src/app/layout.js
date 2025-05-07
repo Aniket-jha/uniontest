@@ -65,7 +65,7 @@ export default function RootLayout({ children }) {
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=')`}
       
      </Script>
-     <Script id="HotJarAnalytics" >
+     <Script id="FacebookId" >
       {
         `!function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
