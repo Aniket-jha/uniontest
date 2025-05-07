@@ -2,6 +2,7 @@
 import Home from "./pages/Home";
 import Hotjar from "@hotjar/browser";
 import { GoogleAnalytics } from '@next/third-parties/google'
+import Script from "next/script";
 export const metadata = {
   title: "Luxury Coliving Spaces in Mumbai, Pune & Navi Mumbai | Best PG -  Union Living",
   description: "Experience the best coliving spaces in Mumbai, Pune and Navi Mumbai. Fully furnished PG rooms with top-notch amenities for boys, girls and couples (students and professionals).",
@@ -50,6 +51,7 @@ export default function Main() {
   
   return (
     <main className="">
+         
      <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     <Home />
    
