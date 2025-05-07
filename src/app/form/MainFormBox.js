@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { toast, ToastContainer } from 'react-toastify'
 
 const MainFormBox = () => {
     const [formData, setFormData] = useState({
@@ -63,7 +64,7 @@ const MainFormBox = () => {
             "Value": "Phone"
             }
             ]
-            if(formData.name.length !==0 && formData.email.length !==0 && formData.phone.length !==0  && formData.property.length !== 0 && formData.referralcode.length !== 0){
+            if(formData.name.length !==0 && formData.phone.length !==0  && formData.property.length !== 0){
                 try {
 
                     const response = await fetch(`https://api-in21.leadsquared.com/v2/LeadManagement.svc/Lead.CreateOrUpdate?postUpdatedLead=false&accessKey=u$r0346498d5d8a9d49fab725f28c83a03a&secretKey=bf008a0ca47aab2824e794e0e435193da2a473f2`, {
@@ -102,6 +103,7 @@ const MainFormBox = () => {
     }
   return (
     <div className='flex items-center justify-center' >
+         <ToastContainer />
         <div className='md:px-12 mx-4 lg:mx-12 my-3 w-full rounded-lg px-4 py-12 shadow-lg bg-[#ebe3d654]'>
             <h3 className='lg:text-[2.5rem] text-[1.5rem] text-center uppercase  text-[#272727] font-[NeueMedium] font-[600]' >Help  us  understand  <br />
             <span
