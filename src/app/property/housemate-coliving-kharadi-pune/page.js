@@ -43,6 +43,7 @@ export const metadata = {
       url: 'https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2Ffavicon.png?alt=media&token=63384a08-8830-4c2b-82b0-0355cf50bbff',
     },
   },
+  
 }
 const page = () => {
   return (
