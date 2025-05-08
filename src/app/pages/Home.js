@@ -14,7 +14,7 @@ import { ThemeProvider } from "@material-tailwind/react";
 import Script from 'next/script.js'
 const Home = () => {
   useEffect(() => {
-    const url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?2217';
+    const url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?95542';
     const script = document.createElement('script');
     script.type = 'text/javascript';
     script.async = true;
@@ -25,7 +25,7 @@ const Home = () => {
         enabled: true,
         chatButtonSetting: {
           backgroundColor: '#00e785',
-          ctaText: 'Chat with us',
+          ctaText: 'Book Visit',
           borderRadius: '25',
           marginLeft: '0',
           marginRight: '20',
@@ -38,12 +38,12 @@ const Home = () => {
           brandSubTitle: 'undefined',
           brandImg: 'https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg',
           welcomeText: 'Hi there!\nHow can I help you?',
-          messageText: 'Hello, %0A I have a question about {{page_link}}',
+          messageText: 'Book Visit',
           backgroundColor: '#00e785',
-          ctaText: 'Chat with us',
+          ctaText: 'Book Visit',
           borderRadius: '25',
-          autoShow: false,
-          phoneNumber: '8104744056',
+          autoShow: true,
+          phoneNumber: '919137915406',
         },
       };
 
@@ -52,8 +52,6 @@ const Home = () => {
 
     document.body.appendChild(script);
   }, []);
-
-  
 
   return (
     <div>
