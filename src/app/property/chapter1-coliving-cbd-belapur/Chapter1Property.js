@@ -21,6 +21,7 @@ import Location from '@/components/property/Location'
 import Event from '@/components/property/Event'
 import TestimonialTwo from '@/components/Home/Testimonial.js'
 import BottomNavConstant from '@/components/property/BottomFixed'
+import MainPropertyCTA from '@/components/property/MainPropertyCTA'
 
 const Chapter1Property = () => {
     const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
@@ -82,7 +83,7 @@ const Chapter1Property = () => {
             enabled: true,
             chatButtonSetting: {
               backgroundColor: '#00e785',
-              ctaText: 'Book Visit',
+              ctaText: 'Chat with us now',
               borderRadius: '25',
               marginLeft: '0',
               marginRight: '20',
@@ -95,9 +96,9 @@ const Chapter1Property = () => {
               brandSubTitle: 'undefined',
               brandImg: 'https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg',
               welcomeText: 'Hi there!\nHow can I help you?',
-              messageText: 'Book Visit',
+              messageText: 'Chat with us now',
               backgroundColor: '#00e785',
-              ctaText: 'Book Visit',
+              ctaText: 'Chat with us now',
               borderRadius: '25',
               autoShow: true,
               phoneNumber: '919137915406',
@@ -113,12 +114,13 @@ const Chapter1Property = () => {
     <div>
     <ThemeProvider>
       <NavbarTwo />
-      <div className='lg:pt-[120px] pt-[60px]'>
+      <div className='lg:pt-[150px] pt-[80px]'>
      <Banner galleryImages={galleryImages} name="Chapter 1 by Union Living: Luxury Coliving Spaces in CBD, Navi Mumbai" location="CBD Belapur" images={images} />
    <Details subtitle="Prime CoLiving in Navi Mumbai" title="Modern Amenities and a Thriving Community in CBD Belapur" description="Discover exceptional co-living in CBD Belapur with contemporary amenities, high-speed Wi-Fi, and an engaging community, ideal for professionals and students seeking comfort and connection. Coliving spaces in Navi Mumbai offer a perfect blend of convenience and modern living." />
      <Featured />
      <Rooms rooms={rooms}  />
      <WhatSection />
+     <MainPropertyCTA propertyName="Chapter 1, Belapur (Navi Mumbai)" />
      <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15088.784048897862!2d73.0302992!3d19.0110825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3dde9c5be97%3A0xc877a9113d600ddc!2sChapter%201%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1718741621357!5m2!1sen!2sin" />
      <Event />
     <TestimonialTwo />

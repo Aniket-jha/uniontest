@@ -20,6 +20,7 @@ import Location from '@/components/property/Location'
 import Event from '@/components/property/Event'
 import TestimonialTwo from '@/components/Home/Testimonial.js'
 import BottomNavConstant from '@/components/property/BottomFixed'
+import MainPropertyCTA from '@/components/property/MainPropertyCTA'
 
 const BalewadiProperty = () => {
     const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
@@ -64,7 +65,7 @@ useEffect(() => {
       enabled: true,
       chatButtonSetting: {
         backgroundColor: '#00e785',
-        ctaText: 'Book Visit',
+        ctaText: 'Chat with us now',
         borderRadius: '25',
         marginLeft: '0',
         marginRight: '20',
@@ -77,9 +78,9 @@ useEffect(() => {
         brandSubTitle: 'undefined',
         brandImg: 'https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg',
         welcomeText: 'Hi there!\nHow can I help you?',
-        messageText: 'Book Visit',
+        messageText: 'Chat with us now',
         backgroundColor: '#00e785',
-        ctaText: 'Book Visit',
+        ctaText: 'Chat with us now',
         borderRadius: '25',
         autoShow: true,
         phoneNumber: '919137915406',
@@ -109,12 +110,13 @@ useEffect(() => {
     <div>
       <ThemeProvider>
         <NavbarTwo />
-        <div className='lg:pt-[120px] pt-[60px]'>
+        <div className='lg:pt-[150px] pt-[80px]'>
        <Banner beds="144" galleryImages={galleryImages} name="House of Balewadi: Best PG in Balewadi for Male & Female" location="Balewadi, Pune" images={images} />
      <Details subtitle="Where Modern Living Meets Vibrant Community Life" title="Experience Modern Living at Balewadi’s Premier Coliving Space" description="Enjoy a seamless blend of comfort, convenience, and community at Balewadi’s top coliving space. With modern amenities, engaging social events, and a prime location, our coliving spaces in Pune offer the perfect environment for students and professionals. Your ideal lifestyle is just a move away. Join us today!" />
        <Featured />
        {/* <Rooms rooms={rooms}   /> */}
        <WhatSection  />
+       <MainPropertyCTA propertyName="House of Balewadi, Pune" />
        <Location map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.7244298311407!2d73.7666243!3d18.577751300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9fc2ce457f7%3A0xf25693f77b5cb9bb!2sHouse%20of%20Balewadi%20by%20Union%20Living!5e1!3m2!1sen!2sin!4v1743759190016!5m2!1sen!2sin"/>
        <Event />
       <TestimonialTwo />

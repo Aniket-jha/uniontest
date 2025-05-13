@@ -1,30 +1,114 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Navbar,
   MobileNav,
   Typography,
   IconButton,
+  Menu,
+  MenuHandler,
+  MenuList,
+  MenuItem,
+  Collapse,
 } from "@material-tailwind/react";
+import {
+  ChevronDownIcon,
+  Bars3Icon,
+  XMarkIcon,
+  ChevronUpIcon,
+} from "@heroicons/react/24/outline";
 import Logo from "../../asset/logoblack.png"
 import  Link  from "next/link";
 import Image from "next/image";
+import Topbar from "./Topbar";
 export default function NavbarTwo() {
   const [openNav, setOpenNav] = React.useState(false);
- 
+  const [topNav, setTopNav] = useState(false);
+  const [hideTopbar, setHideTopbar] = useState(false);
   React.useEffect(() => {
     window.addEventListener(
       "resize",
       () => window.innerWidth >= 960 && setOpenNav(false),
     );
+    
   }, []);
+  React.useEffect(() => {
+    const handleScroll = () => {
+      setTopNav(window.scrollY > 0);
+      setHideTopbar(window.scrollY > 50); // Adjust this value for smoothness
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  function AboutNavListMenu({btnClass}) {
+    const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [openNestedMenu, setopenNestedMenu] = React.useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+  
+ 
+  return (
+    <React.Fragment>
+      <Menu
+        open={isMenuOpen}
+        handler={setIsMenuOpen}
+        placement="bottom"
+        allowHover={true}
+      >
+        <MenuHandler>
+          <Typography as="div" variant="small" className="p-1 font-[NeueMedium] cursor-pointer tracking-wider text-[18px] flex items-center">
+            <p
+              className="flex items-center gap-2"
+              selected={isMenuOpen || isMobileMenuOpen}
+              onClick={() => setIsMobileMenuOpen((cur) => !cur)}
+            
+            >
+           Properties By College
+              <ChevronDownIcon
+                strokeWidth={2.5}
+                className={`hidden h-3 w-3 transition-transform lg:block ${
+                  isMenuOpen ? "rotate-180" : ""
+                }`}
+              />
+              <ChevronDownIcon
+                strokeWidth={2.5}
+                className={`block h-3 w-3 transition-transform lg:hidden ${
+                  isMobileMenuOpen ? "rotate-180" : ""
+                }`}
+              />
+            </p>
+          </Typography>
+        </MenuHandler>
+        <MenuList  className="hidden mainMenuItem  bg-gray-100 text-center shadow-lg border-none max-w-screen-xl  lg:block">
+        <ul className="grid grid-cols-1   bg-none grid-flow-row gap-y-2 text-center  outline-none outline-0">
+        <MenuItem className="subMenuText1">
+          <Link href="/aboutus" >NMIMS</Link></MenuItem>
+     
+          </ul>
+        </MenuList>
+      </Menu>
+      <div className="block lg:hidden">
+        <Collapse open={isMobileMenuOpen}>
+          
+          <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
+          <Link className=""  href="/research" >
+         NMIMS
+      </Link>
+      </MenuItem>
+         
+        </Collapse>
+      </div>
+    </React.Fragment>
+  );
+  }
  
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col font-[NeueMedium] text-black gap-2 lg:mb-0 lg:mt-0 lg:justify-center lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mb-4 mt-2 flex flex-col font-[NeueMedium] text-black  lg:mb-0 lg:mt-0 lg:justify-center lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         
         color="blue-gray"
-        className="p-1 font-[NeueMedium] tracking-wider text-[17px]"
+        className="p-1 font-[NeueMedium] tracking-wider text-[18px]"
       >
         <Link href="/" className="flex items-center">
         Home
@@ -35,18 +119,29 @@ export default function NavbarTwo() {
         as="li"
        
         color="blue-gray"
-        className="p-1 font-[NeueMedium] tracking-wider text-[17px]"
+        className="p-1 font-[NeueMedium] tracking-wider text-[18px]"
       >
         <Link href="/properties" className="flex items-center">
          Properties
         </Link>
       </Typography>
+      {/* <Typography
+        as="li"
+       
+        color="blue-gray"
+        className="p-1 font-[NeueMedium] tracking-wider text-[18px]"
+      >
+        <Link href="/properties" className="flex items-center">
+         Properties by College
+        </Link>
+      </Typography> */}
+      {/* <AboutNavListMenu /> */}
       
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-[NeueMedium] tracking-wider text-[17px]"
+        className="p-1 font-[NeueMedium] tracking-wider text-[18px]"
       >
         <Link href="/community" className="flex items-center">
          Community
@@ -56,7 +151,7 @@ export default function NavbarTwo() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-[NeueMedium] tracking-wider text-[17px]"
+        className="p-1 font-[NeueMedium] tracking-wider text-[18px]"
       >
         <Link href="/ourstory" className="flex items-center">
          Our Story
@@ -66,7 +161,18 @@ export default function NavbarTwo() {
   );
  
   return (
-    <Navbar className=" fixed z-[999] opacity-100 bg-opacity-100 w-[100vw !important] max-w-full  border-none shadow-none  rounded-none  py-2 px-4 lg:px-16 lg:py-6">
+    <>
+     <div className="fixed top-0 left-0 w-full z-[999]">
+        
+        <div
+          className={`transition-all duration-300 ease-in-out ${
+            hideTopbar ? "-translate-y-full" : "translate-y-0"
+          }`}
+        >
+          <Topbar />
+        </div>
+  
+    <Navbar className={`fixed z-[999] ${topNav ? "top-0" : ""} opacity-100 bg-opacity-100 w-[100vw !important] max-w-full  border-none shadow-none  rounded-none  py-2 px-4 lg:px-16 lg:py-6`}>
       <div className="  grid grid-cols-5 justify-between items-center text-blue-gray-900">
        <Link className="col-span-1" href="/">
         <Image className="w-[120px]" src={Logo} alt="" />
@@ -121,5 +227,7 @@ export default function NavbarTwo() {
         </div>
       </MobileNav>
     </Navbar>
+    </div>
+    </>
   );
 }

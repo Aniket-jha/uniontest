@@ -23,6 +23,7 @@ import Event from '@/components/property/Event'
 import TestimonialTwo from '@/components/Home/Testimonial.js'
 import Roomstwo from '@/components/property/Roomstwo'
 import BottomNavConstant from '@/components/property/BottomFixed'
+import MainPropertyCTA from '@/components/property/MainPropertyCTA'
 
 const TerraProperty = () => {
     const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
@@ -89,7 +90,7 @@ const TerraProperty = () => {
             enabled: true,
             chatButtonSetting: {
               backgroundColor: '#00e785',
-              ctaText: 'Book Visit',
+              ctaText: 'Chat with us now',
               borderRadius: '25',
               marginLeft: '0',
               marginRight: '20',
@@ -102,9 +103,9 @@ const TerraProperty = () => {
               brandSubTitle: 'undefined',
               brandImg: 'https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg',
               welcomeText: 'Hi there!\nHow can I help you?',
-              messageText: 'Book Visit',
+              messageText: 'Chat with us now',
               backgroundColor: '#00e785',
-              ctaText: 'Book Visit',
+              ctaText: 'Chat with us now',
               borderRadius: '25',
               autoShow: true,
               phoneNumber: '919137915406',
@@ -120,12 +121,13 @@ const TerraProperty = () => {
     <div>
       <ThemeProvider>
         <NavbarTwo />
-        <div className='lg:pt-[120px] pt-[60px]'>
+        <div className='lg:pt-[150px] pt-[80px]'>
        <Banner galleryImages={galleryImages} name="Terra: Luxurious Coliving PG in Juhu, Mumbai" location="Juhu" images={images} />
      <Details subtitle="Walking Distance from Juhu Colleges" title="Spacious Student Studio Rooms, Close to Action of Juhu." description="Welcome to Terra, your sunlit haven in the heart of Juhu. Experience the perfect blend of comfort and nature with our cozy, terrarium-inspired living spaces. Each room is bathed in natural light, creating a warm and inviting atmosphere. Our coliving in Juhu offers a unique, eco-friendly environment that fosters a sense of tranquility and well-being, making it the ideal retreat for students seeking both comfort and inspiration." />
        <Featured />
        <Roomstwo brochure="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/Terra%20by%20Union%202025%20(1).pdf?alt=media&token=de5a7e39-3c96-47bb-b13a-146206dba625" rooms={rooms} />
        <WhatSection youtube="https://youtu.be/4uAQ2Hr0ku8?si=U_Y4ypNcrFVEW4Ux" />
+       <MainPropertyCTA propertyName="Terra, Juhu (Mumbai)" />
        <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15079.663821938235!2d72.8389376!3d19.1113426!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c93fc7fa60af%3A0x71920bbde6e70ed6!2sTerra%20by%20Union%20Living!5e0!3m2!1sen!2sin!4v1717177015017!5m2!1sen!2sin" youtube="https://www.youtube.com/embed/4uAQ2Hr0ku8?si=AQX1Z4zGZDYOM39w" />
        <Event />
       <TestimonialTwo />

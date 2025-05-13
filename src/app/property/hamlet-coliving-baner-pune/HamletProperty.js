@@ -20,6 +20,7 @@ import Location from '@/components/property/Location'
 import Event from '@/components/property/Event'
 import TestimonialTwo from '@/components/Home/Testimonial.js'
 import BottomNavConstant from '@/components/property/BottomFixed'
+import MainPropertyCTA from '@/components/property/MainPropertyCTA'
 
 const HamletProperty = () => {
     const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
@@ -77,7 +78,7 @@ const HamletProperty = () => {
             enabled: true,
             chatButtonSetting: {
               backgroundColor: '#00e785',
-              ctaText: 'Book Visit',
+              ctaText: 'Chat with us now',
               borderRadius: '25',
               marginLeft: '0',
               marginRight: '20',
@@ -90,9 +91,9 @@ const HamletProperty = () => {
               brandSubTitle: 'undefined',
               brandImg: 'https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg',
               welcomeText: 'Hi there!\nHow can I help you?',
-              messageText: 'Book Visit',
+              messageText: 'Chat with us now',
               backgroundColor: '#00e785',
-              ctaText: 'Book Visit',
+              ctaText: 'Chat with us now',
               borderRadius: '25',
               autoShow: true,
               phoneNumber: '919137915406',
@@ -108,12 +109,13 @@ const HamletProperty = () => {
     <div>
       <ThemeProvider>
         <NavbarTwo />
-        <div className='lg:pt-[120px] pt-[60px]'>
+        <div className='lg:pt-[150px] pt-[80px]'>
        <Banner galleryImages={galleryImages} name="Hamlet: Premier Coliving PG Coliving in Baner, Pune" location="Baner, Pune" images={images} />
      <Details subtitle="Where Modern Living Meets Vibrant Community Life" title="Discover Comfort and Community at Pune's Premier Coliving Space" description="Experience the perfect blend of comfort and community at Pune's premier coliving spaces in Baner. Enjoy modern amenities, vibrant social events, and a convenient location, all designed to enhance your living experience. Join us today!" />
        <Featured />
        <Rooms rooms={rooms}   />
        <WhatSection youtube="https://www.youtube.com/watch?v=NDidnxhwT0M" />
+       <MainPropertyCTA propertyName="Hamlet, Baner (Pune)" />
        <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15129.867506521172!2d73.7784034!3d18.5529787!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bff4afa8145f%3A0x6d7da05eef0c7ce1!2sUnion%20Hamlet!5e0!3m2!1sen!2sin!4v1712824758554!5m2!1sen!2sin" youtube="https://www.youtube.com/embed/NDidnxhwT0M" />
        <Event />
       <TestimonialTwo />

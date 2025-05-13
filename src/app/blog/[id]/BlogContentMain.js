@@ -14,7 +14,7 @@ const BlogContentMain = ({blogContent}) => {
     <ThemeProvider>
     <div>
       <NavbarTwo />
-      <div className='lg:pt-[120px] pt-[60px]'>
+      <div className='lg:pt-[150px] pt-[80px]'>
        {Object.keys(blogContent).length !==0 && <SingleBlogContent blogContent={blogContent} />}
         <Footer />
       </div>

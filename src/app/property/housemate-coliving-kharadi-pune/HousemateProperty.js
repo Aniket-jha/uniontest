@@ -88,7 +88,7 @@ const HousemateProperty = () => {
             enabled: true,
             chatButtonSetting: {
               backgroundColor: '#00e785',
-              ctaText: 'Book Visit',
+              ctaText: 'Chat with us now',
               borderRadius: '25',
               marginLeft: '0',
               marginRight: '20',
@@ -101,9 +101,9 @@ const HousemateProperty = () => {
               brandSubTitle: 'undefined',
               brandImg: 'https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg',
               welcomeText: 'Hi there!\nHow can I help you?',
-              messageText: 'Book Visit',
+              messageText: 'Chat with us now',
               backgroundColor: '#00e785',
-              ctaText: 'Book Visit',
+              ctaText: 'Chat with us now',
               borderRadius: '25',
               autoShow: true,
               phoneNumber: '919137915406',
@@ -119,7 +119,7 @@ const HousemateProperty = () => {
     <div>
     <ThemeProvider>
       <NavbarTwo />
-      <div className='lg:pt-[120px] pt-[60px]'>
+      <div className='lg:pt-[150px] pt-[80px]'>
      <Banner galleryImages={galleryImages} name="Housemate: Best Coliving PG Spaces in Kharadi" location="Kharadi, Pune" images={images} />
    <Details subtitle="New & Spacious Coliving Spaces in Pune" title="Modern, Comfortable, and Affordable Shared Living for Housemates in Pune" description="Housemate by Union Living offers a fresh take on coliving in Pune with newly built, spacious accommodations designed for comfort and community. Perfectly suited for young professionals, students, and anyone seeking an affordable, vibrant living environment, Housemate blends modern amenities with a shared lifestyle. It is an excellent choice for those looking for co living in Kharadi, offering a perfect balance of convenience, community, and modern living." />
      <Featured />

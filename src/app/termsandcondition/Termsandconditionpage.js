@@ -18,7 +18,7 @@ const Termsandconditionpage = () => {
         enabled: true,
         chatButtonSetting: {
           backgroundColor: '#00e785',
-          ctaText: 'Book Visit',
+          ctaText: 'Chat with us now',
           borderRadius: '25',
           marginLeft: '0',
           marginRight: '20',
@@ -31,9 +31,9 @@ const Termsandconditionpage = () => {
           brandSubTitle: 'undefined',
           brandImg: 'https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg',
           welcomeText: 'Hi there!\nHow can I help you?',
-          messageText: 'Book Visit',
+          messageText: 'Chat with us now',
           backgroundColor: '#00e785',
-          ctaText: 'Book Visit',
+          ctaText: 'Chat with us now',
           borderRadius: '25',
           autoShow: true,
           phoneNumber: '919137915406',
@@ -48,7 +48,7 @@ const Termsandconditionpage = () => {
   return (
     <div>
     <NavbarTwo/>
-    <div className='mx-12 lg:pt-[120px] pt-[60px]'>
+    <div className='mx-12 lg:pt-[150px] pt-[80px]'>
     <h1 className='text-left font-bold text-4xl my-6 text-[#272727] ' >Union Living Terms & Conditions for Co-Living Spaces in Mumbai    </h1>
         <p className='text-gray-700' >1. Students residing in the said premises shall strictly observe all the Rules and Regulations in force from time to time. 
         <br/>
