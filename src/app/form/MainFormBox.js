@@ -65,7 +65,7 @@ const MainFormBox = () => {
             "Value": "Phone"
             }
             ]
-            if(formData.name.length !==0 && formData.phone.length !==0  && formData.property.length !== 0){
+            if(formData.name.length !==0 && (formData.phone.length !==0  && formData.phone.length === 10)  && formData.property.length !== 0){
                 try {
 
                     const response = await fetch(`https://api-in21.leadsquared.com/v2/LeadManagement.svc/Lead.CreateOrUpdate?postUpdatedLead=false&accessKey=u$r0346498d5d8a9d49fab725f28c83a03a&secretKey=bf008a0ca47aab2824e794e0e435193da2a473f2`, {
