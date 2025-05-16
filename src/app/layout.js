@@ -84,6 +84,22 @@ src="https://www.facebook.com/tr?id=1424619772031368&ev=PageView&noscript=1"
 `}
       
      </Script>
+     <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=AW-11425120901"
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-11425120901');
+          `,
+        }}
+      />
 
     
       <link rel="icon" href="./favicon.png" sizes="any" />
