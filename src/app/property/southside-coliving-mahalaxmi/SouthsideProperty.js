@@ -21,6 +21,7 @@ import Event from '@/components/property/Event'
 import TestimonialTwo from '@/components/Home/Testimonial.js'
 import BottomNavConstant from '@/components/property/BottomFixed'
 import MainPropertyCTA from '@/components/property/MainPropertyCTA'
+import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const SouthsideProperty = () => {
     const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
@@ -107,6 +108,7 @@ const SouthsideProperty = () => {
   return (
     <div>
       <ThemeProvider>
+      <LeadSquaredTracker /> 
         <NavbarTwo />
         <div className='lg:pt-[150px] pt-[80px]'>
        <Banner galleryImages={galleryImages} name="Southside: Premier CoLiving PG in Mahalaxmi, Mumbai" location="Mahalaxmi" images={images} />

@@ -11,6 +11,7 @@ import TestimonialTwo from '@/components/Home/Testimonial'
 import Footer from '@/components/Layout/Footer'
 import Head from 'next/head'
 import { ThemeProvider } from '@material-tailwind/react'
+import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 
 
@@ -57,6 +58,7 @@ const AboutPage = () => {
   return (
     <div>
     <ThemeProvider>
+    <LeadSquaredTracker /> 
       <NavbarTwo />
       <div className='lg:pt-[150px] pt-[80px]'>
         <AboutBanner />

@@ -12,6 +12,7 @@ import Footer from '@/components/Layout/Footer.js'
 import Head from 'next/head.js'
 import { ThemeProvider } from "@material-tailwind/react";
 import Script from 'next/script.js'
+import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker.js'
 const Home = () => {
   useEffect(() => {
     const url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?95542';
@@ -55,7 +56,7 @@ const Home = () => {
 
   return (
     <div>
-     
+      <LeadSquaredTracker /> 
        <ThemeProvider>
         <NavbarTwo />
         <div className='lg:pt-[150px] pt-[80px]'>

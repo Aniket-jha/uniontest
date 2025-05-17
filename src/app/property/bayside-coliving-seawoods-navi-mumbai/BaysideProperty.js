@@ -20,6 +20,7 @@ import Location from '@/components/property/Location'
 import Event from '@/components/property/Event'
 import TestimonialTwo from '@/components/Home/Testimonial.js'
 import BottomNavConstant from '@/components/property/BottomFixed'
+import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const BaysideProperty = () => {
     const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
@@ -107,6 +108,7 @@ const BaysideProperty = () => {
   return (
     <div>
     <ThemeProvider>
+    <LeadSquaredTracker /> 
       <NavbarTwo />
       <div className='lg:pt-[150px] pt-[80px]'>
      <Banner galleryImages={galleryImages} name="Bayside: Premium Coliving PG in Seawoods, Navi Mumbai" location="Seawoods, Navi Mumbai" images={images} />

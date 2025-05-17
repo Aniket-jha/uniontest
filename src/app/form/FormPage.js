@@ -4,6 +4,7 @@ import NavbarTwo from '@/components/Layout/Navbar'
 import { ThemeProvider } from '@material-tailwind/react'
 import React, { Suspense, useEffect } from 'react'
 import MainFormBox from './MainFormBox'
+import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const FormPage = () => {
   useEffect(() => {
@@ -49,6 +50,7 @@ const FormPage = () => {
   return (
     <div>
       <ThemeProvider>
+      <LeadSquaredTracker /> 
         <NavbarTwo />
         <div className='lg:pt-[150px] pt-[80px]'>
        <MainFormBox />

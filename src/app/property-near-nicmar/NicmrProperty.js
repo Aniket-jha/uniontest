@@ -18,6 +18,7 @@ import HamletTwin from "../../asset/hamletImages/twin-min.webp"
 import HouseofBalewadiCover from "../../asset/houseofbalewadi/cover.webp"
 import CollegeForm from '@/components/collegeslayout/CollegeForm'
 import TestimonialTwo from '@/components/Home/Testimonial'
+import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const NMIMSProperty = () => {
   const properties = [
@@ -64,6 +65,7 @@ const NMIMSProperty = () => {
   ]
   return (
     <ThemeProvider>
+       <LeadSquaredTracker /> 
     <NavbarTwo />
     <div className='lg:pt-[150px] pt-[80px]'>
    <CollegeBanner title="NICMAR" collegeBannerBox="nicmarBannerBox" description="Explore the best properties near NICMAR— luxury co-living, student housing, and premium apartments, all in one place." />

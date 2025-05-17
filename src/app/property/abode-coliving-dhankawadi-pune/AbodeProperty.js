@@ -24,6 +24,7 @@ import TestimonialTwo from '@/components/Home/Testimonial.js'
 import Roomstwo from '@/components/property/Roomstwo'
 import BottomNavConstant from '@/components/property/BottomFixed'
 import MainPropertyCTA from '@/components/property/MainPropertyCTA'
+import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const AbodeProperty = () => {
     const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
@@ -120,6 +121,7 @@ const AbodeProperty = () => {
   return (
     <div>
     <ThemeProvider>
+    <LeadSquaredTracker /> 
       <NavbarTwo />
       <div className='lg:pt-[150px] pt-[80px]'>
      <Banner galleryImages={galleryImages} name="Abode by Union Living: Luxury Coliving Spaces in Dhankawadi, Pune" location="Dhankawadi, Pune" images={images} />

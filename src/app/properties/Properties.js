@@ -1,5 +1,6 @@
 "use client"
 import Footer from '@/components/Layout/Footer'
+import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 import NavbarTwo from '@/components/Layout/Navbar'
 import PropertiesList from '@/components/Properties/PropertiesList'
 import { ThemeProvider } from '@material-tailwind/react'
@@ -48,6 +49,7 @@ const PropertiesPage = () => {
   return (
     <div>
       <ThemeProvider>
+      <LeadSquaredTracker /> 
         <NavbarTwo />
         <div className='lg:pt-[150px] pt-[80px]'>
         <div className='lg:px-12 px-4 lg:pb-12 pb-4' >

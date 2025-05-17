@@ -1,5 +1,6 @@
 "use client"
 import Footer from '@/components/Layout/Footer'
+import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 import NavbarTwo from '@/components/Layout/Navbar'
 import React, { useEffect } from 'react'
 
@@ -46,6 +47,7 @@ const PrivacyPolicyMain = () => {
   return (
     <div>
     <NavbarTwo/>
+    <LeadSquaredTracker /> 
       <div className='lg:pt-[150px] pt-[80px]'>
    <div className='px-4 py-3 lg:px-12 lg:py-12' >
  <h1 className='font-[NeueBold] text-[1.5rem]' >  Privacy Policy - Union Living </h1>

@@ -1,4 +1,5 @@
 
+import LeadSquaredTracker from "@/components/Layout/LeadSquareTracker";
 import Home from "./pages/Home";
 import Hotjar from "@hotjar/browser";
 import { GoogleAnalytics } from '@next/third-parties/google'
@@ -51,7 +52,7 @@ export default function Main() {
   
   return (
     <main className="">
-         
+       
      <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
     <Home />
    

@@ -26,6 +26,7 @@ import TerraPrivateImage from "../../asset/terraImages/pri.webp"
 import TerraTwinImage from "../../asset/terraImages/twi.webp"
 import CollegeForm from '@/components/collegeslayout/CollegeForm'
 import TestimonialTwo from '@/components/Home/Testimonial'
+import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const SNDTProperty = () => {
   const properties = [
@@ -185,6 +186,7 @@ const SNDTProperty = () => {
   ]
   return (
     <ThemeProvider>
+       <LeadSquaredTracker /> 
     <NavbarTwo />
     <div className='lg:pt-[150px] pt-[80px]'>
    <CollegeBanner collegeBannerBox="sndtBannerBox" description="Explore the best properties near SNDT— luxury co-living, student housing, and premium apartments, all in one place." title="SNDT College" />

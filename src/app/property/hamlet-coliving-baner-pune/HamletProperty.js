@@ -21,6 +21,7 @@ import Event from '@/components/property/Event'
 import TestimonialTwo from '@/components/Home/Testimonial.js'
 import BottomNavConstant from '@/components/property/BottomFixed'
 import MainPropertyCTA from '@/components/property/MainPropertyCTA'
+import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const HamletProperty = () => {
     const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
@@ -108,6 +109,7 @@ const HamletProperty = () => {
   return (
     <div>
       <ThemeProvider>
+      <LeadSquaredTracker /> 
         <NavbarTwo />
         <div className='lg:pt-[150px] pt-[80px]'>
        <Banner galleryImages={galleryImages} name="Hamlet: Premier Coliving PG Coliving in Baner, Pune" location="Baner, Pune" images={images} />

@@ -22,6 +22,7 @@ import Event from '@/components/property/Event'
 import TestimonialTwo from '@/components/Home/Testimonial.js'
 import BottomNavConstant from '@/components/property/BottomFixed'
 import MainPropertyCTA from '@/components/property/MainPropertyCTA'
+import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const ZestProperty = () => {
     const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
@@ -113,6 +114,7 @@ const ZestProperty = () => {
   return (
     <div>
     <ThemeProvider>
+    <LeadSquaredTracker /> 
       <NavbarTwo />
       <div className='lg:pt-[150px] pt-[80px]'>
      <Banner beds="52" galleryImages={galleryImages} name="Zest: Best Coliving PG in Chembur" location="Chembur" images={images} />

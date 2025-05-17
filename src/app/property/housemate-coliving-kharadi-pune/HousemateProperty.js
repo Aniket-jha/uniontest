@@ -31,6 +31,7 @@ import Location from '@/components/property/Location'
 import Event from '@/components/property/Event'
 import TestimonialTwo from '@/components/Home/Testimonial.js'
 import BottomNavConstant from '@/components/property/BottomFixed'
+import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const HousemateProperty = () => {
     const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage,SouthsideFiveImage,SouthsideSixImage,SouthsideSevenImage,SouthsideEightImage,SouthsideNineImage,SouthsideTenImage,SouthsideElevenImage,SouthsideTwelveImage,SouthsideThirteenImage,SouthsideFourteenImage,SouthsideFifteenImage]
@@ -118,6 +119,7 @@ const HousemateProperty = () => {
   return (
     <div>
     <ThemeProvider>
+    <LeadSquaredTracker /> 
       <NavbarTwo />
       <div className='lg:pt-[150px] pt-[80px]'>
      <Banner galleryImages={galleryImages} name="Housemate: Best Coliving PG Spaces in Kharadi" location="Kharadi, Pune" images={images} />
