@@ -82,8 +82,15 @@ export default function NavbarTwo() {
         <MenuList  className="hidden mainMenuItem  bg-gray-100 text-center shadow-lg border-none max-w-screen-xl  lg:block">
         <ul className="grid grid-cols-1   bg-none grid-flow-row gap-y-2 text-center  outline-none outline-0">
         <MenuItem className="subMenuText1">
-          <Link href="/aboutus" >NMIMS</Link></MenuItem>
-     
+          <Link href="/property-near-nmims" >NMIMS</Link></MenuItem>
+          <MenuItem className="subMenuText1">
+          <Link href="/property-near-sndt" >SNDT</Link></MenuItem>
+          <MenuItem className="subMenuText1">
+          <Link href="/property-near-mithibai" > Mithibai</Link></MenuItem>
+          <MenuItem className="subMenuText1">
+          <Link href="/property-near-dj-sanghvi" > DJ Sanghvi</Link></MenuItem>
+          <MenuItem className="subMenuText1">
+          <Link href="/property-near-nicmar" > NICMAR</Link></MenuItem>
           </ul>
         </MenuList>
       </Menu>
@@ -95,7 +102,29 @@ export default function NavbarTwo() {
          NMIMS
       </Link>
       </MenuItem>
-         
+      <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
+          <Link className=""  href="/research" >
+         SNDT
+      </Link>
+      </MenuItem>
+      <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
+          <Link className=""  href="/research" >
+         Mithibai
+      </Link>
+      
+      </MenuItem>
+      <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
+          <Link className=""  href="/research" >
+         DJ Sanghvi
+      </Link>
+      
+      </MenuItem>
+      <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
+          <Link className=""  href="/research" >
+         NICMR
+      </Link>
+      
+      </MenuItem>
         </Collapse>
       </div>
     </React.Fragment>
@@ -135,7 +164,7 @@ export default function NavbarTwo() {
          Properties by College
         </Link>
       </Typography> */}
-      {/* <AboutNavListMenu /> */}
+      <AboutNavListMenu />
       
       <Typography
         as="li"

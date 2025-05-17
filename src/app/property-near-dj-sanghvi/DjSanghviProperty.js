@@ -187,8 +187,8 @@ const NMIMSProperty = () => {
     <ThemeProvider>
     <NavbarTwo />
     <div className='lg:pt-[150px] pt-[80px]'>
-   <CollegeBanner collegeBannerBox="nmimsBannerBox" description="Explore the best properties near NMIMS— luxury co-living, student housing, and premium apartments, all in one place." title="NMIMS" />
-    <CollegePropertyList  properties={properties} />
+   <CollegeBanner title="DJ Sanghvi" collegeBannerBox="sanghviBannerBox" description="Explore the best properties near Mithibai— luxury co-living, student housing, and premium apartments, all in one place." />
+    <CollegePropertyList properties={properties} />
     <CollegeForm />
     <TestimonialTwo />
     <Footer />

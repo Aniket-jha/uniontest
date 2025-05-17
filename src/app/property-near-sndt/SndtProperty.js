@@ -27,7 +27,7 @@ import TerraTwinImage from "../../asset/terraImages/twi.webp"
 import CollegeForm from '@/components/collegeslayout/CollegeForm'
 import TestimonialTwo from '@/components/Home/Testimonial'
 
-const NMIMSProperty = () => {
+const SNDTProperty = () => {
   const properties = [
     {
       name:"Varsity",
@@ -187,8 +187,8 @@ const NMIMSProperty = () => {
     <ThemeProvider>
     <NavbarTwo />
     <div className='lg:pt-[150px] pt-[80px]'>
-   <CollegeBanner collegeBannerBox="nmimsBannerBox" description="Explore the best properties near NMIMS— luxury co-living, student housing, and premium apartments, all in one place." title="NMIMS" />
-    <CollegePropertyList  properties={properties} />
+   <CollegeBanner collegeBannerBox="sndtBannerBox" description="Explore the best properties near SNDT— luxury co-living, student housing, and premium apartments, all in one place." title="SNDT College" />
+    <CollegePropertyList properties={properties} />
     <CollegeForm />
     <TestimonialTwo />
     <Footer />
@@ -197,4 +197,4 @@ const NMIMSProperty = () => {
   )
 }
 
-export default NMIMSProperty
+export default SNDTProperty
