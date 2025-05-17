@@ -168,7 +168,7 @@ const MainFormBox = () => {
                              </select>
                     </div>
                     <div className='flex flex-col gap-2 lg:gap-2 my-4 lg:my-6 w-full items-start justify-center' >
-                    <label className='font-[NeueRegular] text-[1.2rem]'>How did you Hear About Us:<span className='text-red-500'>*</span></label>
+                    <label className='font-[NeueRegular] text-[1.2rem]'>How did you Hear About Us:</label>
                         <select  onChange={(e)=>{setFormData({...formData,discovery:e.target.value})}}  className='border-[1px] round border-[#e0e0e0] shadow-md w-full px-3 py-3 rounded-[10px]' >
                         <option  value="">Choose One</option>
                         <option value="Google">Google</option>
@@ -181,7 +181,7 @@ const MainFormBox = () => {
                             
                     </div>
                     <div className='flex flex-col gap-2 lg:gap-2 my-4 lg:my-6 w-full items-start justify-center'>
-                    <label className='font-[NeueRegular] text-[1.2rem]'>Your Referral Link:<span className='text-red-500'>*</span></label>
+                    <label className='font-[NeueRegular] text-[1.2rem]'>Your Referral Code:</label>
                     <div className='flex flex-col lg:flex-row gap-4 lg:gap-6  w-full items-center justify-center' >
 
                         {/* <p className='w-[50%] font-[NeueRegular] text-center rounded-lg px-4 py-3 text-[.8rem] bg-white border-[1px] border-gray-300' >Student</p>
