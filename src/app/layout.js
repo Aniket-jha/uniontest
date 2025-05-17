@@ -109,7 +109,22 @@ src="https://www.facebook.com/tr?id=1424619772031368&ev=PageView&noscript=1"
   type="image/png"
   sizes="any"
     />
-      <body className={inter.className}>{children}</body>
+     
+      <body className={inter.className}>
+      <Script
+        src="https://web-in21.mxradon.com/t/Tracker.js"
+        strategy="afterInteractive"
+      />
+      <Script id="pid-tracker" strategy="afterInteractive">
+        {`
+         pidTracker('77184');
+
+
+
+        `}
+      </Script>
+        {children}</body>
+      
      
  
     </html>
