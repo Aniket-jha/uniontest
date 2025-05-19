@@ -48,7 +48,7 @@ const Termsandconditionpage = () => {
   return (
     <div>
     <NavbarTwo/>
-    <div className='mx-12 lg:pt-[150px] pt-[80px]'>
+    <div className='mx-12 lg:pt-[150px] pt-[100px]'>
     <h1 className='text-left font-bold text-4xl my-6 text-[#272727] ' >Union Living Terms & Conditions for Co-Living Spaces in Mumbai    </h1>
         <p className='text-gray-700' >1. Students residing in the said premises shall strictly observe all the Rules and Regulations in force from time to time. 
         <br/>

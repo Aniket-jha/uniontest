@@ -98,29 +98,29 @@ export default function NavbarTwo() {
         <Collapse open={isMobileMenuOpen}>
           
           <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
-          <Link className=""  href="/research" >
+          <Link className=""  href="/property-near-nmims" >
          NMIMS
       </Link>
       </MenuItem>
       <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
-          <Link className=""  href="/research" >
+          <Link className=""  href="/property-near-sndt" >
          SNDT
       </Link>
       </MenuItem>
       <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
-          <Link className=""  href="/research" >
+          <Link className=""  href="/property-near-mithibai" >
          Mithibai
       </Link>
       
       </MenuItem>
       <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
-          <Link className=""  href="/research" >
+          <Link className=""  href="/property-near-dj-sanghvi" >
          DJ Sanghvi
       </Link>
       
       </MenuItem>
       <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
-          <Link className=""  href="/research" >
+          <Link className=""  href="/property-near-nicmar" >
          NICMR
       </Link>
       

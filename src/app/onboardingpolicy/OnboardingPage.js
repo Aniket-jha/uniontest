@@ -46,7 +46,7 @@ const OnboardingPage = () => {
   return (
     <div>
     <NavbarTwo/>
-    <div className='mx-12 lg:pt-[150px] pt-[80px]'>
+    <div className='mx-12 lg:pt-[150px] pt-[100px]'>
     <h1 className='font-bold text-3xl my-6 text-[#272727] '>Union Living On-boarding Policy </h1>
         <p>
             ● No customer would be allowed to onboard without the complete payment of the Rent, on-boarding charges and the Security Deposit Amount and KYC process completion.

@@ -24,7 +24,7 @@ const Details = ({subtitle,title,description,link}) => {
       <div className='pb-6 lg:py-0' >
       <h3 className='font-[NeueMedium]  lg:text-[1.5rem]  text-[.8rem] ' >{subtitle}</h3>
         
-        <h2 className='font-[NeueBold]  text-[1.5rem] leading-[1.5rem] lg:leading-[3rem]  uppercase lg:text-[2rem]' >{title}</h2>
+        <h2 className='font-[NeueBold]  text-[1.1rem] leading-[1.5rem] lg:leading-[3rem]  uppercase lg:text-[2rem]' >{title}</h2>
         <p className='font-[NeueRegular]  text-[0.8rem]  lg:text-[1.1rem] ' >{description}</p>
         <Link target='_blank' rel='noreferrer' href="/form"> <button className="uppercase flex  lg:mt-4 mt-2 items-center justify-center gap-3 rounded-lg shadow-md  font-[NeueMedium] ease-in duration-300    hover:shadow-none hover:bg-[#272727] tracking-wider text-[10px] py-3 px-6 md:text-[16px] md:py-[12px] md:px-[24px] text-[#FFFEFC] bg-[#D64C27]" > Book Now </button></Link>
       </div>

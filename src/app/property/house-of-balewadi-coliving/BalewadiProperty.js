@@ -112,7 +112,7 @@ useEffect(() => {
       <ThemeProvider>
       <LeadSquaredTracker /> 
         <NavbarTwo />
-        <div className='lg:pt-[150px] pt-[80px]'>
+        <div className='lg:pt-[150px] pt-[100px]'>
        <Banner beds="144" galleryImages={galleryImages} name="House of Balewadi: Best PG in Balewadi for Male & Female" location="Balewadi, Pune" images={images} />
      <Details subtitle="Where Modern Living Meets Vibrant Community Life" title="Experience Modern Living at Balewadi’s Premier Coliving Space" description="Enjoy a seamless blend of comfort, convenience, and community at Balewadi’s top coliving space. With modern amenities, engaging social events, and a prime location, our coliving spaces in Pune offer the perfect environment for students and professionals. Your ideal lifestyle is just a move away. Join us today!" />
        <Featured />
@@ -122,7 +122,7 @@ useEffect(() => {
        <Location map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.7244298311407!2d73.7666243!3d18.577751300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9fc2ce457f7%3A0xf25693f77b5cb9bb!2sHouse%20of%20Balewadi%20by%20Union%20Living!5e1!3m2!1sen!2sin!4v1743759190016!5m2!1sen!2sin"/>
        <Event />
       <TestimonialTwo />
-      <BottomNavConstant name="House of Balewadi"  price="Rs. 20000"  />
+      <BottomNavConstant name="House of Balewadi"  price="Rs. 20000" brochure="https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FHouse%20of%20Balewadi%20(1).pdf?alt=media&token=8ee0dccc-a6a7-4358-9173-37b70e765219"  />
         <Footer />
         </div>
         </ThemeProvider>

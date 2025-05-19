@@ -123,17 +123,17 @@ const TerraProperty = () => {
       <ThemeProvider>
       <LeadSquaredTracker /> 
         <NavbarTwo />
-        <div className='lg:pt-[150px] pt-[80px]'>
+        <div className='lg:pt-[150px] pt-[100px]'>
        <Banner galleryImages={galleryImages} name="Terra: Luxurious Coliving PG in Juhu, Mumbai" location="Juhu" images={images} />
      <Details subtitle="Walking Distance from Juhu Colleges" title="Spacious Student Studio Rooms, Close to Action of Juhu." description="Welcome to Terra, your sunlit haven in the heart of Juhu. Experience the perfect blend of comfort and nature with our cozy, terrarium-inspired living spaces. Each room is bathed in natural light, creating a warm and inviting atmosphere. Our coliving in Juhu offers a unique, eco-friendly environment that fosters a sense of tranquility and well-being, making it the ideal retreat for students seeking both comfort and inspiration." />
        <Featured />
-       <Roomstwo brochure="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/Terra%20by%20Union%202025%20(1).pdf?alt=media&token=de5a7e39-3c96-47bb-b13a-146206dba625" rooms={rooms} />
+       <Roomstwo brochure="https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FTerra%20by%20Union%202025%20(1).pdf?alt=media&token=9953bbb7-30fd-4759-b08f-d6ba40494a0c" rooms={rooms} />
        <WhatSection youtube="https://youtu.be/4uAQ2Hr0ku8?si=U_Y4ypNcrFVEW4Ux" />
        <MainPropertyCTA propertyName="Terra, Juhu (Mumbai)" />
        <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15079.663821938235!2d72.8389376!3d19.1113426!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c93fc7fa60af%3A0x71920bbde6e70ed6!2sTerra%20by%20Union%20Living!5e0!3m2!1sen!2sin!4v1717177015017!5m2!1sen!2sin" youtube="https://www.youtube.com/embed/4uAQ2Hr0ku8?si=AQX1Z4zGZDYOM39w" />
        <Event />
       <TestimonialTwo />
-      <BottomNavConstant name="Terra"  price="Rs. 45,000" youtube="https://www.youtube.com/watch?v=3euMGmLNcIc&embeds_referring_euri=http%3A%2F%2Flocalhost%3A3000%2F&source_ve_path=MjM4NTE&feature=emb_title" brochure="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/Terra%20by%20Union%202025%20(1).pdf?alt=media&token=de5a7e39-3c96-47bb-b13a-146206dba625"  />
+      <BottomNavConstant name="Terra"  price="Rs. 45,000" youtube="https://www.youtube.com/watch?v=3euMGmLNcIc&embeds_referring_euri=http%3A%2F%2Flocalhost%3A3000%2F&source_ve_path=MjM4NTE&feature=emb_title" brochure="https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FTerra%20by%20Union%202025%20(1).pdf?alt=media&token=9953bbb7-30fd-4759-b08f-d6ba40494a0c"  />
         <Footer />
         </div>
         </ThemeProvider>

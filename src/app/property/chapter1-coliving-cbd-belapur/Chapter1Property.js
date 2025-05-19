@@ -116,7 +116,7 @@ const Chapter1Property = () => {
     <ThemeProvider>
     <LeadSquaredTracker /> 
       <NavbarTwo />
-      <div className='lg:pt-[150px] pt-[80px]'>
+      <div className='lg:pt-[150px] pt-[100px]'>
      <Banner galleryImages={galleryImages} name="Chapter 1 by Union Living: Luxury Coliving Spaces in CBD, Navi Mumbai" location="CBD Belapur" images={images} />
    <Details subtitle="Prime CoLiving in Navi Mumbai" title="Modern Amenities and a Thriving Community in CBD Belapur" description="Discover exceptional co-living in CBD Belapur with contemporary amenities, high-speed Wi-Fi, and an engaging community, ideal for professionals and students seeking comfort and connection. Coliving spaces in Navi Mumbai offer a perfect blend of convenience and modern living." />
      <Featured />

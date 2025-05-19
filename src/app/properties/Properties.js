@@ -51,11 +51,11 @@ const PropertiesPage = () => {
       <ThemeProvider>
       <LeadSquaredTracker /> 
         <NavbarTwo />
-        <div className='lg:pt-[150px] pt-[80px]'>
+        <div className='lg:pt-[150px] pt-[100px]'>
         <div className='lg:px-12 px-4 lg:pb-12 pb-4' >
         <div className='lg:grid grid-cols-4 items-center grid-flow-col' >
             <div className='col-span-3' >
-                <h1 className='font-[NeueBold] text-[1.4rem] lg:text-[2.8rem]' >Explore Our Premium Coliving Properties.</h1>
+                <h1 className='font-[NeueBold] text-[1.2rem] lg:text-[2.8rem]' >Explore Our Premium Coliving Properties.</h1>
                
             </div>
                 

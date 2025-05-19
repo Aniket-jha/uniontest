@@ -188,7 +188,7 @@ const SNDTProperty = () => {
     <ThemeProvider>
        <LeadSquaredTracker /> 
     <NavbarTwo />
-    <div className='lg:pt-[150px] pt-[80px]'>
+    <div className='lg:pt-[150px] pt-[100px]'>
    <CollegeBanner collegeBannerBox="sndtBannerBox" description="Explore the best properties near SNDT— luxury co-living, student housing, and premium apartments, all in one place." title="SNDT College" />
     <CollegePropertyList properties={properties} />
     <CollegeForm />

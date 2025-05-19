@@ -116,7 +116,7 @@ const CasaProperty = () => {
       <ThemeProvider>
       <LeadSquaredTracker /> 
         <NavbarTwo />
-        <div className='lg:pt-[150px] pt-[80px]'>
+        <div className='lg:pt-[150px] pt-[100px]'>
        <Banner galleryImages={galleryImages} name="Casa: Perfect PG Coliving Space in Andheri East " location="Andheri East, Mumbai" images={images} />
      <Details subtitle="Co-Living Redefined in Andheri" title="Enjoy Premier Amenities and a Thriving Community in Andheri, Mumbai" description="Experience vibrant coliving in Andheri East with modern amenities, high-speed Wi-Fi, and a welcoming community, perfect for professionals and students alike." />
        <Featured />

@@ -52,7 +52,7 @@ const FormPage = () => {
       <ThemeProvider>
       <LeadSquaredTracker /> 
         <NavbarTwo />
-        <div className='lg:pt-[150px] pt-[80px]'>
+        <div className='lg:pt-[150px] pt-[100px]'>
        <MainFormBox />
         <Footer />
         </div>

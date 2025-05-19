@@ -52,7 +52,7 @@ const CommunityPage = () => {
     <div>
        <ThemeProvider>
         <NavbarTwo />
-        <div className='lg:pt-[150px] pt-[80px]'>
+        <div className='lg:pt-[150px] pt-[100px]'>
         <CommunityBanner />
       {/* <UpcomingEvents /> */}
        <Category />

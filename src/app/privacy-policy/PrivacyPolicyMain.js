@@ -48,7 +48,7 @@ const PrivacyPolicyMain = () => {
     <div>
     <NavbarTwo/>
     <LeadSquaredTracker /> 
-      <div className='lg:pt-[150px] pt-[80px]'>
+      <div className='lg:pt-[150px] pt-[100px]'>
    <div className='px-4 py-3 lg:px-12 lg:py-12' >
  <h1 className='font-[NeueBold] text-[1.5rem]' >  Privacy Policy - Union Living </h1>
  <br/>

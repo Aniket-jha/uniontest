@@ -188,7 +188,7 @@ const NMIMSProperty = () => {
     <ThemeProvider>
        <LeadSquaredTracker /> 
     <NavbarTwo />
-    <div className='lg:pt-[150px] pt-[80px]'>
+    <div className='lg:pt-[150px] pt-[100px]'>
    <CollegeBanner title="DJ Sanghvi" collegeBannerBox="sanghviBannerBox" description="Explore the best properties near Mithibai— luxury co-living, student housing, and premium apartments, all in one place." />
     <CollegePropertyList properties={properties} />
     <CollegeForm />

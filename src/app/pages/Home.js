@@ -59,7 +59,7 @@ const Home = () => {
       <LeadSquaredTracker /> 
        <ThemeProvider>
         <NavbarTwo />
-        <div className='lg:pt-[150px] pt-[80px]'>
+        <div className='lg:pt-[150px] pt-[100px]'>
     <Suspense fallback={<p>Loading video...</p>}>
        <HomeBanner/>
        </Suspense>
