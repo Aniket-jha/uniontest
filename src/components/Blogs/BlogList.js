@@ -25,7 +25,7 @@ const BlogList = () => {
   
   return (
     <div  className='my-12 mx-12 xl:mx-6  ' >
-    <h1   className='font-[NeueBold] text-5xl  text-[#272727] text-center  ' >Welcome to the Union Living Blog    </h1> 
+    <h1   className='font-[NeueBold] text-[2rem] lg:text-5xl  text-[#272727] text-center  ' >Welcome to the Union Living Blog    </h1> 
      {blogs.length === 0 ? 
      (
       <div>

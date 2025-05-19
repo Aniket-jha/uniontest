@@ -120,13 +120,13 @@ const ZestProperty = () => {
      <Banner beds="52" galleryImages={galleryImages} name="Zest: Best Coliving PG in Chembur for Female & Male" location="Chembur" images={images} />
    <Details  subtitle="The Student & Young Professionals’ Hub" title="At the Crossroads of Connectivity and Calm, Experience the Best of East Mumbai." description="Located in the vibrant neighborhood of Chembur, Zest CoLiving brings you the ideal balance of city buzz and peaceful living. Perfect for students and young professionals, Zest offers a thoughtfully designed co-living experience that blends comfort, convenience, and community. From fully furnished shared and private rooms to common lounges and collaborative spaces, Zest is your go-to address for hassle-free living in Mumbai's fast-growing eastern corridor." />
      <Featured />
-     <Rooms rooms={rooms}  />
+     <Rooms rooms={rooms} brochure="https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FZest%20Working%20Profession%20(1)%20(1).pdf?alt=media&token=96748452-12d2-46c3-bbdf-93ad1eff6818"  />
      <WhatSection   />
      <MainPropertyCTA propertyName="Zest, Chembur (Mumbai)" />
      <Location map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.658019579056!2d72.8864997!3d19.052571200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9354517da69%3A0xdc6b62049e85cbf7!2sZest%20by%20Union%20Living!5e1!3m2!1sen!2sin!4v1746185141225!5m2!1sen!2sin"  />
      <Event />
     <TestimonialTwo />
-    <BottomNavConstant name="Zest"  price="15th May, Coming Soon"   />
+    <BottomNavConstant name="Zest"  price="Rs. 30,000" brochure="https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FZest%20Working%20Profession%20(1)%20(1).pdf?alt=media&token=96748452-12d2-46c3-bbdf-93ad1eff6818"  />
       <Footer />
       </div>
       </ThemeProvider>
