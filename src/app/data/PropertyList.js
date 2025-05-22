@@ -381,37 +381,7 @@ export const propertyListData = [
         ]
     },
    
-    {
-        name:"Bayside",
-        coverImage:BaysideCoverImage,
-        link:"",
-        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
-        price:"Sold Out",
-        images:[
-            BaysideMainImage,BaysideOneImage,BaysideTwoImage,BaysideThreeImage,BaysideFourImage
-        ],
-        location:"Seawoods, Navi Mumbai",
-        content:"At the heart of Navi Mumbai, resides India's first sea facing co-living  Fully furnished and professionally maintained, it’s ready for you to move in. The rooms as well as the living area are extremely spacious with ample sunlight and a fresh breeze flowing in. Whether you are a student, a working professional, or any young dreamer, you are welcome to live with people like you.",
-        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15088.513519318227!2d73.0090248!3d19.0140638!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3712075aad084b0f!2sBayside%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673696674457!5m2!1sen!2sine>",
-        youtubeId:"pGugbtjs0ik",
-        rooms:[
-            {
-                title:"Private",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:BaysidePrivate
-            },
-            {
-                title:"Twin",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:BaysideTwin
-            },
-            {
-                title:"Triple",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:BaysideApartment
-            },
-        ]
-    },
+    
     {
         name:"Zest",
         coverImage:ZynergyImage,
@@ -575,6 +545,37 @@ export const propertyListData = [
                 image:ChapterOneOneImage
             },
             
+        ]
+    },
+    {
+        name:"Bayside",
+        coverImage:BaysideCoverImage,
+        link:"",
+        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
+        price:"Sold Out",
+        images:[
+            BaysideMainImage,BaysideOneImage,BaysideTwoImage,BaysideThreeImage,BaysideFourImage
+        ],
+        location:"Seawoods, Navi Mumbai",
+        content:"At the heart of Navi Mumbai, resides India's first sea facing co-living  Fully furnished and professionally maintained, it’s ready for you to move in. The rooms as well as the living area are extremely spacious with ample sunlight and a fresh breeze flowing in. Whether you are a student, a working professional, or any young dreamer, you are welcome to live with people like you.",
+        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15088.513519318227!2d73.0090248!3d19.0140638!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3712075aad084b0f!2sBayside%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673696674457!5m2!1sen!2sine>",
+        youtubeId:"pGugbtjs0ik",
+        rooms:[
+            {
+                title:"Private",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:BaysidePrivate
+            },
+            {
+                title:"Twin",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:BaysideTwin
+            },
+            {
+                title:"Triple",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:BaysideApartment
+            },
         ]
     },
     {
