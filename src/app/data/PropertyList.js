@@ -36,13 +36,13 @@ import BaysideFourImage from "../../asset/baysideImages/8f72ec06cc8e62df423d1db5
 import BaysidePrivate from "../../asset/baysideImages/fc109faef3387e846a962d470bad6efb4417c5ac-700x500 (1).webp"
 import BaysideTwin from "../../asset/baysideImages/300d508143aad63902987a52f9735cc2e0f34587-700x500 (1).webp"
 import BaysideApartment from "../../asset/baysideImages/7dbcdb11208f20bc60b0e5ff76f99fb95359ddc4-700x500 (1) (2).webp"
-import CasaCoverImage from "../../asset/propertyCover/casaCover.webp"
+import CasaCoverImage from "../../asset/casasoldout.png"
 import CasaMainImage from "../../asset/casa/casa8.webp"
 import CasaOneImage from "../../asset/casa/casa3-min (1) (1) (1).webp"
 import CasaTwoImage from "../../asset/casa/casa4-min (1) (1) (1).webp"
 import CasaThreeImage from "../../asset/casa/casa5-min (1) (1) (1).webp"
 import CasaFourImage from "../../asset/casa/casa7-min (1) (1) (1).webp"
-import ChapterOneCoverImage from "../../asset/propertyCover/chapterOneCover.webp"
+import ChapterOneCoverImage from "../../asset/chapter1soldout.png"
 import ChapterOneMainImage from "../../asset/chapterImages/chapter15.webp"
 import ChapterOneOneImage from "../../asset/chapterImages/chapter 1 triple sharing-min (1).webp"
 import ChapterOneTwoImage from "../../asset/chapterImages/chapter12-min (1).webp"
@@ -320,38 +320,7 @@ export const propertyListData = [
     },
    
    
-    {
-        name:"Casa",
-        coverImage:CasaCoverImage,
-        link:"/property/casa-coliving-andheri-east-mumbai",
-        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
-        price:"Rs. 35,000",
-        images:[
-            CasaMainImage,CasaOneImage,CasaTwoImage,CasaThreeImage,CasaFourImage
-        ],
-        location:"Andheri East, Mumbai",
-        content:"As the name suggests, CASA is a warm and welcoming home nestled in the core of Andheri East. It’s an entirely furnished space ideal for an easy commute to Juhu, Andheri, Western Suburbs, and any commercial areas of Mumbai. ",
-        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
-        youtubeId:"sP_tmYSOWPE",
-        rooms:[
-            {
-                title:"Private",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:TerraTwoImage
-            },
-            {
-                title:"Twin",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:TerraThreeImage
-            },
-            {
-                title:"Triple",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:TerraFourImage
-            },
-        ]
-    },
-    
+  
     {
         name:"Hamlet",
         coverImage:HamletCoverImage,
@@ -509,38 +478,9 @@ export const propertyListData = [
             },
         ]
     },
-    {
-        name:"Chapter 1",
-        coverImage:ChapterOneCoverImage,
-        link:"/property/chapter1-coliving-cbd-belapur",
-        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
-        images:[
-            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
-        ],
-        price:"Rs.28,000",
-        location:"CBD Belapur, Navi Mumbai",
-        content:"The first chapter that introduces you and your dreams to the world, that’s Chapter 1 in Belapur, the first marquee property by Union. Well-furnished and entirely equipped, it’s a few steps away from multiple leisure spots such as BSE, Mcdonalds, Starbucks, DMart, etc. A humongous terrace lets you learn, work, chill, enjoy, party and also host friends. Begin your new chapter in Chapter 1 while living in a clean and green environment.  ",
-        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
-        youtubeId:"sP_tmYSOWPE",
-        rooms:[
-            {
-                title:"Private",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneTwoImage
-            },
-            {
-                title:"Twin",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneCoverImage
-            },
-            {
-                title:"Triple",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneOneImage
-            },
-            
-        ]
-    },
+   
+   
+    
     {
         name:"House of KP",
         coverImage:HouseofKPCover,
@@ -616,6 +556,69 @@ export const propertyListData = [
         price:"Coming Soon",
         location:"Viman Nagar",
         content:"A vibrant coliving hub merging creativity, connection, and convenience with shared spaces and collaborative energy.",
+        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
+        youtubeId:"sP_tmYSOWPE",
+        rooms:[
+            {
+                title:"Private",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneTwoImage
+            },
+            {
+                title:"Twin",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneCoverImage
+            },
+            {
+                title:"Triple",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneOneImage
+            },
+            
+        ]
+    },
+    {
+        name:"Casa",
+        coverImage:CasaCoverImage,
+        link:"",
+        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
+        price:"Rs. 35,000",
+        images:[
+            CasaMainImage,CasaOneImage,CasaTwoImage,CasaThreeImage,CasaFourImage
+        ],
+        location:"Andheri East, Mumbai",
+        content:"As the name suggests, CASA is a warm and welcoming home nestled in the core of Andheri East. It’s an entirely furnished space ideal for an easy commute to Juhu, Andheri, Western Suburbs, and any commercial areas of Mumbai. ",
+        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
+        youtubeId:"sP_tmYSOWPE",
+        rooms:[
+            {
+                title:"Private",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:TerraTwoImage
+            },
+            {
+                title:"Twin",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:TerraThreeImage
+            },
+            {
+                title:"Triple",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:TerraFourImage
+            },
+        ]
+    },
+    {
+        name:"Chapter 1",
+        coverImage:ChapterOneCoverImage,
+        link:"/property/chapter1-coliving-cbd-belapur",
+        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
+        images:[
+            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
+        ],
+        price:"Rs.28,000",
+        location:"CBD Belapur, Navi Mumbai",
+        content:"The first chapter that introduces you and your dreams to the world, that’s Chapter 1 in Belapur, the first marquee property by Union. Well-furnished and entirely equipped, it’s a few steps away from multiple leisure spots such as BSE, Mcdonalds, Starbucks, DMart, etc. A humongous terrace lets you learn, work, chill, enjoy, party and also host friends. Begin your new chapter in Chapter 1 while living in a clean and green environment.  ",
         map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
         youtubeId:"sP_tmYSOWPE",
         rooms:[
