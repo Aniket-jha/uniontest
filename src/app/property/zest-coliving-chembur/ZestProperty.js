@@ -5,14 +5,23 @@ import PropertiesList from '@/components/Properties/PropertiesList'
 import Banner from '@/components/property/Banner'
 import { ThemeProvider } from '@material-tailwind/react'
 import React, { Suspense, useEffect } from 'react'
-import SouthsideMainImage from "../../../asset/zest/1.webp"
+import SouthsideMainImage from "../../../asset/zest/zest1.webp"
 import SouthsideOneImage from "../../../asset/varsityImages/newImages/canteen.webp"
 import SouthsideTwoImage from "../../../asset/zest/2.webp"
-import SouthsideThreeImage from "../../../asset/zest/3.webp"
+import SouthsideThreeImage from "../../../asset/zest/zest3.webp"
 import SouthsideFourImage from "../../../asset/zest/4.webp"
-import SouthsideTwinImage from "../../../asset/varsityImages/newImages/t2.webp"
-import SouthsideTripleImage from "../../../asset/varsityImages/newImages/t2.webp"
-import SouthsidePrivateImage from "../../../asset/varsityImages/newImages/private-min.webp"
+import SouthsideFiveImage from "../../../asset/zest/zest5.webp"
+import SouthsideSixImage from "../../../asset/zest/zest6.webp"
+import SouthsideSevenImage from "../../../asset/zest/zest7.webp"
+import SouthsideEightImage from "../../../asset/zest/zest8.webp"
+import SouthsideNineImage from "../../../asset/zest/zest9.webp"
+import SouthsideTenImage from "../../../asset/zest/zest10.webp"
+import SouthsideElevenImage from "../../../asset/zest/zest11.webp"
+import SouthsideTwelveImage from "../../../asset/zest/zest12.webp"
+import SouthsideThirteenImage from "../../../asset/zest/zest13.webp"
+import SouthsideTwinImage from "../../../asset/zest/zest7.webp"
+import SouthsideTripleImage from "../../../asset/zest/zest8.webp"
+import SouthsidePrivateImage from "../../../asset/zest/zest10.webp"
 import Details from '@/components/property/Details'
 import Featured from '@/components/property/Featured'
 import Rooms from '@/components/property/Rooms'
@@ -25,7 +34,7 @@ import MainPropertyCTA from '@/components/property/MainPropertyCTA'
 import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const ZestProperty = () => {
-    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
+    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage,SouthsideFiveImage,SouthsideSixImage,SouthsideSevenImage,SouthsideEightImage,SouthsideTenImage,SouthsideElevenImage,SouthsideTwelveImage,SouthsideThirteenImage]
     const galleryImages=[
             
         {
@@ -53,13 +62,58 @@ const ZestProperty = () => {
             width: "100%",
             height: "100%",
           },
+          {
+            src: SouthsideFiveImage,
+            width: "100%",
+            height: "100%",
+          },
+          {
+            src: SouthsideSixImage,
+            width: "100%",
+            height: "100%",
+          },
+          {
+            src: SouthsideSevenImage,
+            width: "100%",
+            height: "100%",
+          },
+          {
+            src: SouthsideEightImage,
+            width: "100%",
+            height: "100%",
+          },
+          {
+            src: SouthsideNineImage,
+            width: "100%",
+            height: "100%",
+          },
+          {
+            src: SouthsideTenImage,
+            width: "100%",
+            height: "100%",
+          },
+          {
+            src: SouthsideElevenImage,
+            width: "100%",
+            height: "100%",
+          },
+          {
+            src: SouthsideTwelveImage,
+            width: "100%",
+            height: "100%",
+          },
+          {
+            src: SouthsideThirteenImage,
+            width: "100%",
+            height: "100%",
+          },
          
 ]
       const rooms = [
         {
             title:"Triple",
             description:"Cozy triple room with modern amenities, perfect for sharing and fostering community connections.",
-            image:SouthsideTwinImage
+            image:SouthsideTripleImage
           },
         {
           title:"Twin",
