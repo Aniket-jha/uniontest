@@ -9,8 +9,8 @@ import SouthsideMainImage from "../../../asset/zest/zest1.webp"
 import SouthsideOneImage from "../../../asset/varsityImages/newImages/canteen.webp"
 import SouthsideTwoImage from "../../../asset/zest/2.webp"
 import SouthsideThreeImage from "../../../asset/zest/zest3.webp"
-import SouthsideFourImage from "../../../asset/zest/4.webp"
-import SouthsideFiveImage from "../../../asset/zest/zest5.webp"
+import SouthsideFourImage from "../../../asset/zest/zest5.webp"
+
 import SouthsideSixImage from "../../../asset/zest/zest6.webp"
 import SouthsideSevenImage from "../../../asset/zest/zest7.webp"
 import SouthsideEightImage from "../../../asset/zest/zest8.webp"
@@ -34,7 +34,7 @@ import MainPropertyCTA from '@/components/property/MainPropertyCTA'
 import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const ZestProperty = () => {
-    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage,SouthsideFiveImage,SouthsideSixImage,SouthsideSevenImage,SouthsideEightImage,SouthsideTenImage,SouthsideElevenImage,SouthsideTwelveImage,SouthsideThirteenImage]
+    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage,SouthsideSixImage,SouthsideSevenImage,SouthsideEightImage,SouthsideTenImage,SouthsideElevenImage,SouthsideTwelveImage,SouthsideThirteenImage]
     const galleryImages=[
             
         {
@@ -62,11 +62,7 @@ const ZestProperty = () => {
             width: "100%",
             height: "100%",
           },
-          {
-            src: SouthsideFiveImage,
-            width: "100%",
-            height: "100%",
-          },
+         
           {
             src: SouthsideSixImage,
             width: "100%",

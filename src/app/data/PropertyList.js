@@ -69,7 +69,7 @@ import HouseofMundwaCover from "../../asset/propertyCover/houseofmundwa.png"
 import Elv8Cover from "../../asset/propertyCover/Elv8.png"
 import HouseofBalewadiCover from "../../asset/houseofbalewadi/cover.webp"
 import Housemate from "../../asset/housemate/coverimage_11zon.webp"
-import ZynergyImage from "../../asset/zest/coverImage.png"
+import ZynergyImage from "../../asset/zest/zestcover.webp"
 export const propertyListData = [
    
     {
