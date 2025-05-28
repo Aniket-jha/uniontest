@@ -13,6 +13,15 @@ import SouthsideFourImage from "../../../asset/terraImages/newImages/new.webp"
 import SouthsideQuadImage from "../../../asset/terraImages/newImages/quad.png"
 import SouthsideTripleImage from "../../../asset/terraImages/newImages/triple.png"
 import SouthsideTwinImage from "../../../asset/terraImages/newImages/twi.webp"
+import SouthsideNew1Image from "../../../asset/terraImages/newImages/new1.webp"
+import SouthsideNew2Image from "../../../asset/terraImages/newImages/new2.webp"
+import SouthsideNew3Image from "../../../asset/terraImages/newImages/new3.webp"
+import SouthsideNew5Image from "../../../asset/terraImages/newImages/new5.webp"
+import SouthsideNew6Image from "../../../asset/terraImages/newImages/new6.webp"
+import SouthsideNew7Image from "../../../asset/terraImages/newImages/new7.webp"
+import SouthsideNew8Image from "../../../asset/terraImages/newImages/new8.webp"
+import SouthsideNew9Image from "../../../asset/terraImages/newImages/new9.webp"
+import SouthsideNew10Image from "../../../asset/terraImages/newImages/new10.webp"
 import SouthsidePrivateImage from "../../../asset/terraImages/newImages/pri.webp"
 import Details from '@/components/property/Details'
 import Featured from '@/components/property/Featured'
@@ -27,7 +36,7 @@ import MainPropertyCTA from '@/components/property/MainPropertyCTA'
 import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const TerraProperty = () => {
-    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
+    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage,SouthsideNew1Image,SouthsideNew2Image,SouthsideNew3Image,SouthsideNew5Image,SouthsideNew6Image,SouthsideNew7Image,SouthsideNew8Image,SouthsideNew9Image,SouthsideNew10Image]
     const galleryImages=[
             
         {

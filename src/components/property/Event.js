@@ -21,6 +21,27 @@ import EventEight from "../../asset/southsideImage/newImages/event/event8.webp"
 import EventNine from "../../asset/southsideImage/newImages/event/event9.webp"
 import EventTen from "../../asset/southsideImage/newImages/event/event10.webp"
 import EventEleven from "../../asset/southsideImage/newImages/event/event11.webp"
+import EventTwelve from "../../asset/southsideImage/newImages/event/event12.webp"
+import EventThirteen from "../../asset/southsideImage/newImages/event/event13.webp"
+import EventForteen from "../../asset/southsideImage/newImages/event/event14.webp"
+import EventFifteen from "../../asset/southsideImage/newImages/event/event15.webp"
+import EventSixteen from "../../asset/southsideImage/newImages/event/event16.webp"
+import EventSeventeen from "../../asset/southsideImage/newImages/event/event17.webp"
+import EventEighteen from "../../asset/southsideImage/newImages/event/event18.webp"
+import EventNinteen from "../../asset/southsideImage/newImages/event/event19.webp"
+import EventTwenty from "../../asset/southsideImage/newImages/event/event20.webp"
+import EventTwentyOne from "../../asset/southsideImage/newImages/event/event21.webp"
+import EventTwentyTwo from "../../asset/southsideImage/newImages/event/event22.webp"
+import EventTwentyThree from "../../asset/southsideImage/newImages/event/event23.webp"
+import EventTwentyFour from "../../asset/southsideImage/newImages/event/event24.webp"
+import EventTwentyFive from "../../asset/southsideImage/newImages/event/event25.webp"
+import EventTwentySix from "../../asset/southsideImage/newImages/event/event26.webp"
+import EventTwentySeven from "../../asset/southsideImage/newImages/event/event27.webp"
+import EventTwentyEight from "../../asset/southsideImage/newImages/event/event28.webp"
+import EventTwentyNine from "../../asset/southsideImage/newImages/event/event29.webp"
+import EventThirty from "../../asset/southsideImage/newImages/event/event30.webp"
+import EventThirtyOne from "../../asset/southsideImage/newImages/event/event31.webp"
+import EventThirtyTwo from "../../asset/southsideImage/newImages/event/event32.webp"
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import Lightbox from 'yet-another-react-lightbox';
@@ -57,7 +78,7 @@ const Event = () => {
         open={open}
         plugins={[Captions, Fullscreen, Slideshow, Thumbnails, Video, Zoom]}
         close={() => setOpen(false)}
-        slides={[EventOne,EventTwo,EventThree,EventFour,EventFive,EventSix,EventSeven,EventSeven,EventNine,EventTen,EventEleven]}
+        slides={[EventOne,EventTwo,EventThree,EventFour,EventFive,EventSix,EventSeven,EventSeven,EventNine,EventTen,EventEleven,EventTwelve,EventThirteen,EventForteen,EventFifteen,EventSixteen,EventSeventeen,EventEighteen,EventNinteen,EventTwenty,EventTwentyOne,EventTwentyTwo,EventTwentyThree,EventTwentyThree,EventTwentyFour,EventTwentyFive,EventTwentySeven,EventTwentySix,EventTwentyEight,EventTwentyNine,EventThirty,EventThirtyOne,EventThirtyTwo]}
         render={{ slide: NextJsImage }}
       />
        <button className='bg-white text-[0.6rem] lg:text-[0.9rem] flex items-center justify-center gap-3 font-[NeueMedium] rounded-lg px-3 lg:px-4 py-2 lg:py-3' type="button" onClick={() => setOpen(true)}>

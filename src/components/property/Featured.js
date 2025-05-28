@@ -5,7 +5,7 @@ import ProjectToday from "../../asset/newIcon/ProjectToday.png"
 import ISN from "../../asset/newIcon/isn.png"
 import RealityPlus from "../../asset/newIcon/reality+.png"
 import Midday from "../../asset/newIcon/midday.png"
-import Outlook from "../../asset/newIcon/outlook.png"
+
 import Business from "../../asset/newIcon/business.png"
 import TIE from "../../asset/newIcon/tie.png"
 import Epc from "../../asset/newIcon/epc.png"
@@ -34,10 +34,7 @@ const Featured = () => {
         image:Midday,
         link:"https://www.mid-day.com/lifestyle/culture/article/tired-of-high-rentals-in-mumbai-here-is-a-pocket-friendly-co-living-option-23305483"
       },
-    {
-      image:Outlook,
-      link:"https://startup.outlookindia.com/sector/e-commerce/co-living-start-up-introduces-varsity-by-union-living-in-mumbai-news-9254"
-    },
+   
     {
       image:Business,
       link:"https://mybs.in/2dSkpBP"

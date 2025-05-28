@@ -6,12 +6,13 @@ import Banner from '@/components/property/Banner'
 import { ThemeProvider } from '@material-tailwind/react'
 import React, { Suspense, useEffect } from 'react'
 import SouthsideMainImage from "../../../asset/southsideImage/newImages/mainBanner.webp"
-import SouthsideOneImage from "../../../asset/southsideImage/newImages/canteen.webp"
+import SouthsideOneImage from "../../../asset/southsideImage/newImages/foodtesting.webp"
 import SouthsideTwoImage from "../../../asset/southsideImage/newImages/gym-min.webp"
 import SouthsideThreeImage from "../../../asset/southsideImage/newImages/Untitled design - 2024-06-07T221841.049.webp"
 import SouthsideFourImage from "../../../asset/southsideImage/newImages/forth.webp"
 import SouthsideTwinImage from "../../../asset/southsideImage/newImages/twin.webp"
 import SouthsidePrivateImage from "../../../asset/southsideImage/newImages/private.webp"
+
 import Details from '@/components/property/Details'
 import Featured from '@/components/property/Featured'
 import Rooms from '@/components/property/Rooms'
@@ -52,6 +53,7 @@ const SouthsideProperty = () => {
             width: "100%",
             height: "100%",
           },
+          
          
 ]
       const rooms = [

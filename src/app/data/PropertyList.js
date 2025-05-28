@@ -1,4 +1,4 @@
-import VarsityCoverImage from "../../asset/propertyCover/varsityCover.webp"
+import VarsityCoverImage from "../../asset/varsityImages/newImages/coverImage.webp"
 import VarsityMainImage from "../../asset/varsityImages/mainBanner.webp"
 import VarsityOneImage from "../../asset/varsityImages/9-min.webp"
 import VarsityTwoImage from "../../asset/varsityImages/gym-min.webp"

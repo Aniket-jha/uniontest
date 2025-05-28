@@ -5,13 +5,25 @@ import PropertiesList from '@/components/Properties/PropertiesList'
 import Banner from '@/components/property/Banner'
 import { ThemeProvider } from '@material-tailwind/react'
 import React, { Suspense, useEffect } from 'react'
+import SouthsideCoverImage from "../../../asset/varsityImages/newImages/coverimage.webp"
 import SouthsideMainImage from "../../../asset/varsityImages/newImages/mainBanner.webp"
-import SouthsideOneImage from "../../../asset/varsityImages/newImages/canteen.webp"
+import SouthsideOneImage from "../../../asset/varsityImages/newImages/foodtesting.webp"
 import SouthsideTwoImage from "../../../asset/varsityImages/newImages/gym-min.webp"
 import SouthsideThreeImage from "../../../asset/varsityImages/newImages/Untitled design - 2024-05-31T015132.055.webp"
 import SouthsideFourImage from "../../../asset/varsityImages/newImages/room.webp"
 import SouthsideTwinImage from "../../../asset/varsityImages/newImages/t2.webp"
 import SouthsidePrivateImage from "../../../asset/varsityImages/newImages/private-min.webp"
+import SouthsideApartmentImage from "../../../asset/varsityImages/newImages/3bhk.webp"
+import SouthsideNew1 from "../../../asset/varsityImages/newImages/new1.webp"
+import SouthsideNew2 from "../../../asset/varsityImages/newImages/new2.webp"
+import SouthsideNew3 from "../../../asset/varsityImages/newImages/new3.webp"
+import SouthsideNew4 from "../../../asset/varsityImages/newImages/new4.webp"
+import SouthsideNew5 from "../../../asset/varsityImages/newImages/new5.webp"
+import SouthsideNew6 from "../../../asset/varsityImages/newImages/new6.webp"
+import SouthsideNew7 from "../../../asset/varsityImages/newImages/new7.webp"
+import SouthsideNew8 from "../../../asset/varsityImages/newImages/new8.webp"
+import SouthsideNew9 from "../../../asset/varsityImages/newImages/new9.webp"
+import SouthsideNew10 from "../../../asset/varsityImages/newImages/new10.webp"
 import Details from '@/components/property/Details'
 import Featured from '@/components/property/Featured'
 import Rooms from '@/components/property/Rooms'
@@ -24,7 +36,7 @@ import MainPropertyCTA from '@/components/property/MainPropertyCTA'
 import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const VarsityProperty = () => {
-    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
+    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage,SouthsideNew1,SouthsideNew2,SouthsideNew3,SouthsideNew4,SouthsideNew5,SouthsideNew6,SouthsideNew7,SouthsideNew8,SouthsideNew9,SouthsideNew10]
     const galleryImages=[
             
         {
@@ -63,7 +75,12 @@ const VarsityProperty = () => {
         {
           title:"Private",
           description:"Private room with en-suite bathroom, fully furnished, high-speed Wi-Fi, and regular housekeeping.",
-          image:SouthsidePrivateImage
+          image:SouthsideCoverImage
+        },
+        {
+          title:"3bhk Apartment",
+          description:"3BHK with en-suite bathroom, fully furnished, high-speed Wi-Fi, and regular housekeeping.",
+          image:SouthsideApartmentImage
         },
       ]
       useEffect(() => {
