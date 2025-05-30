@@ -64,10 +64,10 @@ const Details = ({subtitle,title,description,link}) => {
                 <Image className='lg:w-[50px] w-[30px] mt-[-18px]' src={LivingRoom} />
                 <p className='font-[NeueRegular]  text-[0.8rem]  lg:text-[1rem]' >Living Room</p>
             </div>
-            <div className='flex mt-6 items-center justify-start gap-4' >
+           {title !== "Spacious Student Studio Rooms, Close to Action of Juhu." && <div className='flex mt-6 items-center justify-start gap-4' >
                 <Image className='lg:w-[50px] w-[30px] mt-[-18px]' src={Parking} />
                 <p className='font-[NeueRegular]  text-[0.8rem]  lg:text-[1rem]' >Parking</p>
-            </div>
+            </div>}
             <div className='flex mt-6 items-center justify-start gap-4' >
                 <Image className='lg:w-[50px] w-[30px] mt-[-18px]' src={SecurityGuard} />
                 <p className='font-[NeueRegular]  text-[0.8rem]  lg:text-[1rem]' >Security Guard</p>

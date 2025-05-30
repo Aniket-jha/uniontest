@@ -132,13 +132,13 @@ const VarsityProperty = () => {
      <Banner beds="221" galleryImages={galleryImages} name="Varsity: Best Coliving PG in Santacruz, Mumbai" location="Juhu / Santacruz" images={images} />
    <Details  subtitle="The Student Social Club" title="At the Junction of Bandra and Juhu, live the Best of Both Worlds." description="Varsity is located in the heart of Mumbai’s most demanding and posh area. Varsity is the perfect solution for students and also for those looking for a co-living space in Mumbai that combines comfort, convenience, and a sense of community. Located in the bustling city of Mumbai, Varsity offers a variety of shared and private spaces that cater to all your needs." />
      <Featured />
-     <Rooms rooms={rooms} brochure="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/Varsity%20by%20Union%202025%20(1).pdf?alt=media&token=28b822b5-b46c-47a0-b07a-7ab3ee179bfd" />
+     <Rooms rooms={rooms} brochure="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/varsity30may.pdf?alt=media&token=66194462-e478-4e47-ad67-ae51173a0d0d" />
      <WhatSection youtube="https://www.youtube.com/watch?v=3euMGmLNcIc&embeds_referring_euri=http%3A%2F%2Flocalhost%3A3000%2F&source_ve_path=MjM4NTE&feature=emb_title"  />
      <MainPropertyCTA propertyName="Varsity, Juhu (Mumbai)" />
      <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15081.696760186362!2d72.8341302!3d19.0890381!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9fb0323a235%3A0x577a653a62504566!2sVarsity%20by%20Union%20Living!5e0!3m2!1sen!2sin!4v1709842768484!5m2!1sen!2sin" youtube="https://www.youtube.com/embed/3euMGmLNcIc?si=M9WkQOg-IuWIyGVS" />
      <Event />
     <TestimonialTwo />
-    <BottomNavConstant name="Varsity"  price="Rs. 45,000" youtube="https://www.youtube.com/watch?v=3euMGmLNcIc&embeds_referring_euri=http%3A%2F%2Flocalhost%3A3000%2F&source_ve_path=MjM4NTE&feature=emb_title" brochure="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/Varsity%20by%20Union%202025%20(1).pdf?alt=media&token=28b822b5-b46c-47a0-b07a-7ab3ee179bfd"  />
+    <BottomNavConstant name="Varsity"  price="Rs. 45,000" youtube="https://www.youtube.com/watch?v=3euMGmLNcIc&embeds_referring_euri=http%3A%2F%2Flocalhost%3A3000%2F&source_ve_path=MjM4NTE&feature=emb_title" brochure="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/varsity30may.pdf?alt=media&token=66194462-e478-4e47-ad67-ae51173a0d0d"  />
       <Footer />
       </div>
       </ThemeProvider>
