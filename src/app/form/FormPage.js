@@ -36,7 +36,7 @@ const FormPage = () => {
           backgroundColor: '#00e785',
           ctaText: 'Chat with us now',
           borderRadius: '25',
-          autoShow: true,
+          autoShow: false,
           phoneNumber: '919137915406',
         },
       };
