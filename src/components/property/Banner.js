@@ -43,7 +43,7 @@ const Banner = ({images,name,location,beds,apartment}) => {
       </div>
       <div className=' flex items-center justify-start gap-2 lg:gap-4 lg:pl-6 pl-2' >
         <RiDoorOpenLine className='lg:text-[1.7rem] text-[1rem]' />
-        <p className='font-[NeueRegular] text-[0.8rem] lg:text-[1.2rem]' >{apartment?.length !== 0 ? apartment : "50 Apartment"} Apartments</p>
+        <p className='font-[NeueRegular] text-[0.8rem] lg:text-[1.2rem]' >{apartment?.length !== 0 ? apartment : "50"} Apartments</p>
       </div>
       </div>
     </div>
