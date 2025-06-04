@@ -84,23 +84,18 @@ src="https://www.facebook.com/tr?id=1424619772031368&ev=PageView&noscript=1"
 `}
       
      </Script>
-     <Script
-        strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=AW-11425120901"
-      />
-      <Script
-        id="google-analytics"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-11425120901');
-          `,
-        }}
-      />
-
+     <Script id="gtm-init" strategy="afterInteractive">
+        {`
+          (function(w,d,s,l,i){w[l]=w[l]||[];
+            w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+            var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+            j.async=true;
+            j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+            f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-WBTZ2ZF6');
+        `}
+      </Script>
     
       <link rel="icon" href="./favicon.png" sizes="any" />
       <link
@@ -111,6 +106,14 @@ src="https://www.facebook.com/tr?id=1424619772031368&ev=PageView&noscript=1"
     />
      
       <body className={inter.className}>
+      <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-WBTZ2ZF6"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
       <Script
         src="https://web-in21.mxradon.com/t/Tracker.js"
         strategy="afterInteractive"

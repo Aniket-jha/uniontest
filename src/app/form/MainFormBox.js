@@ -159,9 +159,9 @@ const MainFormBox = () => {
                         <option value="Terra">Terra, Juhu (Mumbai)</option>
                         <option value="Varsity">Varsity, Juhu (Mumbai)</option>
                         <option value="Hamlet">Hamlet, Baner (Pune)</option>
-                        <option value="Casa">Casa, Andheri (Mumbai)</option>
+                        {/* <option value="Casa">Casa, Andheri (Mumbai)</option>
                         <option value="Chapter 1">Chapter 1, Belapur (Navi Mumbai)</option>
-                        <option value="Abode">Abode, Dhankawadi (Pune)</option>
+                        <option value="Abode">Abode, Dhankawadi (Pune)</option> */}
            
                         <option value="Zest, Chembur (Mumbai)">Zest, Chembur (Mumbai)</option>
                         <option value="House of Balewadi, Pune">House of Balewadi, Pune</option>

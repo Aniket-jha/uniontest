@@ -5,7 +5,7 @@ import Footer from '@/components/Layout/Footer'
 import NavbarTwo from '@/components/Layout/Navbar'
 import { ThemeProvider } from '@material-tailwind/react'
 import React from 'react'
-import VarsityCoverImage from "../../asset/propertyCover/varsityCover.webp"
+import VarsityCoverImage from "../../asset/varsityImages/newImages/coverimage.webp"
 import VarsityMainImage from "../../asset/varsityImages/mainBanner.webp"
 import VarsityOneImage from "../../asset/varsityImages/9-min.webp"
 import VarsityTwoImage from "../../asset/varsityImages/gym-min.webp"

@@ -23,7 +23,7 @@ import { HiArrowLongRight } from "react-icons/hi2";
 import { RiDoorOpenLine } from "react-icons/ri";
 import NextJsImage from './NextjsImage';
 import Image from 'next/image';
-const Banner = ({images,name,location,beds}) => {
+const Banner = ({images,name,location,beds,apartment}) => {
   const [open, setOpen] = useState(false);
   console.log(images[0])
   const galleryImages=[
@@ -43,7 +43,7 @@ const Banner = ({images,name,location,beds}) => {
       </div>
       <div className=' flex items-center justify-start gap-2 lg:gap-4 lg:pl-6 pl-2' >
         <RiDoorOpenLine className='lg:text-[1.7rem] text-[1rem]' />
-        <p className='font-[NeueRegular] text-[0.8rem] lg:text-[1.2rem]' >50 Apartments</p>
+        <p className='font-[NeueRegular] text-[0.8rem] lg:text-[1.2rem]' >{apartment?.length !== 0 ? apartment : "50 Apartment"} Apartments</p>
       </div>
       </div>
     </div>
