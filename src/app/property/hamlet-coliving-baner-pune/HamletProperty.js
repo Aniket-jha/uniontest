@@ -12,6 +12,23 @@ import SouthsideThreeImage from "../../../asset/hamletImages/newImages/terrace.w
 import SouthsideFourImage from "../../../asset/hamletImages/newImages/eating.webp"
 import SouthsideTwinImage from "../../../asset/hamletImages/newImages/twin.webp"
 import SouthsidePrivateImage from "../../../asset/hamletImages/newImages/private.webp"
+import SouthsideNew1 from "../../../asset/hamletImages/newImages/newimage1.webp"
+import SouthsideNew2 from "../../../asset/hamletImages/newImages/newimage2.webp"
+import SouthsideNew3 from "../../../asset/hamletImages/newImages/newimage3.webp"
+import SouthsideNew4 from "../../../asset/hamletImages/newImages/newimage4.webp"
+import SouthsideNew5 from "../../../asset/hamletImages/newImages/newimage5.webp"
+import SouthsideNew6 from "../../../asset/hamletImages/newImages/newimage6.webp"
+import SouthsideNew7 from "../../../asset/hamletImages/newImages/newimage7.webp"
+import SouthsideNew8 from "../../../asset/hamletImages/newImages/newimage8.webp"
+import SouthsideNew10 from "../../../asset/hamletImages/newImages/newimage10.webp"
+import SouthsideNew11 from "../../../asset/hamletImages/newImages/newimage11.webp"
+import SouthsideNew12 from "../../../asset/hamletImages/newImages/newimage12.webp"
+import SouthsideNew13 from "../../../asset/hamletImages/newImages/newimage13.webp"
+import SouthsideNew9 from "../../../asset/hamletImages/newImages/newimage9.webp"
+import SouthsideNew14 from "../../../asset/hamletImages/newImages/newimage14.webp"
+import SouthsideNew15 from "../../../asset/hamletImages/newImages/newimage15.webp"
+import SouthsideNew16 from "../../../asset/hamletImages/newImages/newimage16.webp"
+import SouthsideNew17 from "../../../asset/hamletImages/newImages/newimage17.webp"
 import Details from '@/components/property/Details'
 import Featured from '@/components/property/Featured'
 import Rooms from '@/components/property/Rooms'
@@ -24,7 +41,7 @@ import MainPropertyCTA from '@/components/property/MainPropertyCTA'
 import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const HamletProperty = () => {
-    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
+    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage,SouthsideNew1,SouthsideNew2,SouthsideNew3,SouthsideNew4,SouthsideNew5,SouthsideNew6,SouthsideNew7,SouthsideNew8,SouthsideNew9,SouthsideNew10,SouthsideNew11,SouthsideNew12,SouthsideNew13,SouthsideNew14,SouthsideNew15,SouthsideNew16,SouthsideNew17]
     const galleryImages=[
             
         {
@@ -112,7 +129,7 @@ const HamletProperty = () => {
       <LeadSquaredTracker /> 
         <NavbarTwo />
         <div className='lg:pt-[150px] pt-[100px]'>
-       <Banner galleryImages={galleryImages} name="Hamlet: Premier Coliving PG Coliving in Baner, Pune" location="Baner, Pune" images={images} />
+       <Banner apartment="45 Apartments" beds="118" galleryImages={galleryImages} name="Hamlet: Premier Coliving PG Coliving in Baner, Pune" location="Baner, Pune" images={images} />
      <Details subtitle="Where Modern Living Meets Vibrant Community Life" title="Discover Comfort and Community at Pune's Premier Coliving Space" description="Experience the perfect blend of comfort and community at Pune's premier coliving spaces in Baner. Enjoy modern amenities, vibrant social events, and a convenient location, all designed to enhance your living experience. Join us today!" />
        <Featured />
        <Rooms rooms={rooms}   />
