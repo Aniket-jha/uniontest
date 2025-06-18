@@ -13,6 +13,9 @@ import Head from 'next/head.js'
 import { ThemeProvider } from "@material-tailwind/react";
 import Script from 'next/script.js'
 import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker.js'
+import PropertiesList from '@/components/Home/PropertiesList.js'
+import PropertiesCollege from '@/components/Home/PropertiesCollege.js'
+import HomeCTABanner from '@/components/Home/HomeCTABanner.js'
 const Home = () => {
   useEffect(() => {
     const url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?95542';
@@ -64,8 +67,13 @@ const Home = () => {
        <HomeBanner/>
        </Suspense>
        <Featured />
+       <PropertiesList />
        <Amenities />
+       
+       <PropertiesCollege />
+       <HomeCTABanner />
        <Unite />
+
        <LeftAndRight />
        <TestimonialTwo />
        <Footer />
