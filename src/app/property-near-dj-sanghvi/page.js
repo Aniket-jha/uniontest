@@ -4,13 +4,13 @@ import NMIMSProperty from './DjSanghviProperty'
 import Head from 'next/head'
 
 export const metadata = {
-    title: "Find Your Perfect Luxury Co-Living Space in Near DJ Sanghvi",
-    description: "Experience luxury co-living near DJ Sanghvi with fully-furnished rooms, high-speed Wi-Fi, housekeeping, and 24/7 security. Comfort, convenience, and community—redefined.",
+    title: "The Best Co-living Spaces Near DJ Sanghvi | Best PG Option by Union Living",
+    description: "Explore the best coliving spaces near DJ Sanghvi with fully furnished rooms, high-speed Wi-Fi, housekeeping, and round-the-clock security services. ",
     keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   
     openGraph: {
       title: 'Find Your Perfect Luxury Co-Living Space in Near DJ Sanghvi',
-      description: 'Experience luxury co-living near DJ Sanghvi with fully-furnished rooms, high-speed Wi-Fi, housekeeping, and 24/7 security. Comfort, convenience, and community—redefined.',
+      description: 'Explore the best coliving spaces near DJ Sanghvi with fully furnished rooms, high-speed Wi-Fi, housekeeping, and round-the-clock security services. ',
       url: 'https://unionliving.in/property-near-nmims/',
       siteName: 'Union Living',
       images: [

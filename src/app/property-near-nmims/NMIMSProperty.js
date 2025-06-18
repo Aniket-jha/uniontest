@@ -189,7 +189,7 @@ const NMIMSProperty = () => {
        <LeadSquaredTracker /> 
     <NavbarTwo />
     <div className='lg:pt-[150px] pt-[100px]'>
-   <CollegeBanner collegeBannerBox="nmimsBannerBox" description="Explore the best properties near NMIMS— luxury co-living, student housing, and premium apartments, all in one place." title="NMIMS" />
+   <CollegeBanner collegeBannerBox="nmimsBannerBox" description="Explore the best properties near NMIMS— luxury co-living, student housing, and premium apartments, all in one place." title="Best PG Near NMIMS Mumbai" />
     <CollegePropertyList  properties={properties} />
     <CollegeForm />
     <TestimonialTwo />

@@ -4,13 +4,13 @@ import NMIMSProperty from './MithibaiProperty'
 import Head from 'next/head'
 
 export const metadata = {
-    title: "Find Your Perfect Luxury Co-Living Space in Near Mithibai",
-    description: "Experience luxury co-living near  Mithibai with fully-furnished rooms, high-speed Wi-Fi, housekeeping, and 24/7 security. Comfort, convenience, and community—redefined.",
+    title: "Best PG Near Mithibai College | Modern Co-Living Spaces Near Mithibai",
+    description: "Find top co-living spaces and the best PG near Mithibai College with fully furnished rooms, Wi-Fi, housekeeping, and 24/7 security. Live comfortably today!",
     keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   
     openGraph: {
-      title: 'Find Your Perfect Luxury Co-Living Space in Near Mithibai',
-      description: 'Experience luxury co-living near  Mithibai with fully-furnished rooms, high-speed Wi-Fi, housekeeping, and 24/7 security. Comfort, convenience, and community—redefined.',
+      title: 'Best PG Near Mithibai College | Modern Co-Living Spaces Near Mithibai',
+      description: 'Find top co-living spaces and the best PG near Mithibai College with fully furnished rooms, Wi-Fi, housekeeping, and 24/7 security. Live comfortably today!',
       url: 'https://unionliving.in/property-near-mithibai/',
       siteName: 'Union Living',
       images: [

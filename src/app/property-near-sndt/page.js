@@ -4,13 +4,13 @@ import Head from 'next/head'
 import SNDTProperty from './SndtProperty'
 
 export const metadata = {
-    title: "Find Your Perfect Luxury Co-Living Space in Near SNDT",
-    description: "Experience luxury co-living near SNDT with fully-furnished rooms, high-speed Wi-Fi, housekeeping, and 24/7 security. Comfort, convenience, and community—redefined.",
+    title: "The Best Coliving Spaces Near Shreemati Nathibai Damodar Thackersey Women's University College (SNDT)",
+    description: "Find the best coliving spaces near SNDT College. Fully-furnished rooms near Shreemati Nathibai Damodar Thackersey Women's University with Wi-Fi, security & comfort.",
     keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   
     openGraph: {
-      title: 'Find Your Perfect Luxury Co-Living Space in Near SNDT',
-      description: 'Experience luxury co-living near SNDT with fully-furnished rooms, high-speed Wi-Fi, housekeeping, and 24/7 security. Comfort, convenience, and community—redefined.',
+      title: "The Best Coliving Spaces Near Shreemati Nathibai Damodar Thackersey Women's University College (SNDT)",
+      description: "Find the best coliving spaces near SNDT College. Fully-furnished rooms near Shreemati Nathibai Damodar Thackersey Women's University with Wi-Fi, security & comfort.",
       url: 'https://unionliving.in/property-near-nmims/',
       siteName: 'Union Living',
       images: [

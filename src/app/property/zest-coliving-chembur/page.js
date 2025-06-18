@@ -4,15 +4,15 @@ import Head from 'next/head'
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
-  title: "PG in Chembur for Female | Best Coliving PG in Chembur for Male – Union Living",
-  description: "Looking for a PG in Chembur? Union Living offers luxury coliving PG in Chembur for females and males with modern amenities, comfort, and safety.",
+  title: "Best Coliving PG in Chembur for Male and Female | PG in Chembur for Working Professionals – Union Living",
+  description: " Looking for a PG in Chembur? Union Living offers luxury coliving PG in Chembur for working professionals females and males with modern amenities, comfort, and safety just 10 minutes from BKC (Bandra-Kurla Complex).",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   verification: {
     google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
   },
   openGraph: {
-    title: "PG in Chembur for Female | Best Coliving PG in Chembur for Male – Union Living",
-    description: "Looking for a PG in Chembur? Union Living offers luxury coliving PG in Chembur for females and males with modern amenities, comfort, and safety.",
+    title: "Best Coliving PG in Chembur for Male and Female | PG in Chembur for Working Professionals – Union Living",
+    description: " Looking for a PG in Chembur? Union Living offers luxury coliving PG in Chembur for working professionals females and males with modern amenities, comfort, and safety just 10 minutes from BKC (Bandra-Kurla Complex).",
     url: 'https://unionliving.in/property/zest-coliving-chembur/',
     siteName: 'Union Living',
     images: [

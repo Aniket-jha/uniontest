@@ -4,13 +4,13 @@ import NMIMSProperty from './NMIMSProperty'
 import Head from 'next/head'
 
 export const metadata = {
-    title: "Find Your Perfect Luxury Co-Living Space in Near NMIMS",
-    description: "Experience luxury co-living near NMIMS with fully-furnished rooms, high-speed Wi-Fi, housekeeping, and 24/7 security. Comfort, convenience, and community—redefined.",
+    title: "PG Near NMIMS Mumbai | Best Co-Living for Narsee Monjee Institute of Management Studies Students | Union Living",
+    description: "Looking for the best PG near NMIMS Mumbai? Union Living offers luxurious, fully-furnished co-living spaces just steps from Narsee Monjee Institute of Management Studies. Enjoy top amenities, Wi-Fi, and a vibrant student community.",
     keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   
     openGraph: {
-      title: 'Find Your Perfect Luxury Co-Living Space in Near NMIMS',
-      description: 'Experience luxury co-living near NMIMS with fully-furnished rooms, high-speed Wi-Fi, housekeeping, and 24/7 security. Comfort, convenience, and community—redefined.',
+      title: 'PG Near NMIMS Mumbai | Best Co-Living for Narsee Monjee Institute of Management Studies Students | Union Living',
+      description: 'Looking for the best PG near NMIMS Mumbai? Union Living offers luxurious, fully-furnished co-living spaces just steps from Narsee Monjee Institute of Management Studies. Enjoy top amenities, Wi-Fi, and a vibrant student community.',
       url: 'https://unionliving.in/property-near-nmims/',
       siteName: 'Union Living',
       images: [

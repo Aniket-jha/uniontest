@@ -10,6 +10,20 @@ import SouthsideOneImage from "../../../asset/casa/newImages/canteen.webp"
 import SouthsideTwoImage from "../../../asset/houseofbalewadi/2.webp"
 import SouthsideThreeImage from "../../../asset/houseofbalewadi/3.webp"
 import SouthsideFourImage from "../../../asset/houseofbalewadi/4.webp"
+import SouthsideNew1 from "../../../asset/houseofbalewadi/newImages1.webp"
+import SouthsideNew2 from "../../../asset/houseofbalewadi/newImages2.webp"
+import SouthsideNew3 from "../../../asset/houseofbalewadi/newImages3.webp"
+import SouthsideNew4 from "../../../asset/houseofbalewadi/newImages4.webp"
+import SouthsideNew5 from "../../../asset/houseofbalewadi/newImages5.webp"
+import SouthsideNew6 from "../../../asset/houseofbalewadi/newImages6.webp"
+import SouthsideNew7 from "../../../asset/houseofbalewadi/newImages7.webp"
+import SouthsideNew8 from "../../../asset/houseofbalewadi/newImages8.webp"
+import SouthsideNew10 from "../../../asset/houseofbalewadi/newImages9.webp"
+import SouthsideNew11 from "../../../asset/houseofbalewadi/newImages10.webp"
+import SouthsideNew12 from "../../../asset/houseofbalewadi/newImages11.webp"
+import SouthsideNew13 from "../../../asset/houseofbalewadi/newImages12.webp"
+import SouthsideNew9 from "../../../asset/houseofbalewadi/newImages13.webp"
+
 // import SouthsideTwinImage from "../../../asset/hamletImages/newImages/twin.webp"
 // import SouthsidePrivateImage from "../../../asset/hamletImages/newImages/private.webp"
 import Details from '@/components/property/Details'
@@ -24,7 +38,7 @@ import MainPropertyCTA from '@/components/property/MainPropertyCTA'
 import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const BalewadiProperty = () => {
-    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage]
+    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage,SouthsideNew1,SouthsideNew2,SouthsideNew3,SouthsideNew4,SouthsideNew5,SouthsideNew6,SouthsideNew7,SouthsideNew8,SouthsideNew9,SouthsideNew10,SouthsideNew11,SouthsideNew12,SouthsideNew13]
     const galleryImages=[
             
         {

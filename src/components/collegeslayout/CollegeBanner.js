@@ -6,7 +6,7 @@ const CollegeBanner = ({collegeBannerBox,title,description}) => {
         <div className='flex items-start px-6 py-4 justify-end  flex-col'>
 
        
-        <p className='text-[#e3e3e3]  font-[NeueRegular] text-[1rem] lg:text-[2rem]' >Showing Properties Near</p>
+       
         <h1 className='text-[#ffffff] font-[NeueBold] text-[2.5rem] lg:text-[3.5rem]'>{title}</h1>
         <p className='text-[#e3e3e3] w-[100%] lg:w-[60%]  font-[NeueRegular] text-[.8rem] lg:text-[1.2rem]'>{description}</p>
         </div>
