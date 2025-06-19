@@ -99,6 +99,42 @@ export default async function sitemap() {
       priority: 0.8,
     },
     {
+      url: 'https://unionliving.in/property-near-nicmar',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://unionliving.in/property-near-dj-sanghvi',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://unionliving.in/property-near-mithibai',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://unionliving.in/property-near-sndt',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://unionliving.in/property-near-nmims',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://unionliving.in/property/zest-coliving-chembur',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
       url: 'https://unionliving.in/property/house-of-balewadi-coliving/',
       lastModified: new Date(),
       changeFrequency: 'weekly',

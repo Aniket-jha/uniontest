@@ -6,8 +6,8 @@ const BrandList = ({images,speed}) => {
     <div className="inner">
       <div className="wrapper">
         <section style={{ "--speed": `${speed}ms` }}>
-          {images.map(({ id, image,link }) => (
-            <a href={link}>
+          {images.map(({ id, image,link,key }) => (
+            <a id={key} href={link}>
             <div className="homeImage" key={id}>
               <Image className='mainHomeImage' src={image} alt={id} />
             </div>
@@ -15,8 +15,8 @@ const BrandList = ({images,speed}) => {
           ))}
         </section>
         <section style={{ "--speed": `${speed}ms` }}>
-          {images.map(({ id, image, link }) => (
-            <a href={link}>
+          {images.map(({ id, image, link,key }) => (
+            <a id={key} href={link}>
             <div className="homeImage" key={id}>
               <Image className='mainHomeImage' src={image} alt={id} />
             </div>
@@ -24,8 +24,8 @@ const BrandList = ({images,speed}) => {
           ))}
         </section>
         <section style={{ "--speed": `${speed}ms` }}>
-          {images.map(({ id, image, link }) => (
-            <a href={link}>
+          {images.map(({ id, image, link,key }) => (
+            <a id={key} href={link}>
             <div className="homeImage" key={id}>
               <Image className='mainHomeImage' src={image} alt={id} />
             </div>
