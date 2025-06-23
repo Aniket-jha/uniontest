@@ -68,36 +68,21 @@ export default async function sitemap() {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
-    {
-      url: 'https://unionliving.in/property/casa-coliving-andheri-east-mumbai/',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
+   
     {
       url: 'https://unionliving.in/property/hamlet-coliving-baner-pune/',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority:0.8,
     },
-    {
-      url: 'https://unionliving.in/property/bayside-coliving-seawoods-navi-mumbai/',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority:0.8,
-    },
+    
     {
       url: 'https://unionliving.in/property/abode-coliving-dhankawadi-pune/',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
     },
-    {
-      url: 'https://unionliving.in/property/chapter1-coliving-cbd-belapur/',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
+   
     {
       url: 'https://unionliving.in/property-near-nicmar',
       lastModified: new Date(),

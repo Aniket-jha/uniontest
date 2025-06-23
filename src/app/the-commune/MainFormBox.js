@@ -155,41 +155,39 @@ const MainFormBox = () => {
                              </select> */}
                              <select  onChange={(e)=>{setFormData({...formData,property:e.target.value})}}  className='border-[1px] round border-[#e0e0e0] shadow-md w-full px-3 py-3 rounded-[10px]' >
                         <option  value="">I want to Move to</option>
-                        <option value="Southside">Southside, Mahalaxmi(Mumbai)</option>
+                      
                         <option value="Terra">Terra, Juhu (Mumbai)</option>
                         <option value="Varsity">Varsity, Juhu (Mumbai)</option>
-                        <option value="Hamlet">Hamlet, Baner (Pune)</option>
-                        <option value="Casa">Casa, Andheri (Mumbai)</option>
-                        <option value="Chapter 1">Chapter 1, Belapur (Navi Mumbai)</option>
-                        <option value="Abode">Abode, Dhankawadi (Pune)</option>
-           
-                        <option value="Zest, Chembur (Mumbai)">Zest, Chembur (Mumbai)</option>
-                        <option value="House of Balewadi, Pune">House of Balewadi, Pune</option>
-                             </select>
-                    </div>
-                    <div className='flex flex-col gap-2 lg:gap-2 my-4 lg:my-6 w-full items-start justify-center' >
-                    <label className='font-[NeueRegular] text-[1.2rem]'>How did you Hear About Us:</label>
-                        <select  onChange={(e)=>{setFormData({...formData,discovery:e.target.value})}}  className='border-[1px] round border-[#e0e0e0] shadow-md w-full px-3 py-3 rounded-[10px]' >
-                        <option  value="">Choose One</option>
-                        <option value="Google">Google</option>
-                        <option value="Flyer">Flyer</option>
-                        <option value="Facebook">Facebook</option>
-                        <option value="Instagram">Instagram</option>
-                        <option value="Campus Ambassador">Campus Ambassador</option>
-                        <option value="From a Friend">From a Friend</option>
-                             </select>
-                            
-                    </div>
-                    <div className='flex flex-col gap-2 lg:gap-2 my-4 lg:my-6 w-full items-start justify-center'>
-                    <label className='font-[NeueRegular] text-[1.2rem]'>Your Referral Code:</label>
-                    <div className='flex flex-col lg:flex-row gap-4 lg:gap-6  w-full items-center justify-center' >
 
-                        {/* <p className='w-[50%] font-[NeueRegular] text-center rounded-lg px-4 py-3 text-[.8rem] bg-white border-[1px] border-gray-300' >Student</p>
-                        <p className='w-[50%] font-[NeueRegular] text-center rounded-lg px-4 py-3 text-[.8rem] bg-white border-[1px] border-gray-300'>Working Professional</p> */}
-                        {/* <input type='date' value={formData.moveInDate} onChange={(e)=>{setFormData({...formData,moveInDate:e.target.value})}} placeholder='Move-in date' className='border-[1px] border-[#e0e0e0] shadow-md w-full px-3 py-3 rounded-[10px]' /> */}
-                        <input value={formData.referralcode} onChange={(e)=>{setFormData({...formData,referralcode:e.target.value})}} placeholder='Referaal Code(if any)' className='border-[1px] border-[#e0e0e0] shadow-md w-full px-3 py-3 rounded-[10px]' />
+                             </select>
                     </div>
+                    <div className='flex flex-col  gap-2 lg:gap-2 my-4 lg:my-6 w-full items-start justify-center' >
+                    <label className='font-[NeueRegular] text-[1.2rem]'>College Name:</label>
+                        
+                             <select  onChange={(e)=>{setFormData({...formData,property:e.target.value})}}  className='border-[1px] round border-[#e0e0e0] shadow-md w-full px-3 py-3 rounded-[10px]' >
+                        <option  value="">Choose a College</option>
+                      
+                        <option value="NMIMS">NMIMS</option>
+                        <option value="Mithibai">Mithibai</option>
+                        <option value="DJ Sanghavi">DJ Sanghavi</option>
+                        <option value="SNDT">SNDT</option>
+
+                             </select>
                     </div>
+                    <div className='flex flex-col  gap-2 lg:gap-2 my-4 lg:my-6 w-full items-start justify-center' >
+                    <label className='font-[NeueRegular] text-[1.2rem]'>Year:</label>
+                       
+                             <select  onChange={(e)=>{setFormData({...formData,property:e.target.value})}}  className='border-[1px] round border-[#e0e0e0] shadow-md w-full px-3 py-3 rounded-[10px]' >
+                        <option  value="">Select a Year</option>
+                      
+                        <option value="1st">1st Year</option>
+                        <option value="2nd">2nd Year</option>
+                        <option value="3rd">3rd Year</option>
+                   
+
+                             </select>
+                    </div>
+                  
                     <div className='flex flex-col lg:flex-row gap-4 lg:gap-6 my-6 w-full items-center justify-center'>
                 <button onClick={handleMainForm} className="uppercase flex items-center justify-center gap-3 rounded-lg shadow-md  font-[NeueMedium] ease-in duration-300  text-[12px] md:text-[16px]  hover:shadow-none hover:bg-[#272727] tracking-wider py-[8px] px-[24px] md:py-[12px] md:px-[24px] text-[#FFFEFC] bg-[#D64C27]" >Book Now  </button>
                     </div>
