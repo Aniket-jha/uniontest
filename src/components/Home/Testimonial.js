@@ -84,6 +84,11 @@ const TestimonialTwo = () => {
           <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/files%2FreviewFive.mp4?alt=media&token=1fbb9ac2-a426-413b-b3ef-b671aceb0add" type="video/mp4" />
               </video>
               </SwiperSlide>
+              <SwiperSlide >
+              <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
+          <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/WhatsApp%20Video%202025-04-25%20at%2016.41.38_3c504295.webm?alt=media&token=75af1552-6ae5-469b-92a5-8a4f541cda8d" type="video/mp4" />
+              </video>
+              </SwiperSlide>
         </Swiper>
         </div>
         
