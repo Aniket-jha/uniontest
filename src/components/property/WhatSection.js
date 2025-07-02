@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 const WhatSection = ({youtube,link}) => {
   return (
-    <div className='lg:mx-16 mx-4 pt-12 pb-12  '>
+    <div className='lg:mx-16 mx-4 pt-12 pb-8  '>
         <div className='lg:grid grid-cols-2 items-center justify-center grid-flow-col ' >
         <div>
         <h4 className='font-[NeueBold] leading-[2.4rem] lg:leading-[3.5rem] text-[2rem] lg:text-[3rem]' >What’s missing is you, <br /> Everything else is ready.</h4>

@@ -89,6 +89,21 @@ const TestimonialTwo = () => {
           <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/WhatsApp%20Video%202025-04-25%20at%2016.41.38_3c504295.webm?alt=media&token=75af1552-6ae5-469b-92a5-8a4f541cda8d" type="video/mp4" />
               </video>
               </SwiperSlide>
+              <SwiperSlide >
+              <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
+          <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/Testimonial%20Sparsh.webm?alt=media&token=aedf2223-b3a3-44fd-88d9-6e95e9093642" type="video/mp4" />
+              </video>
+              </SwiperSlide>
+              <SwiperSlide >
+              <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
+          <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/varsity%20testimonial__1.mp4?alt=media&token=428f52f9-f815-44e2-8fa1-0edce9b2e53e" type="video/mp4" />
+              </video>
+              </SwiperSlide>
+              <SwiperSlide >
+              <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
+          <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/varsity%20testimonial__2.mp4?alt=media&token=90f46a95-712f-483c-b0a4-2687262e756c" type="video/mp4" />
+              </video>
+              </SwiperSlide>
         </Swiper>
         </div>
         

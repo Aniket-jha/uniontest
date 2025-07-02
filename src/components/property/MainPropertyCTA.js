@@ -8,8 +8,8 @@ import PropertyForm from './PropertyForm';
 
 const MainPropertyCTA = ({propertyName}) => {
   return (
-    <div className='lg:mx-16 mx-4 pt-12 pb-12  '>
-    <div className='lg:grid gap-12 grid-cols-2 items-center justify-center grid-flow-col ' >
+    <div className='lg:mx-2 mx-4 pt-0 pb-12  '>
+    <div className='lg:grid gap-12 grid-cols-2 items-center  grid-flow-col ' >
     <div className='lg:flex mt-6 lg:mt-0 items-center justify-end' >
         <PropertyForm propertyName={propertyName} />
     </div>

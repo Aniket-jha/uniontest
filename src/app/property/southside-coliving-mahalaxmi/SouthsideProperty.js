@@ -36,7 +36,7 @@ import MainPropertyCTA from '@/components/property/MainPropertyCTA'
 import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
 
 const SouthsideProperty = () => {
-    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage,SouthsideNew1,SouthsideNew2,SouthsideNew3,SouthsideNew4,SouthsideNew4,SouthsideNew5,SouthsideNew6,SouthsideNew7,SouthsideNew8,SouthsideNew10,SouthsideNew11,SouthsideNew12,SouthsideNew13]
+    const images = [SouthsideMainImage,SouthsideOneImage,SouthsideThreeImage,SouthsideTwoImage,SouthsideFourImage,SouthsideNew1,SouthsideNew2,SouthsideNew3,SouthsideNew4,SouthsideNew4,SouthsideNew5,SouthsideNew6,SouthsideNew7,SouthsideNew8,SouthsideNew10,SouthsideNew11,SouthsideNew12,SouthsideNew13]
     const galleryImages=[
             
         {
@@ -50,12 +50,12 @@ const SouthsideProperty = () => {
             height: "100%",
           },
           {
-            src: SouthsideTwoImage,
+            src: SouthsideThreeImage,
             width: "100%",
             height: "100%",
           },
           {
-            src: SouthsideThreeImage,
+            src: SouthsideTwoImage,
             width: "100%",
             height: "100%",
           },
@@ -124,7 +124,7 @@ const SouthsideProperty = () => {
       <LeadSquaredTracker /> 
         <NavbarTwo />
         <div className='lg:pt-[150px] pt-[100px]'>
-       <Banner beds="120" galleryImages={galleryImages} name="Southside: Premier CoLiving PG in Mahalaxmi, Mumbai" location="Mahalaxmi" images={images} />
+       <Banner beds="120" apartment="26 Apartments" galleryImages={galleryImages} name="Southside: Premier CoLiving PG in Mahalaxmi, Mumbai" location="Mahalaxmi" images={images} />
      <Details subtitle="Mahalaxmi's Premier CoLiving Space" title="Discover a Lifestyle of Ease and Connection in Our Mahalaxmi CoLiving Space." description="Welcome to our co-living space in Mahalaxmi, a sanctuary where contemporary comfort meets a thriving community atmosphere. Situated in one of Mumbai’s most dynamic neighborhoods, our Luxury Co-Living Mumbai space offers an unparalleled living experience designed for modern urbanites. Whether you're a young professional, a digital nomad, or simply looking for a place that feels like home, we provide everything you need to live, work, and connect." />
        <Featured />
        <Rooms rooms={rooms} brochure="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/_Southside%20by%20Union%202025%20(1).pdf?alt=media&token=29470376-d0c3-4708-8f43-4f5286abc7a3" />

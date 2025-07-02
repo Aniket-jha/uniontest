@@ -14,6 +14,7 @@ import StudyTable from "../../asset/study-table.png"
 import VendingMachine from "../../asset/vending-machine.png"
 import WashingMachine from "../../asset/washing-machine.png"
 import Wifibg from "../../asset/wifibg.png"
+import Rooftop from "../../asset/rooftop.png"
 import Image from 'next/image'
 import Link from 'next/link'
 const Details = ({subtitle,title,description,link}) => {
@@ -39,6 +40,14 @@ const Details = ({subtitle,title,description,link}) => {
                 <Image className='lg:w-[50px] w-[30px] mt-[-18px]' src={CctvCamera} />
                 <p className='font-[NeueRegular]  text-[0.8rem]  lg:text-[1rem]' >CCTV</p>
             </div>
+            {(title === "Spacious Student Studio Rooms, Close to Action of Juhu." || title === "At the Crossroads of Connectivity and Calm, Experience the Best of East Mumbai." ) &&  <div className='flex mt-6 items-center justify-start gap-4' >
+                <Image className='lg:w-[50px] w-[30px] mt-[-18px]' src={Gym} />
+                <p className='font-[NeueRegular] mt-2  text-[0.8rem]  lg:text-[1rem]' >Gym</p> 
+            </div>}
+            {(title === "Spacious Student Studio Rooms, Close to Action of Juhu." || title === "At the Crossroads of Connectivity and Calm, Experience the Best of East Mumbai." ) &&  <div className='flex mt-6 items-center justify-start gap-4' >
+                <Image className='lg:w-[50px] w-[30px] mt-[-18px]' src={Rooftop} />
+                <p className='font-[NeueRegular] mt-2  text-[0.8rem]  lg:text-[1rem]' >Rooftop</p> 
+            </div>}
             <div className='flex mt-6 items-center justify-start gap-4' >
                 <Image className='lg:w-[50px] w-[30px] mt-[-18px]' src={Cleaning} />
                 <p className='font-[NeueRegular]  text-[0.8rem]  lg:text-[1rem]' >Housekeeping</p>

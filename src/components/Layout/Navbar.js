@@ -81,50 +81,59 @@ export default function NavbarTwo() {
         </MenuHandler>
         <MenuList  className="hidden mainMenuItem  bg-gray-100 text-center shadow-lg border-none max-w-screen-xl  lg:block">
         <ul className="grid grid-cols-1   bg-none grid-flow-row gap-y-2 text-center  outline-none outline-0">
-        <MenuItem className="subMenuText1">
-          <Link href="/property-near-nmims" >NMIMS</Link></MenuItem>
-          <MenuItem className="subMenuText1">
-          <Link href="/property-near-sndt" >SNDT</Link></MenuItem>
-          <MenuItem className="subMenuText1">
-          <Link href="/property-near-mithibai" > Mithibai</Link></MenuItem>
-          <MenuItem className="subMenuText1">
-          <Link href="/property-near-dj-sanghvi" > DJ Sanghvi</Link></MenuItem>
-          <MenuItem className="subMenuText1">
-          <Link href="/property-near-nicmar" > NICMAR</Link></MenuItem>
+        <Link href="/property-near-nmims" > <MenuItem className="subMenuText1">
+         NMIMS</MenuItem></Link>
+         <Link href="/property-near-nmims" >  <MenuItem className="subMenuText1">
+          <Link href="/property-near-sndt" >SNDT</Link></MenuItem> </Link>
+          <Link href="/property-near-mithibai" > <MenuItem className="subMenuText1">
+          Mithibai</MenuItem></Link>
+          <Link href="/property-near-dj-sanghvi" >  <MenuItem className="subMenuText1">
+     DJ Sanghvi</MenuItem></Link>
+     <Link href="/property-near-nicmar" >   <MenuItem className="subMenuText1">
+      NICMAR</MenuItem></Link>
           </ul>
         </MenuList>
       </Menu>
       <div className="block lg:hidden">
         <Collapse open={isMobileMenuOpen}>
-          
+        <Link className=""  href="/property-near-nmims" >
           <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
-          <Link className=""  href="/property-near-nmims" >
+       
          NMIMS
-      </Link>
+     
       </MenuItem>
+      </Link>
+      <Link className=""  href="/property-near-sndt" >
       <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
-          <Link className=""  href="/property-near-sndt" >
+          
          SNDT
-      </Link>
+     
       </MenuItem>
+      </Link>
+      <Link className=""  href="/property-near-mithibai" >
       <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
-          <Link className=""  href="/property-near-mithibai" >
+          
          Mithibai
-      </Link>
+
       
       </MenuItem>
+   </Link>
+   <Link className=""  href="/property-near-dj-sanghvi" >
       <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
-          <Link className=""  href="/property-near-dj-sanghvi" >
+
          DJ Sanghvi
-      </Link>
+   
       
       </MenuItem>
+      </Link>
+      <Link className=""  href="/property-near-nicmar" >
       <MenuItem className="text-[.8rem] px-2 font-[NeueMedium] py-0">
-          <Link className=""  href="/property-near-nicmar" >
+         
          NICMR
-      </Link>
+     
       
       </MenuItem>
+      </Link>
         </Collapse>
       </div>
     </React.Fragment>
@@ -182,8 +191,8 @@ export default function NavbarTwo() {
         color="blue-gray"
         className="p-1 font-[NeueMedium] tracking-wider text-[18px]"
       >
-        <Link href="/ourstory" className="flex items-center">
-         Our Story
+        <Link href="/blogs" className="flex items-center">
+         Our Blogs
         </Link>
       </Typography>
     </ul>

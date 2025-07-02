@@ -78,7 +78,7 @@ const Event = () => {
         open={open}
         plugins={[Captions, Fullscreen, Slideshow, Thumbnails, Video, Zoom]}
         close={() => setOpen(false)}
-        slides={[EventOne,EventTwo,EventThree,EventFour,EventFive,EventSix,EventSeven,EventSeven,EventNine,EventTen,EventEleven,EventTwelve,EventThirteen,EventForteen,EventFifteen,EventSixteen,EventSeventeen,EventEighteen,EventNinteen,EventTwenty,EventTwentyOne,EventTwentyTwo,EventTwentyThree,EventTwentyThree,EventTwentyFour,EventTwentyFive,EventTwentySeven,EventTwentySix,EventTwentyEight,EventTwentyNine,EventThirty,EventThirtyOne,EventThirtyTwo]}
+        slides={[EventOne,EventTwo,EventFive,EventSix,EventSeven,EventSeven,EventNine,EventTen,EventEleven,EventTwelve,EventThirteen,EventForteen,EventFifteen,EventSixteen,EventSeventeen,EventEighteen,EventNinteen,EventTwenty,EventTwentyOne,EventTwentyTwo,EventTwentyThree,EventTwentyThree,EventTwentyFour,EventTwentyFive,EventTwentySeven,EventTwentySix,EventTwentyEight,EventTwentyNine,EventThirty,EventThirtyOne,EventThirtyTwo]}
         render={{ slide: NextJsImage }}
       />
        <button className='bg-white text-[0.6rem] lg:text-[0.9rem] flex items-center justify-center gap-3 font-[NeueMedium] rounded-lg px-3 lg:px-4 py-2 lg:py-3' type="button" onClick={() => setOpen(true)}>
@@ -90,7 +90,7 @@ const Event = () => {
     
       <div className='col-span-3' >
       <Image width="100%" className='rounded-lg mb-[5px]' src={EventTwo} />
-      <Image width="100%" className='rounded-lg mb-[5px]' src={EventThree} />
+      <Image width="100%" className='rounded-lg mb-[5px]' src={EventSix} />
      
       
       </div>

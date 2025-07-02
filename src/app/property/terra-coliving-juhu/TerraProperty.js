@@ -5,7 +5,7 @@ import PropertiesList from '@/components/Properties/PropertiesList'
 import Banner from '@/components/property/Banner'
 import { ThemeProvider } from '@material-tailwind/react'
 import React, { Suspense, useEffect } from 'react'
-import SouthsideMainImage from "../../../asset/terraImages/newImages/mainBanner.webp"
+import SouthsideMainImage from "../../../asset/terraImages/mainimage.webp"
 import SouthsideOneImage from "../../../asset/terraImages/newImages/1.webp"
 import SouthsideTwoImage from "../../../asset/terraImages/newImages/new4.webp"
 import SouthsideThreeImage from "../../../asset/terraImages/newImages/canteen.webp"
@@ -133,7 +133,7 @@ const TerraProperty = () => {
       <LeadSquaredTracker /> 
         <NavbarTwo />
         <div className='lg:pt-[150px] pt-[100px]'>
-       <Banner beds="152" galleryImages={galleryImages} name="Terra: Luxurious Coliving PG in Juhu, Mumbai" location="Juhu" images={images} />
+       <Banner beds="152" apartment="63 Rooms"  galleryImages={galleryImages} name="Terra: Luxurious Coliving PG in Juhu, Mumbai" location="Juhu" images={images} />
      <Details subtitle="Walking Distance from Juhu Colleges" title="Spacious Student Studio Rooms, Close to Action of Juhu." description="Welcome to Terra, your sunlit haven in the heart of Juhu. Experience the perfect blend of comfort and nature with our cozy, terrarium-inspired living spaces. Each room is bathed in natural light, creating a warm and inviting atmosphere. Our coliving in Juhu offers a unique, eco-friendly environment that fosters a sense of tranquility and well-being, making it the ideal retreat for students seeking both comfort and inspiration." />
        <Featured />
        <Roomstwo brochure="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/terra30may.pdf?alt=media&token=5e4ad689-3664-40ce-8130-3d3a6b51c6fe" rooms={rooms} />

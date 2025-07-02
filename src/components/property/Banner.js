@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-
-
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import PlaceholderImage from "../../asset/placeholder.png"
@@ -33,8 +31,8 @@ const Banner = ({images,name,location,beds,apartment}) => {
     <div className='mx-4 lg:mx-12 md:mt-0 my-0' id="photos">
     <div>
       <div className='flex items-center justify-start gap-2 lg:gap-6 ' >
-      <h1 className='font-[NeueBold] text-[1rem]    pr-3 lg:pr-8 border-r-[2px] border-gray-300  lg:text-[2rem]' >{name}</h1>
-      <h3 className='font-[NeueMedium] lg:text-[1.5rem] lg:mt-2 flex items-center justify-start gap-2 lg:gap-3  text-[0.8rem]' ><HiOutlineLocationMarker className='lg:text-[1.8rem] mb-1 text-[1.2rem] ' /> {location}</h3>
+      <h1 className='font-[NeueBold] text-[1rem]    pr-3 lg:pr-8  lg:text-[2rem]' >{name}</h1>
+      {/* <h3 className='font-[NeueMedium] lg:text-[1.5rem] lg:mt-2 flex items-center justify-start gap-2 lg:gap-3  text-[0.8rem]' ><HiOutlineLocationMarker className='lg:text-[1.8rem] mb-1 text-[1.2rem] ' /> {location}</h3> */}
       </div>
       <div className='flex items-center mt-3 justify-start' >
       <div className='border-r-[2px] flex items-center justify-start gap-2 lg:gap-4 pr-2 lg:pr-6 border-gray-300' >
@@ -43,7 +41,7 @@ const Banner = ({images,name,location,beds,apartment}) => {
       </div>
       <div className=' flex items-center justify-start gap-2 lg:gap-4 lg:pl-6 pl-2' >
         <RiDoorOpenLine className='lg:text-[1.7rem] text-[1rem]' />
-        <p className='font-[NeueRegular] text-[0.8rem] lg:text-[1.2rem]' >{apartment?.length !== 0 ? apartment : "50"} Apartments</p>
+        <p className='font-[NeueRegular] text-[0.8rem] lg:text-[1.2rem]' >{apartment?.length !== 0 ? apartment : "50"}</p>
       </div>
       </div>
     </div>
@@ -70,12 +68,12 @@ const Banner = ({images,name,location,beds,apartment}) => {
        
       
         <div className='' >
-        <Image  width="100%" className='rounded-lg mb-[.7rem]' src={images[1]} />
-        <Image  width="100%" className='rounded-lg ' src={images[2]} />
+        <Image  width="100%" className='rounded-lg mb-[.7rem]' src={images[2]} />
+        <Image  width="100%" className='rounded-lg ' src={images[3]} />
         
         </div>
         <div>
-        <Image  width="100%" className='rounded-lg mb-[.7rem]' src={images[3]} />
+        <Image  width="100%" className='rounded-lg mb-[.7rem]' src={images[1]} />
         <Image  width="100%" className='rounded-lg ' src={images[4]} />
          
         </div>
