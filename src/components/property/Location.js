@@ -6,7 +6,8 @@ const Location = ({youtube,map}) => {
         <div>
       
         <div className='lg:grid grid-cols-2 gap-6 mt-4 grid-flow-col' >
-        <div>
+        <div id='mapLocation'>
+          
         <h4 className='font-[NeueBold] my-1 text-[2.5rem]'>Location</h4>
         <iframe className='w-[100%] my-3 lg:my-0 h-[250px]  lg:h-[300px]' src={map}  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>

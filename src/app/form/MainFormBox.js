@@ -106,6 +106,8 @@ const MainFormBox = () => {
     <div className='flex items-center justify-center' >
          <ToastContainer />
         <div className='md:px-12 mx-4 lg:mx-[450px] lg:my-12 my-3 w-full rounded-lg px-4 py-12 shadow-lg bg-[#ebe3d654]'>
+            <h1 className='hidden'>Get in Touch with Us
+            </h1>
             <h3 className='lg:text-[2rem] text-[1.5rem] text-left uppercase  text-[#272727] font-[NeueMedium] font-[600]' >Interested in your <br />
             <span
               style={{

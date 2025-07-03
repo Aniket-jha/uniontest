@@ -149,6 +149,12 @@ export default async function sitemap() {
       changeFrequency: 'weekly',
       priority: 0.3,
     },
+    {
+      url: 'https://unionliving.in/form/',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.3,
+    },
     ...blogEntries
   ]
 }

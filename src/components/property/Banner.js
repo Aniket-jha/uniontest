@@ -31,8 +31,8 @@ const Banner = ({images,name,location,beds,apartment}) => {
     <div className='mx-4 lg:mx-12 md:mt-0 my-0' id="photos">
     <div>
       <div className='flex items-center justify-start gap-2 lg:gap-6 ' >
-      <h1 className='font-[NeueBold] text-[1rem]    pr-3 lg:pr-8  lg:text-[2rem]' >{name}</h1>
-      {/* <h3 className='font-[NeueMedium] lg:text-[1.5rem] lg:mt-2 flex items-center justify-start gap-2 lg:gap-3  text-[0.8rem]' ><HiOutlineLocationMarker className='lg:text-[1.8rem] mb-1 text-[1.2rem] ' /> {location}</h3> */}
+      <h1 className='font-[NeueBold] text-[1rem]  border-r-[3px]  pr-3 lg:pr-8  lg:text-[2rem]' >{name}</h1>
+     <a href='#mapLocation'><h3  className='font-[NeueMedium] lg:text-[1.5rem] lg:mt-2 flex items-center justify-start gap-2 lg:gap-3  text-[0.8rem]' ><HiOutlineLocationMarker className='lg:text-[1.8rem] mb-1 text-[1.2rem] ' /> {location}</h3></a>
       </div>
       <div className='flex items-center mt-3 justify-start' >
       <div className='border-r-[2px] flex items-center justify-start gap-2 lg:gap-4 pr-2 lg:pr-6 border-gray-300' >
