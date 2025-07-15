@@ -191,9 +191,9 @@ export default function NavbarTwo() {
         color="blue-gray"
         className="p-1 font-[NeueMedium] tracking-wider text-[18px]"
       >
-        <Link href="/blogs" className="flex items-center">
-         Our Blogs
-        </Link>
+        <a  href="https://daily.unionliving.in" target="_blank" className="flex items-center">
+        Daily Stays
+        </a>
       </Typography>
     </ul>
   );
