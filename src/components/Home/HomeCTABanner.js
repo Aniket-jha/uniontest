@@ -1,8 +1,12 @@
+"use client"
 import React, { useState } from 'react'
 import { toast, ToastContainer } from 'react-toastify'
+import { useRouter } from 'next/navigation';
 
 const HomeCTABanner = () => {
   const [phone, setPhone] = useState("")
+  const router = useRouter()
+
 
   const handleMainForm = async  () =>{
     
@@ -70,14 +74,17 @@ const HomeCTABanner = () => {
         
                 const result = await response.json();
                 setPhone("")
-                console.log("done")
-                toast.success("Form Submitted Successfully")
+              
                
                
             } catch (error) {
                 console.log(error)
                 toast.error("There is some error in submitting")
-            }      
+            }    
+            finally{
+                router.push("/thank-you")
+            }     
+              
             
         }
         else{

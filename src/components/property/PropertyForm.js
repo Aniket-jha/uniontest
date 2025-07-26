@@ -1,8 +1,10 @@
-
+"use client"
 import React, { useState } from 'react'
 import { toast, ToastContainer } from 'react-toastify'
+import { useRouter } from 'next/navigation';
 import "./main.css"
 const PropertyForm = ({propertyName}) => {
+    const router = useRouter()
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -83,14 +85,15 @@ const PropertyForm = ({propertyName}) => {
                         phone: '',
                         
                     })
-                    console.log("done")
-                    toast.success("Form Submitted Successfully")
-                    setTimeout(location.reload(), 6000)
+                   
                    
                 } catch (error) {
                     console.log(error)
                     toast.error("There is some error in submitting")
-                }      
+                }    
+                finally{
+                    router.push("/thank-you")
+                }  
                 
             }
             else{

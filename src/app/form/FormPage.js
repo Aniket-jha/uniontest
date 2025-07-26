@@ -5,8 +5,13 @@ import { ThemeProvider } from '@material-tailwind/react'
 import React, { Suspense, useEffect } from 'react'
 import MainFormBox from './MainFormBox'
 import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
+import { useRouter } from 'next/navigation';
 
 const FormPage = () => {
+  const router = useRouter();
+    const redirectMainSection = () =>{
+      router.push("/thank-you")
+    }
   useEffect(() => {
     const url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?95542';
     const script = document.createElement('script');
@@ -53,7 +58,7 @@ const FormPage = () => {
       <LeadSquaredTracker /> 
         <NavbarTwo />
         <div className='lg:pt-[150px] pt-[100px]'>
-       <MainFormBox />
+       <MainFormBox redirectMainSection={redirectMainSection} />
         <Footer />
         </div>
         </ThemeProvider>

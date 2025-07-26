@@ -5,8 +5,12 @@ import { ThemeProvider } from '@material-tailwind/react'
 import React, { Suspense, useEffect } from 'react'
 import MainFormBox from './MainFormBox'
 import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
+import { useRouter } from 'next/navigation';
 
 const FormPage = () => {
+  const redirectMainSection = () =>{
+    router.push("/thank-you")
+  }
   
      
   return (
@@ -15,7 +19,7 @@ const FormPage = () => {
       <LeadSquaredTracker /> 
         <NavbarTwo />
         <div className='lg:pt-[150px] pt-[100px]'>
-       <MainFormBox />
+       <MainFormBox redirectMainSection={redirectMainSection} />
         <Footer />
         </div>
         </ThemeProvider>
