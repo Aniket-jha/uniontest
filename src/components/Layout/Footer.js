@@ -8,6 +8,7 @@ import { PiYoutubeLogo } from "react-icons/pi";
 import Link from "next/link"
 import Image from 'next/image';
 const Footer = () => {
+    const date = new Date().getFullYear()
   return (
     <div className='md:px-12 mx-4 lg:mx-12 my-3 rounded-lg px-4 py-12 shadow-lg bg-[#ebe3d654]' >
     <div className='md:grid grid-col-7 grid-flow-col' >
@@ -45,6 +46,10 @@ const Footer = () => {
         <strong className='font-[NeueMedium]' >  General Enquiry </strong> 
         <br />
         <a className='' href='mailto:info@unionliving.in' > info@unionliving.in </a>
+        <br />
+        <strong className='font-[NeueMedium]' >  Support </strong> 
+        <br />
+        <a className='' href='mailto:info@unionliving.in' > Support@unionliving.in </a>
             </p>
            <h3 className='font-[NeueRegular] py-2'>+919137915406</h3>
            
@@ -53,7 +58,7 @@ const Footer = () => {
     <div className='md:grid grid-cols-7 mt-6  grid-flow-col'>
         <div className='col-span-1' ></div>
         <div className='col-span-5 flex items-center justify-center' >
-            <h3 className='font-[NeueRegular]' >2024 Union Living. All right reserved</h3>
+            <h3 className='font-[NeueRegular]' > {date} Union Living. All right reserved</h3>
         </div>
         <div className='col-span-1 flex items-center md:ml-[-25px] justify-center md:justify-start gap-3' >
            <a target='_blank' rel='noreferrer' href='https://www.instagram.com/union_living/?hl=en'> <PiInstagramLogo className='text-[25px]' /></a>
