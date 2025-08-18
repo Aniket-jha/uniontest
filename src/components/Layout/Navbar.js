@@ -56,7 +56,7 @@ export default function NavbarTwo() {
         allowHover={true}
       >
         <MenuHandler>
-          <Typography as="div" variant="small" className="p-1 font-[NeueMedium] cursor-pointer tracking-wider text-[18px] flex items-center">
+          <Typography as="div" variant="small" className="p-1 font-[NeueMedium] cursor-pointer tracking-wider 2xl:text-[15px] xl:text-[13px] flex items-center">
             <p
               className="flex items-center gap-2"
               selected={isMenuOpen || isMobileMenuOpen}
@@ -146,7 +146,7 @@ export default function NavbarTwo() {
         as="li"
         
         color="blue-gray"
-        className="p-1 font-[NeueMedium] tracking-wider text-[18px]"
+        className="p-1 font-[NeueMedium] tracking-wider 2xl:text-[15px] xl:text-[13px]"
       >
         <Link href="/" className="flex items-center">
         Home
@@ -157,7 +157,7 @@ export default function NavbarTwo() {
         as="li"
        
         color="blue-gray"
-        className="p-1 font-[NeueMedium] tracking-wider text-[18px]"
+        className="p-1 font-[NeueMedium] tracking-wider 2xl:text-[15px] xl:text-[13px]"
       >
         <Link href="/properties" className="flex items-center">
          Properties
@@ -167,7 +167,7 @@ export default function NavbarTwo() {
         as="li"
        
         color="blue-gray"
-        className="p-1 font-[NeueMedium] tracking-wider text-[18px]"
+        className="p-1 font-[NeueMedium] tracking-wider 2xl:text-[15px] xl:text-[13px]"
       >
         <Link href="/properties" className="flex items-center">
          Properties by College
@@ -179,7 +179,7 @@ export default function NavbarTwo() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-[NeueMedium] tracking-wider text-[18px]"
+        className="p-1 font-[NeueMedium] tracking-wider 2xl:text-[15px] xl:text-[13px]"
       >
         <Link href="/community" className="flex items-center">
          Community
@@ -189,10 +189,10 @@ export default function NavbarTwo() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-[NeueMedium] tracking-wider text-[18px]"
+        className="p-1 font-[NeueMedium] tracking-wider 2xl:text-[15px] xl:text-[13px]"
       >
         <a  href="https://daily.unionliving.in" target="_blank" className="flex items-center">
-        Daily Stays
+        Serviced Apartments
         </a>
       </Typography>
     </ul>
