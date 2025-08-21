@@ -83,7 +83,7 @@ export const propertyListData = [
         images:[
             SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage
         ],
-        price:"Rs. 49,999",
+        price:"Rs. 40,999",
         location:"Mahalaxmi",
         link:"/property/southside-coliving-mahalaxmi",
         subtTitleDetail:"",
@@ -256,7 +256,7 @@ export const propertyListData = [
     {
         name:"Varsity",
         coverImage:VarsityCoverImage,
-        price:"Rs. 45,000",
+        price:"Rs. 40,000",
         subtTitleDetail:"",
         titleDetail:"",
         contentDetail:"",
@@ -331,7 +331,7 @@ export const propertyListData = [
         coverImage:HamletCoverImage,
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         link:"/property/hamlet-coliving-baner-pune",
-        price:"Rs. 39,999",
+        price:"Rs. 24,000",
         images:[
             HamletMainImage,HamletOneImage,HamletTwoImage,HamletThreeImage,HamletFourImage,HamletFiveImage,HamletSixImage
         ],
@@ -361,7 +361,7 @@ export const propertyListData = [
         images:[
             ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
         ],
-        price:"20000",
+        price:"18,000",
         location:"Balewadi",
         content:"A dynamic coliving space blending community, innovation, and comfort with shared amenities and modern workspaces.",
         map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
@@ -395,7 +395,7 @@ export const propertyListData = [
         images:[
             ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
         ],
-        price:"30000",
+        price:"20,000",
         location:"Chembur",
         content:"Nestled in a vibrant neighborhood, this modern co-living space offers fully-furnished rooms, high-speed WiFi, and all-inclusive amenities—so you can focus on living your best life. ",
         map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
@@ -426,7 +426,7 @@ export const propertyListData = [
         coverImage:AbodeCoverImage,
         link:"/property/abode-coliving-dhankawadi-pune",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
-        price:"Rs. 7,999",
+        price:"Rs. 7,500",
         images:[
             AbodeOneMainImage,AbodeOneOneImage,AbodeOneTwoImage,AbodeOneThreeImage,AbodeOneFourImage
         ],
@@ -877,7 +877,7 @@ export const activeProduct = [
         images:[
             ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
         ],
-        price:"30000",
+        price:"20000",
         location:"Chembur",
         content:"Nestled in a vibrant neighborhood, this modern co-living space offers fully-furnished rooms, high-speed WiFi, and all-inclusive amenities—so you can focus on living your best life. ",
         map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",

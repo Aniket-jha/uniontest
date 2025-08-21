@@ -138,7 +138,7 @@ const VarsityProperty = () => {
      <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15081.696760186362!2d72.8341302!3d19.0890381!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9fb0323a235%3A0x577a653a62504566!2sVarsity%20by%20Union%20Living!5e0!3m2!1sen!2sin!4v1709842768484!5m2!1sen!2sin" youtube="https://www.youtube.com/embed/28IF2x7ht1k?si=qEwmSl0gL_PMSeAi" />
      <Event />
     <TestimonialTwo />
-    <BottomNavConstant name="Varsity"  price="Rs. 45,000" youtube="https://www.youtube.com/watch?v=28IF2x7ht1k" brochure="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/varsity30may.pdf?alt=media&token=66194462-e478-4e47-ad67-ae51173a0d0d"  />
+    <BottomNavConstant name="Varsity"  price="Rs. 40,000" youtube="https://www.youtube.com/watch?v=28IF2x7ht1k" brochure="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/varsity30may.pdf?alt=media&token=66194462-e478-4e47-ad67-ae51173a0d0d"  />
       <Footer />
       </div>
       </ThemeProvider>

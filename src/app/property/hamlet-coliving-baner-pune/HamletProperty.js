@@ -138,7 +138,7 @@ const HamletProperty = () => {
        <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15129.867506521172!2d73.7784034!3d18.5529787!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bff4afa8145f%3A0x6d7da05eef0c7ce1!2sUnion%20Hamlet!5e0!3m2!1sen!2sin!4v1712824758554!5m2!1sen!2sin" youtube="https://www.youtube.com/embed/NDidnxhwT0M" />
        <Event />
       <TestimonialTwo />
-      <BottomNavConstant name="Hamlet"  price="Rs. 39,999" youtube="https://www.youtube.com/watch?v=NDidnxhwT0M&t=10s" brochure="https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FHamlet%20by%20Union%202025pdf_20250311_143325_0000.pdf?alt=media&token=b7278f35-f8ba-49d4-828b-7624fe377d50"  />
+      <BottomNavConstant name="Hamlet"  price="Rs. 24,000" youtube="https://www.youtube.com/watch?v=NDidnxhwT0M&t=10s" brochure="https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FHamlet%20by%20Union%202025pdf_20250311_143325_0000.pdf?alt=media&token=b7278f35-f8ba-49d4-828b-7624fe377d50"  />
         <Footer />
         </div>
         </ThemeProvider>
