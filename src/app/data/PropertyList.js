@@ -177,7 +177,7 @@ export const propertyListData = [
             TerraMainImage,TerraOneImage,TerraTwoImage,TerraThreeImage,TerraFourImage
         ],
         location:"Juhu",
-        price:"Rs. 45,000",
+        price:"Rs. 35,000",
         subtTitleDetail:"",
         titleDetail:"",
         contentDetail:"",
