@@ -132,13 +132,13 @@ const HamletProperty = () => {
        <Banner apartment="60 Rooms" beds="118" galleryImages={galleryImages} name="Hamlet: Premier Coliving PG Coliving in Baner, Pune" location="Baner, Pune" images={images} />
      <Details subtitle="Where Modern Living Meets Vibrant Community Life" title="Discover Comfort and Community at Pune's Premier Coliving Space" description="Experience the perfect blend of comfort and community at Pune's premier coliving spaces in Baner. Enjoy modern amenities, vibrant social events, and a convenient location, all designed to enhance your living experience. Join us today!" />
        <Featured />
-       <Rooms rooms={rooms}   />
+       <Rooms rooms={rooms} brochure="https://srv948-files.hstgr.io/2c3330145d6ddc7a/files/public_html/Hamlet%20by%20Union%202025pdf_20250311_143325_0000%20(1).pdf"  />
        <WhatSection youtube="https://www.youtube.com/watch?v=NDidnxhwT0M" />
        <MainPropertyCTA propertyName="Hamlet, Baner (Pune)" />
        <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15129.867506521172!2d73.7784034!3d18.5529787!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bff4afa8145f%3A0x6d7da05eef0c7ce1!2sUnion%20Hamlet!5e0!3m2!1sen!2sin!4v1712824758554!5m2!1sen!2sin" youtube="https://www.youtube.com/embed/NDidnxhwT0M" />
        <Event />
       <TestimonialTwo />
-      <BottomNavConstant name="Hamlet"  price="Rs. 24,000" youtube="https://www.youtube.com/watch?v=NDidnxhwT0M&t=10s" brochure="https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FHamlet%20by%20Union%202025pdf_20250311_143325_0000.pdf?alt=media&token=b7278f35-f8ba-49d4-828b-7624fe377d50"  />
+      <BottomNavConstant name="Hamlet"  price="Rs. 24,000" youtube="https://www.youtube.com/watch?v=NDidnxhwT0M&t=10s" brochure="https://srv948-files.hstgr.io/2c3330145d6ddc7a/files/public_html/Hamlet%20by%20Union%202025pdf_20250311_143325_0000%20(1).pdf"  />
         <Footer />
         </div>
         </ThemeProvider>

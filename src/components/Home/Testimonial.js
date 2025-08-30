@@ -65,43 +65,43 @@ const TestimonialTwo = () => {
          
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/files%2FreviewOne.mp4?alt=media&token=45ab2b87-59a4-45b5-9b6b-bddc5cad9b25" type="video/mp4" />
+          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756576579/reviewFive_lnkvuo.mp4" type="video/mp4" />
               </video>
               </SwiperSlide>
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/files%2FreviewTwo.mp4?alt=media&token=f3abc2a7-2286-48c1-93b7-61743bdfa9d3" type="video/mp4" />
+          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756576579/reviewThree_qzpwt6.mp4" type="video/mp4" />
               </video>
               </SwiperSlide>
               
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/files%2FreviewThree.mp4?alt=media&token=09e0f5c1-4357-432b-804d-36fa2eea8965" type="video/mp4" />
+          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756576579/reviewTwo_ubhpm7.mp4" type="video/mp4" />
               </video>
               </SwiperSlide>
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/files%2FreviewFive.mp4?alt=media&token=1fbb9ac2-a426-413b-b3ef-b671aceb0add" type="video/mp4" />
+          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756576580/reviewOne_qse9au.mp4" type="video/mp4" />
               </video>
               </SwiperSlide>
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/WhatsApp%20Video%202025-04-25%20at%2016.41.38_3c504295.webm?alt=media&token=75af1552-6ae5-469b-92a5-8a4f541cda8d" type="video/mp4" />
+          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756576582/Testimonial_Sparsh_1_fpdyet.webm" type="video/mp4" />
               </video>
               </SwiperSlide>
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/Testimonial%20Sparsh.webm?alt=media&token=aedf2223-b3a3-44fd-88d9-6e95e9093642" type="video/mp4" />
+          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756576602/varsity_testimonial__1_1_snnyan.mp4" type="video/mp4" />
               </video>
               </SwiperSlide>
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/varsity%20testimonial__1.mp4?alt=media&token=428f52f9-f815-44e2-8fa1-0edce9b2e53e" type="video/mp4" />
+          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756577039/WhatsApp_Video_2025-04-25_at_16.41.38_3c504295_1_bhgl06.webm" type="video/mp4" />
               </video>
               </SwiperSlide>
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/varsity%20testimonial__2.mp4?alt=media&token=90f46a95-712f-483c-b0a4-2687262e756c" type="video/mp4" />
+          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756577907/varsity_testimonial__2_thkie9.webm" type="video/mp4" />
               </video>
               </SwiperSlide>
         </Swiper>
