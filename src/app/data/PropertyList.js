@@ -1,4 +1,4 @@
-import VarsityCoverImage from "../../asset/propertyCover/varsitycover.png"
+import VarsityCoverMainImage from "../../asset/propertyCover/varsitycover.png"
 import VarsityMainImage from "../../asset/varsityImages/mainBanner.webp"
 import VarsityOneImage from "../../asset/varsityImages/9-min.webp"
 import VarsityTwoImage from "../../asset/varsityImages/gym-min.webp"
@@ -255,7 +255,7 @@ export const propertyListData = [
     },
     {
         name:"Varsity",
-        coverImage:VarsityCoverImage,
+        coverImage:VarsityCoverMainImage,
         price:"Rs. 40,000",
         subtTitleDetail:"",
         titleDetail:"",
@@ -737,7 +737,7 @@ export const activeProduct = [
     },
     {
         name:"Varsity",
-        coverImage:VarsityCoverImage,
+        coverImage:VarsityCoverMainImage,
         price:"Rs. 45,000",
         subtTitleDetail:"",
         titleDetail:"",
