@@ -15,6 +15,35 @@
       url("../webfonts/NeueHaasDisplayMediu.ttf") format("truetype");
   font-weight: bold;
   }
+
+/* Simple marquee animation for the topbar */
+.marquee {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee__track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  animation: marquee-left 20s linear infinite;
+}
+
+.marquee__content {
+  display: inline-flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
   @font-face {
   font-family: "NeueRegular";
   src: local("NeueRegular"),
