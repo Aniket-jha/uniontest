@@ -5,7 +5,8 @@ const Topbar = () => {
   return (
     <Link href="/property/zest-coliving-chembur" >
     <div className='w-full text-center bg-[#000000] text-white py-2' >
-        🚨 House of KP, Coming Soon ! 🚨
+        🚨 Gurugram coming soon || 
+        Baner 2.0 Coming soon  🚨
     </div>
     </Link>
   )

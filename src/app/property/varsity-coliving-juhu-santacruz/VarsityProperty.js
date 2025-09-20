@@ -132,13 +132,13 @@ const VarsityProperty = () => {
      <Banner beds="198" apartment="38 Apartments" galleryImages={galleryImages} name="Varsity: Best Coliving PG in Santacruz, Mumbai" location="Juhu / Santacruz" images={images} />
    <Details  subtitle="The Student Social Club" title="At the Junction of Bandra and Juhu, live the Best of Both Worlds." description="Varsity is located in the heart of Mumbai’s most demanding and posh area. Varsity is the perfect solution for students and also for those looking for a co-living space in Mumbai that combines comfort, convenience, and a sense of community. Located in the bustling city of Mumbai, Varsity offers a variety of shared and private spaces that cater to all your needs." />
      <Featured />
-     <Rooms rooms={rooms} brochure="https://srv948-files.hstgr.io/2c3330145d6ddc7a/files/public_html/varsity30may.pdf" />
+     <Rooms rooms={rooms} brochure="https://srv948-files.hstgr.io/c5fb1d9f599cfb27/files/public_html/varsity30may.pdf" />
      <WhatSection youtube="https://www.youtube.com/watch?v=28IF2x7ht1k"  />
      <MainPropertyCTA propertyName="Varsity, Juhu (Mumbai)" />
      <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15081.696760186362!2d72.8341302!3d19.0890381!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9fb0323a235%3A0x577a653a62504566!2sVarsity%20by%20Union%20Living!5e0!3m2!1sen!2sin!4v1709842768484!5m2!1sen!2sin" youtube="https://www.youtube.com/embed/28IF2x7ht1k?si=qEwmSl0gL_PMSeAi" />
      <Event />
     <TestimonialTwo />
-    <BottomNavConstant name="Varsity"  price="Rs. 40,000" youtube="https://www.youtube.com/watch?v=28IF2x7ht1k" brochure="https://srv948-files.hstgr.io/2c3330145d6ddc7a/files/public_html/varsity30may.pdf" />
+    <BottomNavConstant name="Varsity"  price="Rs. 40,000" youtube="https://www.youtube.com/watch?v=28IF2x7ht1k" brochure="https://srv948-files.hstgr.io/c5fb1d9f599cfb27/files/public_html/varsity30may.pdf" />
       </div>
       </ThemeProvider>
   </div>

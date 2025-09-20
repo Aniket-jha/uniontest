@@ -65,31 +65,31 @@ const TestimonialTwo = () => {
          
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756576579/reviewFive_lnkvuo.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1758370971/reviewFive_fhkj2p.mp4" type="video/mp4" />
               </video>
               </SwiperSlide>
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756576579/reviewThree_qzpwt6.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1758370973/reviewThree_g9yayz.mp4" type="video/mp4" />
               </video>
               </SwiperSlide>
               
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756576579/reviewTwo_ubhpm7.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1758370973/reviewTwo_vtkqzz.mp4" type="video/mp4" />
               </video>
               </SwiperSlide>
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756576580/reviewOne_qse9au.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1758370974/reviewOne_anycq7.mp4" type="video/mp4" />
               </video>
               </SwiperSlide>
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756576582/Testimonial_Sparsh_1_fpdyet.webm" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1758370978/reviewFour_nocowg.mov" type="video/mp4" />
               </video>
               </SwiperSlide>
-              <SwiperSlide >
+              {/* <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
           <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756576602/varsity_testimonial__1_1_snnyan.mp4" type="video/mp4" />
               </video>
@@ -103,7 +103,7 @@ const TestimonialTwo = () => {
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
           <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756577907/varsity_testimonial__2_thkie9.webm" type="video/mp4" />
               </video>
-              </SwiperSlide>
+              </SwiperSlide> */}
         </Swiper>
         </div>
         

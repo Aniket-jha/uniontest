@@ -120,13 +120,13 @@ const CasaProperty = () => {
        <Banner galleryImages={galleryImages} name="Casa: Perfect PG Coliving Space in Andheri East " location="Andheri East, Mumbai" images={images} />
      <Details subtitle="Co-Living Redefined in Andheri" title="Enjoy Premier Amenities and a Thriving Community in Andheri, Mumbai" description="Experience vibrant coliving in Andheri East with modern amenities, high-speed Wi-Fi, and a welcoming community, perfect for professionals and students alike." />
        <Featured />
-       <Rooms rooms={rooms} brochure="https://srv948-files.hstgr.io/2c3330145d6ddc7a/files/public_html/CASA%20by%20Union.pdf" />
+       <Rooms rooms={rooms} brochure="https://srv948-files.hstgr.io/c5fb1d9f599cfb27/files/public_html/CASA%20by%20Union.pdf" />
        <WhatSection youtube="https://www.youtube.com/watch?v=sP_tmYSOWPE" />
        <MainPropertyCTA propertyName="Casa, Andheri (Mumbai)" />
        <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin" youtube="https://www.youtube.com/embed/sP_tmYSOWPE?si=sp-H2rNbxc_dZbA4" />
        <Event />
       <TestimonialTwo />
-      <BottomNavConstant name="Casa"  price="Rs. 35,000" youtube="https://www.youtube.com/watch?v=sP_tmYSOWPE" brochure="https://srv948-files.hstgr.io/2c3330145d6ddc7a/files/public_html/CASA%20by%20Union.pdf" />
+      <BottomNavConstant name="Casa"  price="Rs. 35,000" youtube="https://www.youtube.com/watch?v=sP_tmYSOWPE" brochure="https://srv948-files.hstgr.io/c5fb1d9f599cfb27/files/public_html/CASA%20by%20Union.pdf" />
         <Footer />
         </div>
         </ThemeProvider>
