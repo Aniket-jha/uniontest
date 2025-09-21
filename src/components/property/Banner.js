@@ -21,7 +21,7 @@ import { HiArrowLongRight } from "react-icons/hi2";
 import { RiDoorOpenLine } from "react-icons/ri";
 import NextJsImage from './NextjsImage';
 import Image from 'next/image';
-const Banner = ({images,name,location,beds,apartment}) => {
+const Banner = ({images,name,location,beds,apartment,alt}) => {
   const [open, setOpen] = useState(false);
   console.log(images[0])
   const galleryImages=[
@@ -48,7 +48,7 @@ const Banner = ({images,name,location,beds,apartment}) => {
       <div className='grid   lg:grid-cols-4 mt-2 lg:mt-6  gap-2 lg:gap-[12px] grid-cols-2 ' >
       
         <div className='col-span-2 relative  ' >
-        <Image  width="100%" className='rounded-lg' src={images[0]} />
+        <Image  width="100%" className='rounded-lg' alt={alt} src={images[0]} />
          
         <div className='absolute top-[5%]  right-[3%] lg:top-[5%] lg:right-[3%]  z-[109]' >
         
@@ -68,13 +68,13 @@ const Banner = ({images,name,location,beds,apartment}) => {
        
       
         <div className='' >
-        <Image  width="100%" className='rounded-lg mb-[.7rem]' src={images[2]} />
-        <Image  width="100%" className='rounded-lg ' src={images[3]} />
+        <Image  alt={alt}  width="100%" className='rounded-lg mb-[.7rem]' src={images[2]} />
+        <Image   alt={alt} width="100%" className='rounded-lg ' src={images[3]} />
         
         </div>
         <div>
-        <Image  width="100%" className='rounded-lg mb-[.7rem]' src={images[1]} />
-        <Image  width="100%" className='rounded-lg ' src={images[4]} />
+        <Image  alt={alt} width="100%" className='rounded-lg mb-[.7rem]' src={images[1]} />
+        <Image  alt={alt}  width="100%" className='rounded-lg ' src={images[4]} />
          
         </div>
        

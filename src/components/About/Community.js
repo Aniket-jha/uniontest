@@ -17,7 +17,7 @@ const Community = () => {
         </div>
       
         <div className='lg:col-span-2 order-first lg:order-last' >
-          <Image className='w-[550px]' src={Network} alt="Co-Living Spaces in Mumbai - Premium Amenities, Modern Living, Community-Focused" />
+          <Image className='w-[550px]' src={Network} alt="Live, connect, and grow together" />
         </div>
         
     </div>

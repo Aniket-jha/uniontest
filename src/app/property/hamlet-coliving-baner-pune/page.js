@@ -4,15 +4,15 @@ import Head from 'next/head'
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
-  title: "Best Coliving PG in Baner Pune | Premium Coliving Spaces for Male, Female and Couples",
-  description: "Find the best coliving PG in Baner, Pune. Modern amenities, safe spaces for males and females. Ideal coliving spaces in Baner for students & working professionals.",
+  title: "Best Coliving Spaces in Pune | Premium PG in Baner for Males, Females & Couples",
+  description: "Find the best coliving spaces in pune with premium PG in Baner for Male, Female and Couples. Fully furnished, safe, and ideal for students & working professionals. Book your Co-living PG today!",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   verification: {
     google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
   },
   openGraph: {
-    title: "Best Coliving PG in Baner Pune | Premium Coliving Spaces for Male, Female and Couples",
-  description: "Find the best coliving PG in Baner, Pune. Modern amenities, safe spaces for males and females. Ideal coliving spaces in Baner for students & working professionals.",
+    title: "Best Coliving Spaces in Pune | Premium PG in Baner for Males, Females & Couples",
+  description: "Find the best coliving spaces in pune with premium PG in Baner for Male, Female and Couples. Fully furnished, safe, and ideal for students & working professionals. Book your Co-living PG today!",
     url: 'https://unionliving.in/property/hamlet-coliving-baner-pune/',
     siteName: 'Union Living',
     images: [

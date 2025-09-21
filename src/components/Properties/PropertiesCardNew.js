@@ -24,7 +24,7 @@ const PropertiesCardNew = ({property}) => {
   <Link href={property.link} >
   
          <div className='px-3   py-3' >
-            <Image  width="100%" className='h-[220px] lg:h-[300px]' src={property?.coverImage} />
+            <Image  width="100%" alt={property?.alt} className='h-[220px] lg:h-[300px]' src={property?.coverImage} />
         
        
              {/* <img className='w-full  rounded-lg ' alt='' src={property?.coverImage } loading='lazy' />  */}

@@ -4,15 +4,15 @@ import Head from 'next/head'
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
-  title: "Coliving Spaces in Dhankawadi, Pune | Book Premium PG | Abode by Union Living",
-  description: "Explore luxury coliving spaces at Abode by Union Living in Dhankawadi, Pune. Fully furnished rooms with premium amenities, perfect for college students and working professionals. Join a thriving community today!",
+  title: "Best Coliving Spaces in Dhankawadi, Pune | Book Premium PG in Dhankawadi | Abode by Union Living",
+  description: "Find the best PG in Dhankawadi Pune with fully furnished rooms, modern amenities, and a vibrant community. Ideal coliving PG in Dhankawadi for students & professionals.",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   verification: {
     google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
   },
   openGraph: {
-    title: "Coliving Spaces in Dhankawadi, Pune | Book Premium PG | Abode by Union Living",
-  description: "Explore luxury coliving spaces at Abode by Union Living in Dhankawadi, Pune. Fully furnished rooms with premium amenities, perfect for college students and working professionals. Join a thriving community today!",
+    title: "Best Coliving Spaces in Dhankawadi, Pune | Book Premium PG in Dhankawadi | Abode by Union Living",
+  description: "Find the best PG in Dhankawadi Pune with fully furnished rooms, modern amenities, and a vibrant community. Ideal coliving PG in Dhankawadi for students & professionals.",
     url: 'https://unionliving.in/property/abode-coliving-dhankawadi-pune/',
     siteName: 'Union Living',
     images: [

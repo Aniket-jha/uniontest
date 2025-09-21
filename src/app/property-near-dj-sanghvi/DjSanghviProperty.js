@@ -27,6 +27,7 @@ import TerraTwinImage from "../../asset/terraImages/twi.webp"
 import CollegeForm from '@/components/collegeslayout/CollegeForm'
 import TestimonialTwo from '@/components/Home/Testimonial'
 import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
+import FAQAccordion from '@/components/common/FAQAccordion'
 
 const NMIMSProperty = () => {
   const properties = [
@@ -192,6 +193,59 @@ const NMIMSProperty = () => {
    <CollegeBanner title="Coliving Spaces Near DJ Sanghvi" collegeBannerBox="sanghviBannerBox" description="Explore the best properties near Mithibai— luxury co-living, student housing, and premium apartments, all in one place." />
     <CollegePropertyList properties={properties} />
     <CollegeForm />
+    <FAQAccordion 
+      title="FAQs"
+      faqs={[
+        { q: "What types of accommodations are available near DJ Sanghvi College?", a: [
+          { type: 'p', text: 'Co-living hostels, and student housing apartments are commonly available; many are professionally managed and tailored for students.'},
+          
+        ] },
+        { q: "Are these accommodations within walking distance to DJ Sanghvi?", a: [
+          { type: 'p', text: 'Many hostels and student housing options are located near the college or offer direct public transportation connectivity.'},
+        ] },
+        
+        { q: "Are shared and private room options available?", a: [
+          { type: 'p', text: 'Yes, most co-living spaces offer both shared and private rooms, giving students flexibility based on preference and privacy needs.'},
+          
+        ] },
+        { q: "What amenities are included in student accommodations?", a: [
+          { type: 'p', text: 'Furnished rooms, Wi-Fi, laundry, housekeeping, study zones, common lounges, kitchen access, and security systems are typically included.'},
+        ] },
+        { q: "Is the accommodation suitable for long-term stays?", a: [
+          { type: 'p', text: 'Yes, most co-living hostels near DJ Sanghvi are designed for semester-long or year-long stays, with flexible lease options.'},
+        ] },
+        { q: "Do hostels have food facilities?", a: [
+          { type: 'p', text: 'Some co-living properties offer meal plans or have tie-ups with nearby kitchens, while others provide a common kitchen for self-cooking.'},
+        ] },
+        { q: "How safe are these hostels and co-livings spaces?", a: [
+          { type: 'p', text: 'They are generally secure, featuring CCTV surveillance, biometric entry, on-site wardens, and strict visitor policies.'},
+        ] },
+        { q: "Do these hostels have restricted entry period timings?", a: [
+          { type: 'p', text: 'Yes, many student accommodations maintain restricted entry hours for safety and discipline. Some offer flexible entry for working students with prior notice.'},
+        ] },
+        { q: "Can parents visit or stay in the hostel temporarily?", a: [
+          { type: 'p', text: 'Visitor policies vary, but many co-living spaces allow short visits during the day. Overnight stays are usually restricted for safety.'},
+        ] },
+        { q: "Are hostels near DJ Sanghvi co-ed or gender-specific?", a: [
+          { type: 'p', text: 'There are both co-ed and gender-specific hostels available. Students can choose based on comfort and personal preference.'},
+        ] },
+        { q: "What is the environment like in co-living hostels?", a: [
+          { type: 'p', text: 'They promote a balanced lifestyle with community events, shared responsibilities, study groups, and curated student activities.'},
+        ] },
+        { q: "Do I need to bring furniture or appliances?", a: [
+          { type: 'p', text: 'No, most hostels provide beds, wardrobes, study tables, chairs, and sometimes even mini-fridges or microwaves.'},
+        ] },
+        { q: "Is high-speed internet available?", a: [
+          { type: 'p', text: 'Yes, Wi-Fi is usually included and supports multiple devices for study and entertainment.'},
+        ] },
+        { q: "Are there any restrictions on using personal electronic devices?", a: [
+          { type: 'p', text: 'Basic devices like laptops, phones, and small appliances are allowed. High-wattage items may be restricted for safety.'},
+        ] },
+        { q: "How do I book or schedule a visit?", a: [
+          { type: 'p', text: 'Use the property website’s enquiry or call-back form to connect with a representative and book a visit or virtual tour.'},
+        ] },
+      ]}
+    />
     <TestimonialTwo />
     <Footer />
     </div>

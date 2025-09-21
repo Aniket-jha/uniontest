@@ -6,7 +6,7 @@ const Design = ({design}) => {
     <div className='py-6 lg:mx-16 mx-3   lg:py-12  gap-y-12 lg:gap-16  grid grid-cols-1 lg:grid-cols-5 items-center  lg:grid-flow-col ' >
    
      <div className='lg:col-span-2 ' >
-          <Image className=' shadow-xl ' src={Designs} alt="Co-Living Spaces in Mumbai - Premium Amenities, Modern Living, Community-Focused" />
+          <Image className=' shadow-xl ' src={Designs} alt="Stylish and smartly designed co-living homes" />
         </div>
   
         <div className='lg:col-span-3' >

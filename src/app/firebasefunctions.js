@@ -16,9 +16,19 @@ export async function getSinglePost(currentUrl){
   if (!querySnapshot.empty) {
     // Return the first matching document's data
     const docSnap = querySnapshot.docs[0];
-    const data = docSnap.data();
-    console.log(data)
-    return data;
+    const raw = docSnap.data();
+    // Normalize timestamps if present
+    const createdAt = raw?.createdAt;
+    const normalized = {
+      ...raw,
+      createdAt:
+        createdAt && typeof createdAt?.toDate === 'function'
+          ? createdAt.toDate()
+          : createdAt
+          ? new Date(createdAt)
+          : null,
+    };
+    return normalized;
   } else {
     // Handle the case where no documents match
     console.log('No matching document found!');
@@ -30,9 +40,19 @@ export async function getBlogPosts() {
     const q = query(collection(db, "blogs")) 
         const querySnapshot = await getDocs(q);
         const posts = []
-         querySnapshot.forEach((doc) => {
-         
-       posts.push({ id: doc.id, ...doc.data() })
+         querySnapshot.forEach((docSnap) => {
+           const raw = docSnap.data();
+           const createdAt = raw?.createdAt;
+           posts.push({
+             id: docSnap.id,
+             ...raw,
+             createdAt:
+               createdAt && typeof createdAt?.toDate === 'function'
+                 ? createdAt.toDate()
+                 : createdAt
+                 ? new Date(createdAt)
+                 : null,
+           })
          });
          return posts;
 }

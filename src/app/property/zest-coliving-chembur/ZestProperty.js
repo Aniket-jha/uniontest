@@ -167,7 +167,7 @@ const ZestProperty = () => {
     <LeadSquaredTracker /> 
       <NavbarTwo />
       <div className='lg:pt-[150px] pt-[100px]'>
-     <Banner apartment="19 Flats" beds="128" galleryImages={galleryImages} name="Zest: Best Coliving PG in Chembur for Female & Male" location="Chembur" images={images} />
+     <Banner alt="Zest Chembur" apartment="19 Flats" beds="128" galleryImages={galleryImages} name="Zest: Best Coliving PG in Chembur for Female & Male" location="Chembur" images={images} />
    <Details  subtitle="The Student & Young Professionals’ Hub" title="At the Crossroads of Connectivity and Calm, Experience the Best of East Mumbai." description="Located in the vibrant neighborhood of Chembur, Zest CoLiving brings you the ideal balance of city buzz and peaceful living. Perfect for students and young professionals, Zest offers a thoughtfully designed co-living experience that blends comfort, convenience, and community. From fully furnished shared and private rooms to common lounges and collaborative spaces, Zest is your go-to address for hassle-free living in Mumbai's fast-growing eastern corridor." />
      <Featured />
      <Rooms rooms={rooms} brochure="https://srv948-files.hstgr.io/c5fb1d9f599cfb27/files/public_html/Zest%20Working%20Profession%20(1)%20(1).pdf"  />

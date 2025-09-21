@@ -79,6 +79,7 @@ export const propertyListData = [
    
     {
         name:"Southside",
+        alt:"Southside Mahalaxmi",
         coverImage:SouthsideCoverImage,
         images:[
             SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage
@@ -172,6 +173,7 @@ export const propertyListData = [
     },
     {
         name:"Terra",
+        alt:"Terra Juhu",
         coverImage:TerraCoverImage,
         images:[
             TerraMainImage,TerraOneImage,TerraTwoImage,TerraThreeImage,TerraFourImage
@@ -255,6 +257,7 @@ export const propertyListData = [
     },
     {
         name:"Varsity",
+        alt:"Varsity Juhu / Santacruz",
         coverImage:VarsityCoverMainImage,
         price:"Rs. 40,000",
         subtTitleDetail:"",
@@ -328,6 +331,7 @@ export const propertyListData = [
   
     {
         name:"Hamlet",
+        alt:"Hamlet Baner, Pune",
         coverImage:HamletCoverImage,
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         link:"/property/hamlet-coliving-baner-pune",
@@ -355,6 +359,7 @@ export const propertyListData = [
     },
     {
         name:"House of Balewadi",
+        alt:"House of Balewadi",
         coverImage:HouseofBalewadiCover,
         link:"/property/house-of-balewadi-coliving/",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
@@ -389,6 +394,7 @@ export const propertyListData = [
     
     {
         name:"Zest",
+        alt:"Zest Chembur",
         coverImage:ZynergyImage,
         link:"/property/zest-coliving-chembur",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
@@ -423,6 +429,7 @@ export const propertyListData = [
     
     {
         name:"Abode",
+        alt:"Abode Dhankawadi, Pune",
         coverImage:AbodeCoverImage,
         link:"/property/abode-coliving-dhankawadi-pune",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
@@ -458,6 +465,7 @@ export const propertyListData = [
     
     {
         name:"House of KP",
+        alt:"House of KP",
         coverImage:HouseofKPCover,
         link:"",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
@@ -490,6 +498,7 @@ export const propertyListData = [
     },
     {
         name:"House of Mundwa",
+        alt:"House of Mundwa",
         coverImage:HouseofMundwaCover,
         link:"",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
@@ -522,6 +531,7 @@ export const propertyListData = [
     },
     {
         name:"Elv-8",
+        alt:"Elv-8",
         coverImage:Elv8Cover,
         link:"",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
@@ -561,11 +571,12 @@ export const propertyListData = [
 export const activeProduct = [
     {
         name:"Southside",
+        alt:"Southside Mahalaxmi",
         coverImage:SouthsideCoverImage,
         images:[
             SouthsideMainImage,SouthsideOneImage,SouthsideTwoImage,SouthsideThreeImage,SouthsideFourImage
         ],
-        price:"Rs. 49,999",
+        price:"Rs. 40,999",
         location:"Mahalaxmi",
         link:"/property/southside-coliving-mahalaxmi",
         subtTitleDetail:"",
@@ -654,12 +665,13 @@ export const activeProduct = [
     },
     {
         name:"Terra",
+        alt:"Terra Juhu",
         coverImage:TerraCoverImage,
         images:[
             TerraMainImage,TerraOneImage,TerraTwoImage,TerraThreeImage,TerraFourImage
         ],
         location:"Juhu",
-        price:"Rs. 45,000",
+        price:"Rs. 35,000",
         subtTitleDetail:"",
         titleDetail:"",
         contentDetail:"",
@@ -737,8 +749,9 @@ export const activeProduct = [
     },
     {
         name:"Varsity",
+        alt:"Varsity Juhu / Santacruz",
         coverImage:VarsityCoverMainImage,
-        price:"Rs. 45,000",
+        price:"Rs. 40,000",
         subtTitleDetail:"",
         titleDetail:"",
         contentDetail:"",
@@ -810,10 +823,11 @@ export const activeProduct = [
   
     {
         name:"Hamlet",
+        alt:"Hamlet Baner, Pune",
         coverImage:HamletCoverImage,
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         link:"/property/hamlet-coliving-baner-pune",
-        price:"Rs. 39,999",
+        price:"Rs. 24,000",
         images:[
             HamletMainImage,HamletOneImage,HamletTwoImage,HamletThreeImage,HamletFourImage,HamletFiveImage,HamletSixImage
         ],
@@ -837,13 +851,14 @@ export const activeProduct = [
     },
     {
         name:"House of Balewadi",
+        alt:"House of Balewadi",
         coverImage:HouseofBalewadiCover,
         link:"/property/house-of-balewadi-coliving/",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         images:[
             ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
         ],
-        price:"20000",
+        price:"18,000",
         location:"Balewadi",
         content:"A dynamic coliving space blending community, innovation, and comfort with shared amenities and modern workspaces.",
         map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
@@ -871,13 +886,14 @@ export const activeProduct = [
     
     {
         name:"Zest",
+        alt:"Zest Chembur",
         coverImage:ZynergyImage,
         link:"/property/zest-coliving-chembur",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         images:[
             ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
         ],
-        price:"20000",
+        price:"20,000",
         location:"Chembur",
         content:"Nestled in a vibrant neighborhood, this modern co-living space offers fully-furnished rooms, high-speed WiFi, and all-inclusive amenities—so you can focus on living your best life. ",
         map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
@@ -905,10 +921,11 @@ export const activeProduct = [
     
     {
         name:"Abode",
+        alt:"Abode Dhankawadi, Pune",
         coverImage:AbodeCoverImage,
         link:"/property/abode-coliving-dhankawadi-pune",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
-        price:"Rs. 7,999",
+        price:"Rs. 7,500",
         images:[
             AbodeOneMainImage,AbodeOneOneImage,AbodeOneTwoImage,AbodeOneThreeImage,AbodeOneFourImage
         ],
@@ -935,8 +952,12 @@ export const activeProduct = [
             },
         ]
     },
+   
+   
+    
     {
         name:"House of KP",
+        alt:"House of KP",
         coverImage:HouseofKPCover,
         link:"",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
@@ -969,6 +990,7 @@ export const activeProduct = [
     },
     {
         name:"House of Mundwa",
+        alt:"House of Mundwa",
         coverImage:HouseofMundwaCover,
         link:"",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
@@ -1001,6 +1023,7 @@ export const activeProduct = [
     },
     {
         name:"Elv-8",
+        alt:"Elv-8",
         coverImage:Elv8Cover,
         link:"",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",

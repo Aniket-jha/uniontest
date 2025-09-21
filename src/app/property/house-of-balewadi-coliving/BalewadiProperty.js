@@ -127,7 +127,7 @@ useEffect(() => {
       <LeadSquaredTracker /> 
         <NavbarTwo />
         <div className='lg:pt-[150px] pt-[100px]'>
-       <Banner beds="144" apartment="72 Studios" galleryImages={galleryImages} name="House of Balewadi: Best PG in Balewadi for Male & Female" location="Balewadi, Pune" images={images} />
+       <Banner alt="House of Balewadi" beds="144" apartment="72 Studios" galleryImages={galleryImages} name="House of Balewadi: Best PG in Balewadi for Male & Female" location="Balewadi, Pune" images={images} />
      <Details subtitle="Where Modern Living Meets Vibrant Community Life" title="Experience Modern Living at Balewadi’s Premier Coliving Space" description="Enjoy a seamless blend of comfort, convenience, and community at Balewadi’s top coliving space. With modern amenities, engaging social events, and a prime location, our coliving spaces in Pune offer the perfect environment for students and professionals. Your ideal lifestyle is just a move away. Join us today!" />
        <Featured />
        {/* <Rooms rooms={rooms}   /> */}

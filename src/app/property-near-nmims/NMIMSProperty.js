@@ -27,6 +27,7 @@ import TerraTwinImage from "../../asset/terraImages/twi.webp"
 import CollegeForm from '@/components/collegeslayout/CollegeForm'
 import TestimonialTwo from '@/components/Home/Testimonial'
 import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
+import FAQAccordion from '@/components/common/FAQAccordion'
 
 const NMIMSProperty = () => {
   const properties = [
@@ -192,6 +193,58 @@ const NMIMSProperty = () => {
    <CollegeBanner collegeBannerBox="nmimsBannerBox" description="Explore the best properties near NMIMS— luxury co-living, student housing, and premium apartments, all in one place." title="Best PG Near NMIMS Mumbai" />
     <CollegePropertyList  properties={properties} />
     <CollegeForm />
+    <FAQAccordion 
+      title="FAQs"
+      faqs={[
+        { q: "Is Union Living a good co-living place near NMIMS Mumbai?", a: [
+          { type: 'p', text: 'Yes, Union Living is one of the best PGs near NMIMS Mumbai, offering a modern, all-inclusive living experience just minutes from the Narsee Monjee Institute of Management Studies campus.'},
+          
+        ] },
+        { q: "How far is Union Living from NMIMS Mumbai?", a: [
+          { type: 'p', text: 'Union Living is located within walking distance of NMIMS, making it extremely convenient for students. You won’t need to worry about long commutes or traffic.'},
+         
+      
+        ] },
+        { q: "What’s included in the rent at Union Living?", a: [
+          { type: 'p', text: 'The rent at Union Living covers:'},
+          { type: 'ol', items: [
+            'Fully furnished AC rooms',
+            'High-speed Wi-Fi',
+            'Daily housekeeping',
+            'Nutritious meals (breakfast, lunch, dinner)',
+            'Laundry services',
+            '24x7 security with CCTV',
+            'Study areas and recreational zones',
+          ]},
+          { type: 'p', text: 'Everything you need in a premium PG near NMIMS is already included.'},
+        ] },
+        { q: "Is food available?", a: [
+          { type: 'p', text: 'Yes, Union Living offers healthy and delicious meals three times a day, cooked in a hygienic in-house kitchen – making it one of the best PGs near NMIMS for food quality.'},
+          
+        ] },
+        { q: "Are there single and shared room options?", a: [
+          { type: 'p', text: 'Yes, you can choose from single, twin, or triple-sharing rooms depending on your preference and budget.'},
+        ] },
+        { q: "Is Union Living safe for students?", a: [
+          { type: 'p', text: 'Absolutely. Union Living provides 24/7 security, biometric entry, and CCTV surveillance. Safety is our top priority for all residents.'},
+        ] },
+        { q: "Can I book Union Living spaces online?", a: [
+          { type: 'p', text: 'Yes! You can easily book your space online. Just contact us via WhatsApp, call, or fill out the online form. We also offer virtual tours.'},
+        ] },
+        { q: "Do I need to pay brokerage or deposits?", a: [
+          { type: 'p', text: 'No brokerage is needed. A small security deposit is collected and refunded at the end of your stay. Transparent and student-friendly!'},
+        ] },
+        { q: "Is Union Living only for NMIMS students?", a: [
+          { type: 'p', text: 'While many of our residents are from Narsee Monjee Institute of Management Studies, we also welcome interns, working professionals, and students from other nearby colleges.'},
+        ] },
+        { q: "Why is Union Living considered the best co-living near NMIMS?", a: [
+          { type: 'p', text: 'Union Living offers a unique blend of comfort, convenience, and community — all within walking distance of NMIMS Mumbai. With premium facilities and a student-first approach, we are often rated among the best PGs near NMIMS.'},
+        ] },
+        { q: "Are guests allowed?", a: [
+          { type: 'p', text: 'Visitors are allowed in designated hours and common areas, following house rules to ensure safety and comfort for all residents.'},
+        ] },
+      ]}
+    />
     <TestimonialTwo />
     <Footer />
     </div>

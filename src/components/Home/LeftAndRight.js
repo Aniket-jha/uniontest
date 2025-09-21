@@ -58,7 +58,7 @@ const LeftAndRight = ({ homeContent }) => {
                Guesswork
               }
               className="rounded-none mx-4  w-[250px] lg:w-[500px]"
-              alt=""
+              alt="Ready-to-move-in coliving space with all essentials managed"
             />
           </div>
       
@@ -72,7 +72,7 @@ const LeftAndRight = ({ homeContent }) => {
                 Checklist
                 }
                 className="w-[250px] mx-6 shadow-lg rounded-xl lg:w-[580px]"
-                alt=""
+                alt="Ready-to-move-in checklist"
               />
             </div>
           
@@ -127,7 +127,7 @@ const LeftAndRight = ({ homeContent }) => {
               Mobile
               }
               className=" w-[250px] lg:w-[420px] mr-0 lg:mr-20  "
-              alt=""
+              alt="Manage rent and lease via app"
             />
           </div>
       
@@ -141,7 +141,7 @@ const LeftAndRight = ({ homeContent }) => {
                 Responsive
                 }
                 className="w-[100%]   lg:w-[400px]"
-                alt=""
+                alt="Responsive team offering quick support"
               />
             </div>
        

@@ -7,7 +7,7 @@ const Portfolio = ({portfolio}) => {
    <div className='py-6 lg:mx-16 mx-3   lg:py-12  gap-y-12 lg:gap-16  grid grid-cols-1 lg:grid-cols-5 items-center  lg:grid-flow-col ' >
    
    <div className='lg:col-span-2' >
-           <Image className='' src={Plans} alt="Co-Living Spaces in Mumbai - Premium Amenities, Modern Living, Community-Focused" />
+           <Image className='' src={Plans} alt="Union Living future expansion plans" />
         </div>
       
         <div className='lg:col-span-3' >

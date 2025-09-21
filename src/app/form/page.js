@@ -3,16 +3,16 @@ import React from 'react'
 import FormPage from './FormPage'
 
 export const metadata = {
-  title: "Contact Us – Union Living | Book Your Coliving Stay Today",
+  title: "Contact Us – Union Living | Book Your PG & Coliving Stay in Mumbai & Pune",
   description: "Need help with bookings or inquiries? Use our contact form to connect with Union Living’s team for PG and coliving options across Mumbai  and Pune. Fully furnished PGs for students and working professionals.",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   verification: {
     google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
   },
   openGraph: {
-    title: 'Contact Us – Union Living | Book Your Coliving Stay Today',
+    title: 'Contact Us – Union Living | Book Your PG & Coliving Stay in Mumbai & Pune',
     description: 'Need help with bookings or inquiries? Use our contact form to connect with Union Living’s team for PG and coliving options across Mumbai  and Pune. Fully furnished PGs for students and working professionals.',
-    url: 'https://unionliving.in',
+    url: 'https://unionliving.in/form/',
     siteName: 'Union Living',
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata = {
   
   },
   alternates: {
-    canonical: 'https://unionliving.in/',
+    canonical: 'https://unionliving.in/form/',
   },
  
   icons: {

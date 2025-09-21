@@ -14,7 +14,7 @@ const Category = ({community}) => {
             <div className='lg:px-12 px-4 py-6 flex gap-6 lg:gap-12 flex-wrap items-center justify-center' >
         
                     <div className='2xl:w-[400px] xl:w-[350px]  ' >
-                    <Image className='rounded-lg' src={Declutter} alt="" />
+                    <Image className='rounded-lg' src={Declutter} alt="Declutter" />
                     <p  style={{
                 background:
                   "linear-gradient(to right, #ee0979 0%, #ff6a00 100%)",
@@ -26,7 +26,7 @@ const Category = ({community}) => {
                     <p  className='text-sm mt-1 text-justify font-[NeueRegular]  text-[#272727] font-[500]' >Pause your routine hovering round-the-clock and dive into the calmness within</p>
                 </div>
                 <div className='2xl:w-[400px] xl:w-[350px]  ' >
-                    <Image className='rounded-lg' src={Mixtape} alt="" />
+                    <Image className='rounded-lg' src={Mixtape} alt="Mixtape Sessions" />
                     <p  style={{
                 background:
                   "linear-gradient(to right, #ee0979 0%, #ff6a00 100%)",
@@ -38,7 +38,7 @@ const Category = ({community}) => {
                     <p  className='text-sm mt-1 text-justify font-[NeueRegular]  text-[#272727] font-[500]' >Bringing conceptually curated events with an infuse of Indie music artists</p>
                 </div>
                 <div className='2xl:w-[400px] xl:w-[350px]  ' >
-                    <Image className='rounded-lg' src={Junior} alt="" />
+                    <Image className='rounded-lg' src={Junior} alt="Junior Senior" />
                     <p  style={{
                 background:
                   "linear-gradient(to right, #ee0979 0%, #ff6a00 100%)",
@@ -50,7 +50,7 @@ const Category = ({community}) => {
                     <p  className='text-sm mt-1 text-justify font-[NeueRegular]  text-[#272727] font-[500]' >Interact with your alumni buddies and exchange ideas, thoughts, learnings and experiences.</p>
                 </div>
                 <div className='2xl:w-[400px] xl:w-[350px]  ' >
-                    <Image className='rounded-lg' src={Elevate} alt="" />
+                    <Image className='rounded-lg' src={Elevate} alt="Elevate" />
                     <p  style={{
                 background:
                   "linear-gradient(to right, #ee0979 0%, #ff6a00 100%)",
@@ -62,7 +62,7 @@ const Category = ({community}) => {
                     <p  className='text-sm mt-1 text-justify font-[NeueRegular]  text-[#272727] font-[500]' >Exercise under a certified trainer to power up your day and boost your productivity</p>
                 </div>
                 <div className='2xl:w-[400px] xl:w-[350px]  ' >
-                    <Image className='rounded-lg' src={Moodboard} alt="" />
+                    <Image className='rounded-lg' src={Moodboard} alt="Moodboard" />
                     <p  style={{
                 background:
                   "linear-gradient(to right, #ee0979 0%, #ff6a00 100%)",
@@ -74,7 +74,7 @@ const Category = ({community}) => {
                     <p  className='text-sm mt-1 text-justify font-[NeueRegular]  text-[#272727] font-[500]' >Experience hours of art gigs while you harmoniously sip, paint, munch & draw</p>
                 </div>
                 <div className='2xl:w-[400px] xl:w-[350px]  ' >
-                    <Image className='rounded-lg' src={Better} alt="" />
+                    <Image className='rounded-lg' src={Better} alt="Better Together" />
                     <p  style={{
                 background:
                   "linear-gradient(to right, #ee0979 0%, #ff6a00 100%)",

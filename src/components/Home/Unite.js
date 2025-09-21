@@ -12,7 +12,7 @@ const Unite = ({homeContent}) => {
             </div>
            
             <div className='my-0' >
-            <Image  src={Community}  className="rounded-none   w-[350px] lg:w-[850px]" alt="" />
+            <Image  src={Community}  className="rounded-none   w-[350px] lg:w-[850px]" alt="Connect. Celebrate. Cherish." />
             </div>
            
         </div>

@@ -16,7 +16,7 @@ const Tech = ({tech}) => {
         </div>
        
         <div className='lg:col-span-2 order-first lg:order-last ' >
-           <Image className='' src={TechImage} alt="Co-Living Spaces in Mumbai - Premium Amenities, Modern Living, Community-Focused" />
+           <Image className='' src={TechImage} alt="Smart digital renting at Union Living" />
         </div>
       
     </div>

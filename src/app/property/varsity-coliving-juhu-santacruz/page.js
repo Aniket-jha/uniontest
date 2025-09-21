@@ -4,15 +4,15 @@ import Head from 'next/head'
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
-  title: "Coliving PG in Santacruz & Luxury Coliving Spaces in Santacruz Mumbai | Varsity by Union Living",
-  description: "Experience modern PG in Santacruz with vibrant coliving spaces. Ideal for students and working professionals looking for a cozy community. Book your Coliving PG today.",
+  title: "Luxury Coliving PG in Santacruz West, Mumbai | Best Coliving PG Option Varsity by Union Living",
+  description: "Find luxury coliving PG in Santacruz West, Mumbai Varsity by Union Living. Fully furnished rooms with modern amenities, perfect for students & working professionals. Book your Coliving PG today.",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   verification: {
     google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
   },
   openGraph: {
-    title: "Coliving PG in Santacruz & Luxury Coliving Spaces in Santacruz Mumbai | Varsity by Union Living",
-  description: "Experience modern PG in Santacruz with vibrant coliving spaces. Ideal for students and working professionals looking for a cozy community. Book your Coliving PG today.",
+    title: "Luxury Coliving PG in Santacruz West, Mumbai | Best Coliving PG Option Varsity by Union Living",
+  description: "Find luxury coliving PG in Santacruz West, Mumbai Varsity by Union Living. Fully furnished rooms with modern amenities, perfect for students & working professionals. Book your Coliving PG today.",
     url: 'https://unionliving.in/property/varsity-coliving-juhu-santacruz/',
     siteName: 'Union Living',
     images: [

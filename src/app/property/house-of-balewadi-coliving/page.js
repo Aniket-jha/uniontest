@@ -4,15 +4,15 @@ import Head from 'next/head'
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
-  title: "Luxury PG in Balewadi for Male & Female | Best Coliving Spaces in Pune",
-  description: "Looking for the best PG in Balewadi, Pune? Find the best coliving spaces for males & females with modern amenities. Ideal PG for students & professionals.",
+  title: "Luxury PG in Balewadi Pune for Male & Female | Premium Coliving PG near Balewadi",
+  description: "Find the best PG in Balewadi Pune for male & female. Explore fully furnished coliving spaces with modern amenities. Ideal PG near Balewadi Pune for students & professionals.",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   verification: {
     google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
   },
   openGraph: {
-    title: "Luxury PG in Balewadi for Male & Female | Best Coliving Spaces in Pune",
-  description: "Looking for the best PG in Balewadi, Pune? Find the best coliving spaces for males & females with modern amenities. Ideal PG for students & professionals.",
+    title: "Luxury PG in Balewadi Pune for Male & Female | Premium Coliving PG near Balewadi",
+  description: "Find the best PG in Balewadi Pune for male & female. Explore fully furnished coliving spaces with modern amenities. Ideal PG near Balewadi Pune for students & professionals.",
     url: 'https://unionliving.in/property/house-of-balewadi-coliving/',
     siteName: 'Union Living',
     images: [

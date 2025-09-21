@@ -19,6 +19,7 @@ import HouseofBalewadiCover from "../../asset/houseofbalewadi/cover.webp"
 import CollegeForm from '@/components/collegeslayout/CollegeForm'
 import TestimonialTwo from '@/components/Home/Testimonial'
 import LeadSquaredTracker from '@/components/Layout/LeadSquareTracker'
+import FAQAccordion from '@/components/common/FAQAccordion'
 
 const NMIMSProperty = () => {
   const properties = [
@@ -71,6 +72,59 @@ const NMIMSProperty = () => {
    <CollegeBanner title="Best Coliving Spaces Near NICMAR Campus" collegeBannerBox="nicmarBannerBox" description="Explore the best properties near NICMAR— luxury co-living, student housing, and premium apartments, all in one place." />
     <CollegePropertyList properties={properties} />
     <CollegeForm />
+    <FAQAccordion 
+      title="FAQs"
+      faqs={[
+        { q: "What are the popular accommodation options near NICMAR Pune?", a: [
+          { type: 'p', text: 'Co-living hostels in Pune, student residences, and studio apartments, all curated for student accommodation in Pune are widely available near the National Institute of Construction Management and Research.'},
+          
+        ] },
+        { q: "Are these hostels within easy reach of the NICMAR campus?", a: [
+          { type: 'p', text: 'Yes, many are located in Baner, Balewadi, and surrounding areas, with easy commute options like cabs, autos, or public buses.'},
+        ] },
+        
+        { q: "What kind of room configurations are offered?", a: [
+          { type: 'p', text: 'Single occupancy, double occupancy, and sometimes triple sharing rooms are available, along with private studio setups.'},
+          
+        ] },
+        { q: "Are the properties furnished?", a: [
+          { type: 'p', text: 'Absolutely. Most rooms come with a bed, mattress, table, chair, wardrobe, and other essential furniture.'},
+        ] },
+        { q: "Do these co-living spaces include housekeeping?", a: [
+          { type: 'p', text: 'Yes, housekeeping services are generally provided weekly or bi-weekly to maintain cleanliness and hygiene.'},
+        ] },
+        { q: "Is food included in the stay?", a: [
+          { type: 'p', text: 'Some hostels offer in-house meals, while others may offer access to a shared kitchen or have nearby tiffin partners.'},
+        ] },
+        { q: "What security measures are in place?", a: [
+          { type: 'p', text: 'Properties feature biometric access, security guards, CCTV cameras, and emergency contact systems.'},
+        ] },
+        { q: "Can students invite guests?", a: [
+          { type: 'p', text: 'Guest policies vary by property. While daytime visits may be allowed, overnight stays are typically restricted.'},
+        ] },
+        { q: "Are these accommodations suitable for first-time movers?", a: [
+          { type: 'p', text: 'Yes, co-living hostels in Pune are designed to simplify living for students new to the city, offering all essentials under one roof.'},
+        ] },
+        { q: "Is there support for maintenance or repairs?", a: [
+          { type: 'p', text: 'Yes, professional property managers are usually available on-site or on-call to handle maintenance requests promptly.'},
+        ] },
+        { q: "Do students have access to recreational or common areas?", a: [
+          { type: 'p', text: 'Yes, many spaces have lounges, gyms, game zones, and rooftops or balconies where students can relax and socialise.'},
+        ] },
+        { q: "Is there a study-friendly environment?", a: [
+          { type: 'p', text: 'Most student housing apartments include quiet zones or desks for study, and a culture that encourages academic discipline.'},
+        ] },
+        { q: "Are these accommodations co-ed or separate for genders?", a: [
+          { type: 'p', text: 'Options are available for both students to choose based on their preference and comfort.'},
+        ] },
+        { q: "How are power and water facilities managed?", a: [
+          { type: 'p', text: 'These are typically uninterrupted and managed by the operator. Backup generators and RO water systems are often in place.'},
+        ] },
+        { q: "How can students enquire or book a room?", a: [
+          { type: 'p', text: 'Students can reach out via the “Enquire Now” or “Get a Call Back” buttons on the property’s official webpage. Staff will assist with bookings, virtual tours, and documentation.'},
+        ] },
+      ]}
+    />
     <TestimonialTwo />
     <Footer />
     </div>

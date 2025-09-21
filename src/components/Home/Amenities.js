@@ -14,7 +14,7 @@ const Amenities = ({homeContent}) => {
       <div className="w-[100%] lg:mx-2 xl:mx-12 lg:my-12 lg:w-[200px] 2xl:w-[360px] xl:w-[310px]">
         <div className="text-center flex flex-col justify-center items-center">
           <div className="mr-2">
-          <Image className="w-[200px]" src={Room} alt="" />
+          <Image className="w-[200px]" src={Room} alt="Fully Furnished" />
           </div>
           <div className="my-2">
             <h3 className="2xl:text-[1.7rem] xl:text-[1.4rem] font-[NeueBold] lg:text-[1.1rem] text-[1.6rem]  text-[#272727] font-[650]">
@@ -31,7 +31,7 @@ const Amenities = ({homeContent}) => {
         <div className="w-[100%] lg:mx-2 xl:mx-12 lg:my-12 lg:w-[200px] 22xl:w-[360px] xl:w-[310px] xl:w-[310px]">
         <div className="text-center flex flex-col justify-center items-center">
           <div className="">
-            <Image className="w-[200px]" src={Unite} alt="" />
+            <Image className="w-[200px]" src={Unite} alt="The Unite Community" />
           </div>
           <div className="my-2">
             <h3 className="2xl:text-[1.7rem] font-[NeueBold] xl:text-[1.4rem] lg:text-[1.1rem] text-[1.6rem]  text-[#272727] font-[650]">
@@ -48,7 +48,7 @@ const Amenities = ({homeContent}) => {
       <div className="w-[100%] lg:mx-2 xl:mx-12 lg:my-12 lg:w-[200px] 2xl:w-[360px] xl:w-[310px]">
         <div className="text-center flex flex-col justify-center items-center">
           <div className=" ">
-       <Image className="w-[200px]" src={Property} alt="" />
+       <Image className="w-[200px]" src={Property} alt="Onsite property manager" />
           </div>
           <div className="my-2 ">
             <h3 className="2xl:text-[1.7rem] font-[NeueBold] xl:text-[1.4rem] lg:text-[1.1rem] text-[1.6rem]  text-[#272727] font-[650]">
@@ -64,7 +64,7 @@ const Amenities = ({homeContent}) => {
       <div className="w-[100%] lg:mx-2 xl:mx-12 lg:my-12 lg:w-[200px] 2xl:w-[360px] xl:w-[310px]">
         <div className="text-center flex flex-col justify-center items-center">
           <div className="">
-           <Image className="w-[200px]" src={Wifi} alt="" />
+           <Image className="w-[200px]" src={Wifi} alt="High-speed WIFI" />
           </div>
           <div className="my-2">
             <h3 className="2xl:text-[1.7rem] font-[NeueBold] xl:text-[1.4rem] lg:text-[1.1rem] text-[1.6rem]  text-[#272727] font-[650]">
@@ -80,7 +80,7 @@ const Amenities = ({homeContent}) => {
       <div className="w-[100%] lg:mx-2 xl:mx-12 lg:my-12 lg:w-[200px] 2xl:w-[360px] xl:w-[310px]">
         <div className="text-center flex flex-col justify-center items-center">
           <div className="mr-2">
-      <Image className="w-[200px]" src={Cleaning} alt="" />
+      <Image className="w-[200px]" src={Cleaning} alt="Professional Housekeeping" />
           </div>
           <div className="my-2">
             <h3 className="2xl:text-[1.7rem] font-[NeueBold] xl:text-[1.4rem] lg:text-[1.1rem] text-[1.6rem]  text-[#272727] font-[650]">
@@ -96,7 +96,7 @@ const Amenities = ({homeContent}) => {
       <div className="w-[100%] lg:mx-2 xl:mx-12 lg:my-12 lg:w-[200px] 2xl:w-[360px] xl:w-[310px]">
         <div className="text-center flex flex-col justify-center items-center">
           <div className="">
-            <Image className="w-[200px]" src={Meal} alt="" />
+            <Image className="w-[200px]" src={Meal} alt="Fresh & Timely meals" />
           </div>
           <div className="my-2">
             <h3 className="2xl:text-[1.7rem] font-[NeueBold] xl:text-[1.4rem] lg:text-[1.1rem] text-[1.6rem]  text-[#272727] font-[650]">
