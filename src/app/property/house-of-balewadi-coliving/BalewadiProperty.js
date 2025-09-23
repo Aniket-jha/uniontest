@@ -136,7 +136,7 @@ useEffect(() => {
        <Location map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.7244298311407!2d73.7666243!3d18.577751300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9fc2ce457f7%3A0xf25693f77b5cb9bb!2sHouse%20of%20Balewadi%20by%20Union%20Living!5e1!3m2!1sen!2sin!4v1743759190016!5m2!1sen!2sin"/>
        <Event />
       <TestimonialTwo />
-      <BottomNavConstant name="House of Balewadi"  price="Rs. 18,000" brochure="https://srv948-files.hstgr.io/49f70089dca794c9/files/public_html/House%20of%20Balewadi-10jun%20(1).pdf" />
+      <BottomNavConstant name="House of Balewadi"  price="Rs. 18,000" brochure="https://drive.google.com/file/d/1F-DiGAn04j7QqLuOKQDeT34UEa1FBl79/view?usp=sharing" />
         <Footer />
         </div>
         </ThemeProvider>
