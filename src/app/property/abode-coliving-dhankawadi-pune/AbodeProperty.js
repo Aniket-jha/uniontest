@@ -124,7 +124,7 @@ const AbodeProperty = () => {
     <LeadSquaredTracker /> 
       <NavbarTwo />
       <div className='lg:pt-[150px] pt-[100px]'>
-     <Banner alt="Abode Dhankawadi, Pune" galleryImages={galleryImages} name="Abode by Union Living: Luxury Coliving Spaces in Dhankawadi, Pune" location="Dhankawadi, Pune" images={images} />
+     <Banner alt="Abode Dhankawadi, Pune" apartment="39 Rooms" beds="105" galleryImages={galleryImages} name="Abode by Union Living: Luxury Coliving Spaces in Dhankawadi, Pune" location="Dhankawadi, Pune" images={images} />
    <Details subtitle="Exclusive CoLiving in Dhankawadi, Pune" title="Experience Modern Amenities and a Vibrant Community in Dhankawadi, Pune" description="Discover the perfect blend of comfort and community in Dhankawadi, Pune. Our co-living space offers modern amenities, high-speed Wi-Fi, and engaging events for an unparalleled living experience. Coliving Pune is redefining urban living, and our space stands out among the best coliving spaces in Pune for those seeking convenience and connection." />
      <Featured />
      <Roomstwo rooms={rooms}  />
