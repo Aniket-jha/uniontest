@@ -142,7 +142,7 @@ const TerraProperty = () => {
        <Location map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15079.663821938235!2d72.8389376!3d19.1113426!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c93fc7fa60af%3A0x71920bbde6e70ed6!2sTerra%20by%20Union%20Living!5e0!3m2!1sen!2sin!4v1717177015017!5m2!1sen!2sin" youtube="https://www.youtube.com/embed/4uAQ2Hr0ku8?si=AQX1Z4zGZDYOM39w" />
        <Event />
       <TestimonialTwo />
-      <BottomNavConstant name="Terra"  price="Rs. 35,000" youtube="https://www.youtube.com/watch?v=3euMGmLNcIc&embeds_referring_euri=http%3A%2F%2Flocalhost%3A3000%2F&source_ve_path=MjM4NTE&feature=emb_title" brochure="https://srv948-files.hstgr.io/49f70089dca794c9/files/public_html/Terra%20by%20Union%20Digital.pdf"  />
+      <BottomNavConstant name="Terra"  price="Rs. 35,000" youtube="https://www.youtube.com/watch?v=4uAQ2Hr0ku8" brochure="https://srv948-files.hstgr.io/49f70089dca794c9/files/public_html/Terra%20by%20Union%20Digital.pdf"  />
         <Footer />
         </div>
         </ThemeProvider>
