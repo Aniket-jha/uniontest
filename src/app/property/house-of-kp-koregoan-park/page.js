@@ -2,6 +2,7 @@ import React from 'react'
 import BalewadiProperty from './HouseofKpProperty'
 import Head from 'next/head'
 import { GoogleAnalytics } from '@next/third-parties/google'
+import Script from 'next/script'
 
 export const metadata = {
   title: "Luxury PG in Koregoan Park Pune for Male & Female | Premium Coliving PG near Koregoan Park",
@@ -50,6 +51,16 @@ const page = () => {
     <div>
       <Head>
       <meta name="robots" content="follow, index" />
+      <Script
+          id="google-ads-conversion"
+          strategy="afterInteractive"
+        >
+          {`
+            gtag('event', 'conversion', {
+              'send_to': 'AW-11425120901/CjV8CLzY4_saEIWF9scq'
+            });
+          `}
+        </Script>
       </Head>
         <BalewadiProperty />
         <GoogleAnalytics gaId="G-RZN1HJ2RWE" />
