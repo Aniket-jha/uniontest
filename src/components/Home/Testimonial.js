@@ -89,21 +89,21 @@ const TestimonialTwo = () => {
           <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1758370978/reviewFour_nocowg.mov" type="video/mp4" />
               </video>
               </SwiperSlide>
+              <SwiperSlide >
+              <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
+          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1759129346/WhatsApp_Video_2025-09-22_at_19.29.39_1_bduqbw.mp4" type="video/mp4" />
+              </video>
+              </SwiperSlide>
               {/* <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756576602/varsity_testimonial__1_1_snnyan.mp4" type="video/mp4" />
-              </video>
-              </SwiperSlide>
-              <SwiperSlide >
-              <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756577039/WhatsApp_Video_2025-04-25_at_16.41.38_3c504295_1_bhgl06.webm" type="video/mp4" />
-              </video>
-              </SwiperSlide>
-              <SwiperSlide >
-              <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/devjodpg7/video/upload/v1756577907/varsity_testimonial__2_thkie9.webm" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1758370978/reviewFour_nocowg.mov" type="video/mp4" />
               </video>
               </SwiperSlide> */}
+              <SwiperSlide >
+              <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
+          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1759129373/WhatsApp_Video_2025-09-22_at_19.29.39_vmat6k.mp4" type="video/mp4" />
+              </video>
+              </SwiperSlide>
         </Swiper>
         </div>
         
