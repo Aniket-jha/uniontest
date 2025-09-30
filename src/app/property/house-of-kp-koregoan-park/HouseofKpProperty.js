@@ -115,13 +115,13 @@ useEffect(() => {
       <LeadSquaredTracker /> 
         <NavbarTwo />
         <div className='lg:pt-[150px] pt-[100px]'>
-       <Banner alt="House of KP" beds="100" apartment="70 Room" galleryImages={galleryImages} name="House of KP" location="Koregoan Park, Pune" images={images} />
+       <Banner alt="House of KP" beds="100" apartment="70 Rooms" galleryImages={galleryImages} name="House of KP" location="Koregoan Park, Pune" images={images} />
      <Details subtitle="Live Where Lifestyle Meets Community" title="Welcome to House of KP, Koregaon Park" description="Find the right mix of comfort, convenience, and community living. With modern spaces, curated experiences, and a vibrant neighborhood, House of KP offers students and professionals the perfect place to live, connect, and thrive in Pune’s most iconic area." />
        <Featured />
        {/* <Rooms rooms={rooms}   /> */}
        <WhatSection  />
        <MainPropertyCTA propertyName="House of KP, Koregoan Park, Pune" />
-       <Location map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.7244298311407!2d73.7666243!3d18.577751300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9fc2ce457f7%3A0xf25693f77b5cb9bb!2sHouse%20of%20Balewadi%20by%20Union%20Living!5e1!3m2!1sen!2sin!4v1743759190016!5m2!1sen!2sin"/>
+       <Location map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4112.728809628425!2d73.8871521!3d18.541306299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1a0a4c28549%3A0xd38d149be229b6ac!2sHouse%20of%20KP%20by%20Union%20Living!5e1!3m2!1sen!2sin!4v1759263196920!5m2!1sen!2sin"/>
        <Event />
       <TestimonialTwo />
       <BottomNavConstant name="House of KP"  price="Rs. 28,000"  />
