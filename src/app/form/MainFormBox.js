@@ -172,6 +172,7 @@ const MainFormBox = ({redirectMainSection}) => {
                         <option value="Hamlet">Hamlet, Baner (Pune)</option>
                         <option value="House of KP">House of KP, Koregoan Park (Pune)</option>
                         <option value="House of KP">Nova, Gurugram</option>
+                        <option value="House of KP">Eden, Baner (Pune)</option>
                         {/* <option value="Casa">Casa, Andheri (Mumbai)</option>
                         <option value="Chapter 1">Chapter 1, Belapur (Navi Mumbai)</option>
                         <option value="Abode">Abode, Dhankawadi (Pune)</option> */}
