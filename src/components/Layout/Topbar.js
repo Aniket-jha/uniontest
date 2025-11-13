@@ -3,9 +3,8 @@ import React from 'react'
 
 const Topbar = () => {
   const items = [
-    '😍  Gurugram coming soon  😍',
-    '🔥  Baner 2.0 coming soon  🔥',
-    '🚨  House of KP, Coming Soon 🚨' ,
+    '😍  Nova By Union Living, Prebooking Started!  😍',
+    '🚨  House of KP, Prebooking Started! 🚨' ,
    
   ]
   return (

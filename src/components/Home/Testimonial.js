@@ -65,45 +65,37 @@ const TestimonialTwo = () => {
          
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1758370971/reviewFive_fhkj2p.mp4" type="video/mp4" />
+          <source src="https://cdn.shopify.com/videos/c/o/v/896d6e23d0654030b822c22dfeb0a54d.mp4" type="video/mp4" />
               </video>
               </SwiperSlide>
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1758370973/reviewThree_g9yayz.mp4" type="video/mp4" />
+          <source src="https://cdn.shopify.com/videos/c/o/v/d12e886e95b04cc8999fe4f491ff7809.mp4" type="video/mp4" />
               </video>
               </SwiperSlide>
               
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1758370973/reviewTwo_vtkqzz.mp4" type="video/mp4" />
+          <source src="https://cdn.shopify.com/videos/c/o/v/398ce32ec67e4bc5aea1b5e76c5d2fc3.mp4" type="video/mp4" />
               </video>
               </SwiperSlide>
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1758370974/reviewOne_anycq7.mp4" type="video/mp4" />
+          <source src="https://cdn.shopify.com/videos/c/o/v/929df69c48e34408b372f67c28207a56.mov" type="video/mp4" />
               </video>
               </SwiperSlide>
               <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1758370978/reviewFour_nocowg.mov" type="video/mp4" />
+          <source src="https://cdn.shopify.com/videos/c/o/v/a7d6068c8d0e4095a1dc783e56f5344c.mp4" type="video/mp4" />
               </video>
               </SwiperSlide>
-              <SwiperSlide >
-              <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1759129346/WhatsApp_Video_2025-09-22_at_19.29.39_1_bduqbw.mp4" type="video/mp4" />
-              </video>
-              </SwiperSlide>
+            
               {/* <SwiperSlide >
               <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
           <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1758370978/reviewFour_nocowg.mov" type="video/mp4" />
               </video>
               </SwiperSlide> */}
-              <SwiperSlide >
-              <video className='   h-[500px] rounded-lg shadow-lg px-2 lg:px-0 lg:mr-0 mb-6   '  controls>
-          <source src="https://res.cloudinary.com/dbjtwrdxo/video/upload/v1759129373/WhatsApp_Video_2025-09-22_at_19.29.39_vmat6k.mp4" type="video/mp4" />
-              </video>
-              </SwiperSlide>
+            
         </Swiper>
         </div>
         

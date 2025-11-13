@@ -6,14 +6,14 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Luxury Coliving Spaces in Mumbai and Pune | Best PG - Union Living",
+  title: "Luxury Coliving Spaces in Mumbai, Pune & Gurugram | Best PG - Union Living",
   description: "Experience the best coliving spaces in Mumbai and Pune with Fully furnished PG rooms with top-notch amenities for boys, girls and couples (students and professionals). Book your Co-living PG today!",
   keywords: ['Union Living','Union Living Mumbai','Community Living in Mumbai', 'Community Living in Pune', 'Community Living in Thane','Community Living in Navi Mumbai', "Premium Co-living",'Best Community'],
   verification: {
     google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
   },
   openGraph: {
-    title: 'Luxury Coliving Spaces in Mumbai and Pune | Best PG - Union Living',
+    title: 'Luxury Coliving Spaces in Mumbai, Pune & Gurugram | Best PG - Union Living',
     description: 'Experience the best coliving spaces in Mumbai and Pune with Fully furnished PG rooms with top-notch amenities for boys, girls and couples (students and professionals). Book your Co-living PG today!',
     url: 'https://unionliving.in',
     siteName: 'Union Living',
