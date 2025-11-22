@@ -77,8 +77,79 @@ import MithibaiCollegeImage from "../../asset/collegeproperties/mithibai.webp"
 import SNDTCollegeImage from "../../asset/collegeproperties/sndt.webp"
 import NovaCoverImage from "../../asset/propertyCover/nova.webp"
 import EdenCoverImage from "../../asset/propertyCover/eden.webp"
+import X90CoverImage from "../../asset/x90/x90cover.webp"
 export const propertyListData = [
+    {
+        name:"House of KP",
+        alt:"House of KP",
+        coverImage:HouseofKPCover,
+        link:"/property/house-of-kp-koregoan-park",
+        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
+        images:[
+            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
+        ],
+        price:"28,000",
+        location:"Koregaon Park, Pune",
+        content:"Get ready for a fresh, innovative take on community living. House of KP is an upcoming union living property in the vibrant heart of Koregaon Park, designed for those who want more than just a place to stay – it’s a place to connect, collaborate, and thrive.",
+        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
+        youtubeId:"sP_tmYSOWPE",
+        rooms:[
+            {
+                title:"Private",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneTwoImage
+            },
+            {
+                title:"Twin",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneCoverImage
+            },
+            {
+                title:"Triple",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneOneImage
+            },
+            
+        ]
+    },
    
+    {
+        name:"Nova",
+        alt:"Nova",
+        coverImage:NovaCoverImage,
+        link:"/property/nova-coliving-gurugram",
+        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
+        images:[
+            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
+        ],
+        price:"Rs. 35,000",
+        location:"Cyber City, Gurugram (Opening 15th November)",
+        content:"Modern coliving with premium amenities, vibrant community, near Cyber City.",
+        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
+        youtubeId:"sP_tmYSOWPE",
+        rooms:[
+            {
+                title:"Private",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneTwoImage
+            },
+            {
+                title:"Twin",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneCoverImage
+            },
+            {
+                title:"Triple",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneOneImage
+            },
+            
+        ]
+    },
+   
+   
+    
+    
     {
         name:"Southside",
         alt:"Southside Mahalaxmi",
@@ -462,54 +533,19 @@ export const propertyListData = [
             },
         ]
     },
-    {
-        name:"Nova",
-        alt:"Nova",
-        coverImage:NovaCoverImage,
-        link:"/property/nova-coliving-gurugram",
-        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
-        images:[
-            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
-        ],
-        price:"Rs. 35,000",
-        location:"Cyber City, Gurugram (Opening 15th November)",
-        content:"Modern coliving with premium amenities, vibrant community, near Cyber City.",
-        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
-        youtubeId:"sP_tmYSOWPE",
-        rooms:[
-            {
-                title:"Private",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneTwoImage
-            },
-            {
-                title:"Twin",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneCoverImage
-            },
-            {
-                title:"Triple",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneOneImage
-            },
-            
-        ]
-    },
-   
-   
     
     {
-        name:"House of KP",
-        alt:"House of KP",
-        coverImage:HouseofKPCover,
-        link:"/property/house-of-kp-koregoan-park",
+        name:"X90",
+        alt:"X90",
+        coverImage:X90CoverImage,
+        link:"/property/x90-coliving-baner-pune",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         images:[
             ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
         ],
-        price:"28,000",
-        location:"Koregaon Park, Pune",
-        content:"Get ready for a fresh, innovative take on community living. House of KP is an upcoming union living property in the vibrant heart of Koregaon Park, designed for those who want more than just a place to stay – it’s a place to connect, collaborate, and thrive.",
+        price:"Coming Soon",
+        location:"Baner, Pune",
+        content:"Discover the perfect fusion of comfort, style, and community at X90, our upcoming coliving space in the heart of Baner. ",
         map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
         youtubeId:"sP_tmYSOWPE",
         rooms:[
@@ -638,6 +674,73 @@ export const propertyListData = [
 
 export const activeProduct = [
     {
+        name:"House of KP",
+        alt:"House of KP",
+        coverImage:HouseofKPCover,
+        link:"/property/house-of-kp-koregoan-park",
+        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
+        images:[
+            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
+        ],
+        price:"28,000",
+        location:"Koregaon Park, Pune",
+        content:"Get ready for a fresh, innovative take on community living. House of KP is an upcoming union living property in the vibrant heart of Koregaon Park, designed for those who want more than just a place to stay – it’s a place to connect, collaborate, and thrive.",
+        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
+        youtubeId:"sP_tmYSOWPE",
+        rooms:[
+            {
+                title:"Private",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneTwoImage
+            },
+            {
+                title:"Twin",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneCoverImage
+            },
+            {
+                title:"Triple",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneOneImage
+            },
+            
+        ]
+    },
+   
+    {
+        name:"Nova",
+        alt:"Nova",
+        coverImage:NovaCoverImage,
+        link:"/property/nova-coliving-gurugram",
+        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
+        images:[
+            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
+        ],
+        price:"Rs. 35,000",
+        location:"Cyber City, Gurugram (Opening 15th November)",
+        content:"Modern coliving with premium amenities, vibrant community, near Cyber City.",
+        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
+        youtubeId:"sP_tmYSOWPE",
+        rooms:[
+            {
+                title:"Private",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneTwoImage
+            },
+            {
+                title:"Twin",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneCoverImage
+            },
+            {
+                title:"Triple",
+                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
+                image:ChapterOneOneImage
+            },
+            
+        ]
+    },
+    {
         name:"Southside",
         alt:"Southside Mahalaxmi",
         coverImage:SouthsideCoverImage,
@@ -1020,54 +1123,19 @@ export const activeProduct = [
             },
         ]
     },
-    {
-        name:"Nova",
-        alt:"Nova",
-        coverImage:NovaCoverImage,
-        link:"/property/nova-coliving-gurugram",
+    
+   {
+        name:"X90",
+        alt:"X90",
+        coverImage:Elv8Cover,
+        link:"/x90-coliving-baner-pune",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         images:[
             ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
         ],
         price:"Coming Soon",
-        location:"Cyber City, Gurugram",
-        content:"Modern coliving with premium amenities, vibrant community, near Cyber City.",
-        map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
-        youtubeId:"sP_tmYSOWPE",
-        rooms:[
-            {
-                title:"Private",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneTwoImage
-            },
-            {
-                title:"Twin",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneCoverImage
-            },
-            {
-                title:"Triple",
-                content:"Modern twin-sharing rooms in a vibrant co-living space, fostering community connections.",
-                image:ChapterOneOneImage
-            },
-            
-        ]
-    },
-   
-   
-    
-    {
-        name:"House of KP",
-        alt:"House of KP",
-        coverImage:HouseofKPCover,
-        link:"/property/house-of-kp-koregoan-park",
-        propertyDescriptionTitle:"https://www.unionliving.in/#/form",
-        images:[
-            ChapterOneMainImage,ChapterOneOneImage,ChapterOneTwoImage,ChapterOneThreeImage,ChapterOneFourImage
-        ],
-        price:"28,000",
-        location:"Koregaon Park, Pune",
-        content:"Get ready for a fresh, innovative take on community living. House of KP is an upcoming union living property in the vibrant heart of Koregaon Park, designed for those who want more than just a place to stay – it’s a place to connect, collaborate, and thrive.",
+        location:"Viman Nagar",
+        content:"A vibrant coliving hub merging creativity, connection, and convenience with shared spaces and collaborative energy.",
         map:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15077.883075003392!2d72.8629156!3d19.1308596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c8a38409d307a53!2sCASA%20by%20Union%20Co-Living!5e0!3m2!1sen!2sin!4v1673692237980!5m2!1sen!2sin",
         youtubeId:"sP_tmYSOWPE",
         rooms:[
@@ -1155,7 +1223,7 @@ export const activeProduct = [
             
         ]
     },
-    
+  
     // {
     //     name:"Eden",
     //     alt:"Eden",
@@ -1204,7 +1272,7 @@ export const collegeProperties = [
         image:SNDTCollegeImage,
         link:"/property-near-sndt",
     },
-    {
+     {
         name:"Stay Near Mithibai",
         image:MithibaiCollegeImage,
         link:"/property-near-mithibai",
