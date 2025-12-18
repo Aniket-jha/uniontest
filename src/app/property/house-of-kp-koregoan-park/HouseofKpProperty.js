@@ -10,6 +10,11 @@ import SouthsideOneImage from "../../../asset/houseofkp/kp2.webp"
 import SouthsideTwoImage from "../../../asset/houseofkp/kp3.webp"
 import SouthsideThreeImage from "../../../asset/houseofkp/kp4.webp"
 import SouthsideFourImage from "../../../asset/houseofkp/kp5.webp"
+import SouthsideFiveImage from "../../../asset/houseofkp/kp6.webp"
+import SouthsideSixImage from "../../../asset/houseofkp/kp7.webp"
+import SouthsideSevenImage from "../../../asset/houseofkp/kp8.webp"
+import SouthsideEightImage from "../../../asset/houseofkp/kp9.webp"
+import SouthsideNineImage from "../../../asset/houseofkp/kp10.webp"
 
 
 // import SouthsideTwinImage from "../../../asset/hamletImages/newImages/twin.webp"
@@ -54,7 +59,34 @@ const BalewadiProperty = () => {
             width: "100%",
             height: "100%",
           },
+          {
+            src: SouthsideFiveImage,
+            width: "100%",
+            height: "100%",
+          },
+          {
+            src: SouthsideSixImage,
+            width: "100%",
+            height: "100%",
+          },
+          {
+            src: SouthsideSevenImage,
+            width: "100%",
+            height: "100%",
+          },
+          {
+            src: SouthsideEightImage,
+            width: "100%",
+            height: "100%",
+          },
+          {
+            src: SouthsideNineImage,
+            width: "100%",
+            height: "100%",
+          },
+          
          
+          
 ]
 useEffect(() => {
   const url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?95542';
