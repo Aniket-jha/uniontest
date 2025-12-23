@@ -151,9 +151,9 @@ useEffect(() => {
      <Details subtitle="Live Where Lifestyle Meets Community" title="Welcome to House of KP, Koregaon Park" description="Find the right mix of comfort, convenience, and community living. With modern spaces, curated experiences, and a vibrant neighborhood, House of KP offers students and professionals the perfect place to live, connect, and thrive in Pune’s most iconic area." />
        <Featured />
        {/* <Rooms rooms={rooms}   /> */}
-       <WhatSection  />
+       <WhatSection youtube="https://www.youtube.com/embed/o8i-_6Y5iB0?si=_YaPKbr-Sxr5lx1T"  />
        <MainPropertyCTA propertyName="House of KP, Koregoan Park, Pune" />
-       <Location map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4112.728809628425!2d73.8871521!3d18.541306299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1a0a4c28549%3A0xd38d149be229b6ac!2sHouse%20of%20KP%20by%20Union%20Living!5e1!3m2!1sen!2sin!4v1759263196920!5m2!1sen!2sin"/>
+       <Location map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4112.728809628425!2d73.8871521!3d18.541306299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1a0a4c28549%3A0xd38d149be229b6ac!2sHouse%20of%20KP%20by%20Union%20Living!5e1!3m2!1sen!2sin!4v1759263196920!5m2!1sen!2sin" youtube="https://www.youtube.com/embed/o8i-_6Y5iB0?si=_YaPKbr-Sxr5lx1T"  />
        <Event />
       <TestimonialTwo />
       <BottomNavConstant brochure="https://drive.google.com/file/d/1OPzwbvNP2QYJ6aEu-3Lq7JFrTTwRga4N/view?usp=sharing" name="House of KP"  price="Rs. 28,000"  />
