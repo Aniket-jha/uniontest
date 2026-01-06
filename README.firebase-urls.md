@@ -37,4 +37,4 @@ https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FT
 
 https://firebasestorage.googleapis.com/v0/b/union-living.appspot.com/o/files%2FZest%20Working%20Profession%20(1)%20(1).pdf?alt=media&token=96748452-12d2-46c3-bbdf-93ad1eff6818
 
-https://res.cloudinary.com/devjodpg7/image/upload/v1756578838/favicon_1_qv7l7r.png
+https://cdn.shopify.com/s/files/1/0638/7833/2481/files/favicon.png?v=1767689301

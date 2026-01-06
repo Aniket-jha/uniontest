@@ -1127,7 +1127,7 @@ export const activeProduct = [
    {
         name:"X90",
         alt:"X90",
-        coverImage:Elv8Cover,
+        coverImage:X90CoverImage,
         link:"/x90-coliving-baner-pune",
         propertyDescriptionTitle:"https://www.unionliving.in/#/form",
         images:[

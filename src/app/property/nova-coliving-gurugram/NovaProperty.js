@@ -125,7 +125,7 @@ useEffect(() => {
        <Location map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.6845226979!2d77.0879631!3d28.489046000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d194e34edba69%3A0x5ba3b0b8371af24d!2sNova%20by%20Union%20Living!5e0!3m2!1sen!2sin!4v1759753884071!5m2!1sen!2sin"/>
        <Event />
       <TestimonialTwo />
-      <BottomNavConstant brochure="https://drive.google.com/file/d/1NBrTrwpIYdkdbjt6br3mVWE1k8aA6W1j/view?usp=sharing" name="Nova"  price="Rs. 35,000"  />
+      <BottomNavConstant brochure="https://drive.google.com/file/d/1QJZ4W_kJ5Z-gY647D6PddfyvodYUEeIZ/view?usp=sharing" name="Nova"  price="Rs. 35,000"  />
         <Footer />
         </div>
         </ThemeProvider>
