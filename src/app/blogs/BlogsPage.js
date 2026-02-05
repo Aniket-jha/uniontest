@@ -50,7 +50,7 @@ const BlogsPage = () => {
     <div>
           <ThemeProvider>
         <NavbarTwo />
-        <div className='lg:pt-[150px] pt-[100px]'>
+        <div className='lg:pt-[160px] pt-[110px]'>
             <BlogList />
             <Footer />
         </div>
